@@ -1,0 +1,18 @@
+# DonutSMP-style 'SellRedstone' section. The file name must match shops/SellRedstone.yml
+enable: true
+slot: 0
+title: '&8ꜱʜᴏᴘ » ꜱᴇʟʟ'
+hidden: true
+sub-section: false
+fill-item:
+  material: BLACK_STAINED_GLASS_PANE
+  name: ' '
+nav-bar:
+  mode: INHERIT
+item:
+  material: CHEST
+  name: '&a&lꜱᴇʟʟ'
+  lore:
+  - '&7Redstone (sell only).'
+  - ''
+  - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'

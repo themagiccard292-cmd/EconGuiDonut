@@ -1,75 +1,50 @@
-# Items for the 'Nether' section. buy/sell: -1 = disabled.
+# Exact DonutSMP /shop prices for 'Nether'. buy/sell -1 = disabled.
 pages:
   page1:
     gui-rows: 4
     items:
       '1':
-        material: NETHERRACK
-        buy: 1
-        sell: 0.1
+        material: BLAZE_ROD
+        buy: 150
+        sell: 50
         slot: 10
       '2':
-        material: BLAZE_ROD
-        buy: 30
-        sell: 5
+        material: NETHER_WART
+        buy: 96
+        sell: 30
         slot: 11
       '3':
-        material: NETHER_WART
-        buy: 5
-        sell: 1
+        material: GLOWSTONE_DUST
+        buy: 15
+        sell: 6
         slot: 12
       '4':
-        material: GLOWSTONE_DUST
-        buy: 6
-        sell: 1
+        material: MAGMA_CREAM
+        buy: 96
+        sell: 48
         slot: 13
       '5':
-        material: MAGMA_CREAM
-        buy: 20
-        sell: 3
+        material: GHAST_TEAR
+        buy: 350
+        sell: 120
         slot: 14
       '6':
-        material: GHAST_TEAR
-        buy: 100
-        sell: 20
+        material: QUARTZ
+        buy: 30
+        sell: 15
         slot: 15
       '7':
-        material: QUARTZ
-        buy: 8
-        sell: 1.5
-        slot: 16
-      '8':
         material: SOUL_SAND
-        buy: 4
-        sell: 0.4
-        slot: 19
-      '9':
-        material: SOUL_SOIL
-        buy: 4
-        sell: 0.4
-        slot: 20
-      '10':
-        material: MAGMA_BLOCK
-        buy: 5
-        sell: 0.5
-        slot: 21
-      '11':
-        material: CRYING_OBSIDIAN
         buy: 50
         sell: 5
-        slot: 22
-      '12':
-        material: NETHER_BRICKS
-        buy: 3
-        sell: 0.3
+        slot: 16
+      '8':
+        material: MAGMA_BLOCK
+        buy: 35
+        sell: 17.5
+        slot: 21
+      '9':
+        material: CRYING_OBSIDIAN
+        buy: 150
+        sell: 75
         slot: 23
-      '13':
-        material: BLACKSTONE
-        buy: 2
-        sell: 0.2
-        slot: 24
-      '14':
-        material: BASALT
-        buy: 2
-        sell: 0.2
-        slot: 25

@@ -1,7 +1,6 @@
-# Donut-style 'Gear' category for EconomyShopGUI.
-# The file name must match shops/Gear.yml
+# DonutSMP-style 'Gear' section. The file name must match shops/Gear.yml
 enable: true
-slot: 14
+slot: 13
 title: '&8ꜱʜᴏᴘ » ɢᴇᴀʀ'
 hidden: false
 sub-section: false
@@ -14,7 +13,7 @@ item:
   material: TOTEM_OF_UNDYING
   name: '&b&lɢᴇᴀʀ'
   lore:
-  - '&7Buy PvP & combat'
+  - '&7PvP and combat'
   - '&7essentials.'
   - ''
   - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'

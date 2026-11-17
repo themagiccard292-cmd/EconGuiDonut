@@ -1,7 +1,6 @@
-# Donut-style 'Food' category for EconomyShopGUI.
-# The file name must match shops/Food.yml
+# DonutSMP-style 'Food' section. The file name must match shops/Food.yml
 enable: true
-slot: 15
+slot: 14
 title: '&8ꜱʜᴏᴘ » ꜰᴏᴏᴅ'
 hidden: false
 sub-section: false
@@ -14,7 +13,7 @@ item:
   material: COOKED_BEEF
   name: '&6&lꜰᴏᴏᴅ'
   lore:
-  - '&7Buy food to keep'
-  - '&7your hunger full.'
+  - '&7Food to keep'
+  - '&7you going.'
   - ''
   - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'

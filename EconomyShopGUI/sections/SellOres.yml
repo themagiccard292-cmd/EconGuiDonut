@@ -1,5 +1,4 @@
-# Donut-style 'Sell' category for EconomyShopGUI.
-# The file name must match shops/Sell.yml
+# DonutSMP-style 'SellOres' section. The file name must match shops/SellOres.yml
 enable: true
 slot: 0
 title: '&8ꜱʜᴏᴘ » ꜱᴇʟʟ'
@@ -14,6 +13,6 @@ item:
   material: CHEST
   name: '&a&lꜱᴇʟʟ'
   lore:
-  - '&7Sell-only prices.'
+  - '&7Ores, ingots and gems (sell only).'
   - ''
   - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'

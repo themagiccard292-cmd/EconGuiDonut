@@ -1,5 +1,4 @@
-# Donut-style 'Nether' category for EconomyShopGUI.
-# The file name must match shops/Nether.yml
+# DonutSMP-style 'Nether' section. The file name must match shops/Nether.yml
 enable: true
 slot: 12
 title: '&8ꜱʜᴏᴘ » ɴᴇᴛʜᴇʀ'
@@ -14,7 +13,7 @@ item:
   material: NETHERRACK
   name: '&c&lɴᴇᴛʜᴇʀ'
   lore:
-  - '&7Buy blocks & items'
+  - '&7Blocks and items'
   - '&7from the Nether.'
   - ''
   - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
