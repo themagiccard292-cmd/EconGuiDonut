@@ -1,0 +1,19 @@
+# Donut-style 'Sell' category for EconomyShopGUI.
+# The file name must match shops/Sell.yml
+enable: true
+slot: 0
+title: '&8ꜱʜᴏᴘ » ꜱᴇʟʟ'
+hidden: true
+sub-section: false
+fill-item:
+  material: BLACK_STAINED_GLASS_PANE
+  name: ' '
+nav-bar:
+  mode: INHERIT
+item:
+  material: CHEST
+  name: '&a&lꜱᴇʟʟ'
+  lore:
+  - '&7Sell-only prices.'
+  - ''
+  - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'

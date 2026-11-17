@@ -1,0 +1,75 @@
+# Items for the 'Gear' section. buy/sell: -1 = disabled.
+pages:
+  page1:
+    gui-rows: 4
+    items:
+      '1':
+        material: OBSIDIAN
+        buy: 40
+        sell: 4
+        slot: 10
+      '2':
+        material: END_CRYSTAL
+        buy: 300
+        sell: -1
+        slot: 11
+      '3':
+        material: RESPAWN_ANCHOR
+        buy: 1000
+        sell: -1
+        slot: 12
+      '4':
+        material: GLOWSTONE
+        buy: 20
+        sell: 2
+        slot: 13
+      '5':
+        material: TOTEM_OF_UNDYING
+        buy: 750
+        sell: 100
+        slot: 14
+      '6':
+        material: GOLDEN_APPLE
+        buy: 100
+        sell: 10
+        slot: 15
+      '7':
+        material: EXPERIENCE_BOTTLE
+        buy: 25
+        sell: -1
+        slot: 16
+      '8':
+        material: COBWEB
+        buy: 30
+        sell: 3
+        slot: 19
+      '9':
+        material: ARROW
+        buy: 2
+        sell: 0.2
+        slot: 20
+      '10':
+        material: FIREWORK_ROCKET
+        buy: 10
+        sell: -1
+        slot: 21
+      '11':
+        material: SHIELD
+        buy: 200
+        sell: -1
+        slot: 22
+      '12':
+        material: TNT
+        buy: 50
+        sell: -1
+        slot: 23
+      '13':
+        material: LAVA_BUCKET
+        buy: 50
+        sell: -1
+        slot: 24
+      '14':
+        material: WATER_BUCKET
+        buy: 25
+        sell: -1
+        slot: 25

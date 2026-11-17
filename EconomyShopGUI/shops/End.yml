@@ -1,0 +1,60 @@
+# Items for the 'End' section. buy/sell: -1 = disabled.
+pages:
+  page1:
+    gui-rows: 4
+    items:
+      '1':
+        material: ENDER_CHEST
+        buy: 750
+        sell: -1
+        slot: 10
+      '2':
+        material: ENDER_PEARL
+        buy: 15
+        sell: 3
+        slot: 11
+      '3':
+        material: END_STONE
+        buy: 2
+        sell: 0.25
+        slot: 12
+      '4':
+        material: END_STONE_BRICKS
+        buy: 3
+        sell: 0.3
+        slot: 13
+      '5':
+        material: END_ROD
+        buy: 20
+        sell: 2
+        slot: 14
+      '6':
+        material: CHORUS_FRUIT
+        buy: 4
+        sell: 0.5
+        slot: 15
+      '7':
+        material: POPPED_CHORUS_FRUIT
+        buy: 6
+        sell: 0.75
+        slot: 16
+      '8':
+        material: PURPUR_BLOCK
+        buy: 4
+        sell: 0.4
+        slot: 19
+      '9':
+        material: DRAGON_BREATH
+        buy: 100
+        sell: 10
+        slot: 20
+      '10':
+        material: SHULKER_SHELL
+        buy: 2500
+        sell: 500
+        slot: 21
+      '11':
+        material: SHULKER_BOX
+        buy: 6000
+        sell: -1
+        slot: 22

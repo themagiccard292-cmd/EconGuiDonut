@@ -1,0 +1,20 @@
+# Donut-style 'Food' category for EconomyShopGUI.
+# The file name must match shops/Food.yml
+enable: true
+slot: 15
+title: '&8ꜱʜᴏᴘ » ꜰᴏᴏᴅ'
+hidden: false
+sub-section: false
+fill-item:
+  material: BLACK_STAINED_GLASS_PANE
+  name: ' '
+nav-bar:
+  mode: INHERIT
+item:
+  material: COOKED_BEEF
+  name: '&6&lꜰᴏᴏᴅ'
+  lore:
+  - '&7Buy food to keep'
+  - '&7your hunger full.'
+  - ''
+  - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'

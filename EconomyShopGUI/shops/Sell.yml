@@ -1,0 +1,283 @@
+# Items for the 'Sell' section. buy/sell: -1 = disabled.
+pages:
+  page1:
+    gui-rows: 6
+    items:
+      '1':
+        material: WHEAT
+        buy: -1
+        sell: 1
+        slot: 0
+      '2':
+        material: SUGAR_CANE
+        buy: -1
+        sell: 1.5
+        slot: 1
+      '3':
+        material: CACTUS
+        buy: -1
+        sell: 1
+        slot: 2
+      '4':
+        material: PUMPKIN
+        buy: -1
+        sell: 3
+        slot: 3
+      '5':
+        material: MELON
+        buy: -1
+        sell: 2
+        slot: 4
+      '6':
+        material: BAMBOO
+        buy: -1
+        sell: 0.3
+        slot: 5
+      '7':
+        material: KELP
+        buy: -1
+        sell: 0.3
+        slot: 6
+      '8':
+        material: COCOA_BEANS
+        buy: -1
+        sell: 1
+        slot: 7
+      '9':
+        material: BEETROOT
+        buy: -1
+        sell: 1
+        slot: 8
+      '10':
+        material: NETHER_WART_BLOCK
+        buy: -1
+        sell: 1
+        slot: 9
+      '11':
+        material: ROTTEN_FLESH
+        buy: -1
+        sell: 1
+        slot: 10
+      '12':
+        material: BONE
+        buy: -1
+        sell: 2
+        slot: 11
+      '13':
+        material: STRING
+        buy: -1
+        sell: 2
+        slot: 12
+      '14':
+        material: SPIDER_EYE
+        buy: -1
+        sell: 3
+        slot: 13
+      '15':
+        material: GUNPOWDER
+        buy: -1
+        sell: 5
+        slot: 14
+      '16':
+        material: SLIME_BALL
+        buy: -1
+        sell: 4
+        slot: 15
+      '17':
+        material: LEATHER
+        buy: -1
+        sell: 3
+        slot: 16
+      '18':
+        material: FEATHER
+        buy: -1
+        sell: 1
+        slot: 17
+      '19':
+        material: INK_SAC
+        buy: -1
+        sell: 2
+        slot: 18
+      '20':
+        material: GLOW_INK_SAC
+        buy: -1
+        sell: 4
+        slot: 19
+      '21':
+        material: PRISMARINE_SHARD
+        buy: -1
+        sell: 4
+        slot: 20
+      '22':
+        material: PRISMARINE_CRYSTALS
+        buy: -1
+        sell: 5
+        slot: 21
+      '23':
+        material: RABBIT_HIDE
+        buy: -1
+        sell: 2
+        slot: 22
+      '24':
+        material: PHANTOM_MEMBRANE
+        buy: -1
+        sell: 10
+        slot: 23
+      '25':
+        material: GOLD_NUGGET
+        buy: -1
+        sell: 1
+        slot: 24
+      '26':
+        material: IRON_NUGGET
+        buy: -1
+        sell: 0.5
+        slot: 25
+      '27':
+        material: BEEF
+        buy: -1
+        sell: 0.5
+        slot: 26
+      '28':
+        material: PORKCHOP
+        buy: -1
+        sell: 0.5
+        slot: 27
+      '29':
+        material: CHICKEN
+        buy: -1
+        sell: 0.4
+        slot: 28
+      '30':
+        material: MUTTON
+        buy: -1
+        sell: 0.4
+        slot: 29
+      '31':
+        material: COAL
+        buy: -1
+        sell: 2
+        slot: 30
+      '32':
+        material: IRON_INGOT
+        buy: -1
+        sell: 10
+        slot: 31
+      '33':
+        material: GOLD_INGOT
+        buy: -1
+        sell: 15
+        slot: 32
+      '34':
+        material: COPPER_INGOT
+        buy: -1
+        sell: 3
+        slot: 33
+      '35':
+        material: REDSTONE
+        buy: -1
+        sell: 1
+        slot: 34
+      '36':
+        material: LAPIS_LAZULI
+        buy: -1
+        sell: 2
+        slot: 35
+      '37':
+        material: EMERALD
+        buy: -1
+        sell: 50
+        slot: 36
+      '38':
+        material: DIAMOND
+        buy: -1
+        sell: 100
+        slot: 37
+      '39':
+        material: AMETHYST_SHARD
+        buy: -1
+        sell: 2
+        slot: 38
+      '40':
+        material: NETHERITE_SCRAP
+        buy: -1
+        sell: 500
+        slot: 39
+      '41':
+        material: NETHERITE_INGOT
+        buy: -1
+        sell: 2500
+        slot: 40
+      '42':
+        material: ANCIENT_DEBRIS
+        buy: -1
+        sell: 500
+        slot: 41
+      '43':
+        material: COBBLESTONE
+        buy: -1
+        sell: 0.1
+        slot: 42
+      '44':
+        material: STONE
+        buy: -1
+        sell: 0.2
+        slot: 43
+      '45':
+        material: DIRT
+        buy: -1
+        sell: 0.05
+        slot: 44
+  page2:
+    gui-rows: 6
+    items:
+      '46':
+        material: SAND
+        buy: -1
+        sell: 0.2
+        slot: 0
+      '47':
+        material: GRAVEL
+        buy: -1
+        sell: 0.2
+        slot: 1
+      '48':
+        material: OAK_LOG
+        buy: -1
+        sell: 1
+        slot: 2
+      '49':
+        material: SPRUCE_LOG
+        buy: -1
+        sell: 1
+        slot: 3
+      '50':
+        material: BIRCH_LOG
+        buy: -1
+        sell: 1
+        slot: 4
+      '51':
+        material: JUNGLE_LOG
+        buy: -1
+        sell: 1
+        slot: 5
+      '52':
+        material: ACACIA_LOG
+        buy: -1
+        sell: 1
+        slot: 6
+      '53':
+        material: DARK_OAK_LOG
+        buy: -1
+        sell: 1
+        slot: 7
+      '54':
+        material: MANGROVE_LOG
+        buy: -1
+        sell: 1
+        slot: 8
+      '55':
+        material: CHERRY_LOG
+        buy: -1
+        sell: 1
+        slot: 9
