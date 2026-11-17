@@ -207,7 +207,7 @@ pages:
       '41':
         material: NAME_TAG
         buy: -1
-        sell: 1785.71
+        sell: 23.17
         slot: 40
       '42':
         material: SPECTRAL_ARROW
@@ -540,3 +540,8 @@ pages:
         buy: -1
         sell: 714.29
         slot: 15
+      '107':
+        material: MUSIC_DISC_BOUNCE
+        buy: -1
+        sell: 3571.43
+        slot: 16

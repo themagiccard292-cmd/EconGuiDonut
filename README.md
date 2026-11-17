@@ -1,6 +1,6 @@
 # EconGuiDonut
 
-A DonutSMP-style `/shop` and `/sell` for [EconomyShopGUI](https://www.spigotmc.org/resources/economyshopgui.69927/), with prices for **every item in Minecraft 1.21.11**.
+A DonutSMP-style `/shop` and `/sell` for [EconomyShopGUI](https://www.spigotmc.org/resources/economyshopgui.69927/), with prices for **every item in Minecraft 26.3**, built for **Paper 26.3**.
 
 ## Where the prices come from
 
@@ -54,7 +54,7 @@ aliases:
 
 ### Check after the first load
 - **Arrow of Slow Falling** uses `potiontypes: SLOW_FALLING` (in `shops/Gear.yml`). If it shows up as a plain tipped arrow, fix that line to match your EconomyShopGUI version's potion format.
-- **Older servers:** the item list targets 1.21.11. On an older version, EconomyShopGUI will warn about materials that don't exist yet (spears, nautilus armour, copper chests…) and skip them. Nothing else breaks.
+- **Server version:** built for **Paper 26.3** (Java 25), so use an EconomyShopGUI build that supports 26.3. It includes the 26.2 *Chaos Cubed* items (cinnabar and sulfur sets, potent sulfur, sulfur spike, the Bounce disc, sulfur cube bucket) and the 26.3 *Wilderness Bound* items (the poplar wood set, wool and concrete stairs and slabs, red shrub, shelf mushroom, straw bed). Their IDs follow vanilla naming. If one is spelled differently in-game, EconomyShopGUI will log a warning and skip only that item.
 - The main menu should be 3 rows. If yours is bigger, change the `slot:` values in `sections/*.yml`.
 
 ## Changing prices
@@ -63,7 +63,7 @@ aliases:
 - **Re-balance everything:** edit the `BASE` values or `DONUT_SHOP` in `tools/generate.py`, then regenerate. Crafted items update to match automatically.
   ```bash
   npm pack minecraft-data && tar xzf minecraft-data-*.tgz
-  python3 tools/generate.py package/minecraft-data/data/pc/1.21.11 EconomyShopGUI
+  python3 tools/generate.py package/minecraft-data/data/pc/26.1 EconomyShopGUI   # 26.2/26.3 items are added by the script
   ```
   `prices.json` is the same list in machine-readable form, for other plugins.
 
