@@ -1,0 +1,19 @@
+# DonutSMP-style 'Gear' section. The file name must match shops/Gear.yml
+enable: true
+slot: 13
+title: '&8ꜱʜᴏᴘ » ɢᴇᴀʀ'
+hidden: false
+sub-section: false
+fill-item:
+  material: BLACK_STAINED_GLASS_PANE
+  name: ' '
+nav-bar:
+  mode: INHERIT
+item:
+  material: TOTEM_OF_UNDYING
+  name: '&b&lɢᴇᴀʀ'
+  lore:
+  - '&7PvP and combat'
+  - '&7essentials.'
+  - ''
+  - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'

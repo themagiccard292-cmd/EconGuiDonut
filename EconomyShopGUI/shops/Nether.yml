@@ -1,0 +1,50 @@
+# Exact DonutSMP /shop prices for 'Nether'. buy/sell -1 = disabled.
+pages:
+  page1:
+    gui-rows: 4
+    items:
+      '1':
+        material: BLAZE_ROD
+        buy: 150
+        sell: 75
+        slot: 10
+      '2':
+        material: NETHER_WART
+        buy: 96
+        sell: 48
+        slot: 11
+      '3':
+        material: GLOWSTONE_DUST
+        buy: 15
+        sell: 7.5
+        slot: 12
+      '4':
+        material: MAGMA_CREAM
+        buy: 96
+        sell: 48
+        slot: 13
+      '5':
+        material: GHAST_TEAR
+        buy: 350
+        sell: 175
+        slot: 14
+      '6':
+        material: QUARTZ
+        buy: 30
+        sell: 15
+        slot: 15
+      '7':
+        material: SOUL_SAND
+        buy: 50
+        sell: 17.86
+        slot: 16
+      '8':
+        material: MAGMA_BLOCK
+        buy: 35
+        sell: 17.5
+        slot: 21
+      '9':
+        material: CRYING_OBSIDIAN
+        buy: 150
+        sell: 75
+        slot: 23

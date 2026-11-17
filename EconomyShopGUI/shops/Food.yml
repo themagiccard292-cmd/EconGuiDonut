@@ -1,0 +1,50 @@
+# Exact DonutSMP /shop prices for 'Food'. buy/sell -1 = disabled.
+pages:
+  page1:
+    gui-rows: 4
+    items:
+      '1':
+        material: POTATO
+        buy: 96
+        sell: 48
+        slot: 10
+      '2':
+        material: SWEET_BERRIES
+        buy: 50
+        sell: 25
+        slot: 11
+      '3':
+        material: MELON_SLICE
+        buy: 36
+        sell: 18
+        slot: 12
+      '4':
+        material: CARROT
+        buy: 96
+        sell: 48
+        slot: 13
+      '5':
+        material: APPLE
+        buy: 25
+        sell: 12.5
+        slot: 14
+      '6':
+        material: COOKED_CHICKEN
+        buy: 48
+        sell: 24
+        slot: 15
+      '7':
+        material: COOKED_BEEF
+        buy: 35
+        sell: 17.5
+        slot: 16
+      '8':
+        material: GOLDEN_CARROT
+        buy: 120
+        sell: 60
+        slot: 21
+      '9':
+        material: GOLDEN_APPLE
+        buy: 250
+        sell: -1
+        slot: 23

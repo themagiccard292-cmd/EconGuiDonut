@@ -1,0 +1,19 @@
+# DonutSMP-style 'End' section. The file name must match shops/End.yml
+enable: true
+slot: 11
+title: '&8ꜱʜᴏᴘ » ᴇɴᴅ'
+hidden: false
+sub-section: false
+fill-item:
+  material: BLACK_STAINED_GLASS_PANE
+  name: ' '
+nav-bar:
+  mode: INHERIT
+item:
+  material: END_STONE
+  name: '&d&lᴇɴᴅ'
+  lore:
+  - '&7Blocks and items'
+  - '&7from the End.'
+  - ''
+  - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
