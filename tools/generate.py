@@ -114,7 +114,6 @@ base(300, "sculk_sensor", "turtle_egg", "trial_key", "dried_ghast")
 # farming (Donut anchor: dried kelp block /sell = $300 -> 9 dried kelp)
 base(30, "kelp", "wheat", "carrot", "potato", "beetroot", "sugar_cane", "nether_wart", "chorus_fruit",
      "honey_bottle", "string")
-base(33.33, "dried_kelp")
 base(25, "cactus", "green_dye", "leather", "rabbit_hide")
 base(40, "pumpkin", "carved_pumpkin", "bone", "spider_eye", "slime_ball", "glow_ink_sac", "prismarine_crystals",
      "experience_bottle")
@@ -192,6 +191,56 @@ items = json.load(open(os.path.join(DATA, "items.json")))
 recipes = json.load(open(os.path.join(DATA, "recipes.json")))
 name_of = {i["id"]: i["name"] for i in items}
 all_names = [i["name"] for i in items]
+
+# --------------------------------------------------------------------------------------------
+# 2b. Real DonutSMP data found on the web (Nov 2026).
+#   DONUT_SELL   - real /sell values (exact).
+#   DONUT_MARKET - player-market prices from DonutSMP price trackers (lowest credible figure
+#                  across donutsmp.finance, donutsmpterminal.com, donut.build, donut.today,
+#                  donutstats.io). Market prices sit above /sell, so they are converted with the
+#                  one pair we know for sure: dried kelp block = ~$1.4K on the market, $300 on /sell.
+# --------------------------------------------------------------------------------------------
+DONUT_SELL = {"dried_kelp_block": 300}
+MARKET_TO_SELL = 300 / 1400
+DONUT_MARKET = {
+    # mob / spawner drops
+    "bone": 85, "rotten_flesh": 73, "arrow": 15, "string": 61, "gunpowder": 75, "slime_ball": 430,
+    "leather": 500, "rabbit_hide": 2400, "phantom_membrane": 2100, "prismarine_shard": 438,
+    "prismarine": 713, "beef": 300, "cooked_porkchop": 64, "egg": 4, "turtle_egg": 10000,
+    # ores and gems
+    "iron_ingot": 100, "gold_ingot": 1000, "coal": 375, "emerald": 889, "diamond": 20000 / 9,
+    "redstone": 1200 / 9, "quartz": 500 / 4, "netherite_scrap": 1_400_000, "ancient_debris": 800_000,
+    "netherite_ingot": 3_700_000,
+    # farming
+    "sugar_cane": 97, "wheat": 205, "cactus": 108, "pumpkin": 247, "honey_bottle": 3500 / 4,
+    # blocks
+    "oak_log": 725, "spruce_log": 93, "cobblestone": 63, "stone": 350, "dirt": 12,
+    "netherrack": 766, "sand": 873, "red_sand": 539, "sea_lantern": 1200,
+    # rare
+    "elytra": 4_200_000, "nether_star": 133_000, "trident": 815_000, "enchanted_golden_apple": 743_000,
+    "sponge": 398_000, "wet_sponge": 398_000, "beacon": 152_000,
+}
+SOURCE = {}
+# Rescale the hand estimates so they sit on the same scale as the real Donut data.
+_ratios = sorted(v * MARKET_TO_SELL / B[n] for n, v in DONUT_MARKET.items() if n in B)
+EST_SCALE = _ratios[len(_ratios) // 2]
+for n in list(B):
+    B[n] = B[n] * EST_SCALE
+    SOURCE[n] = "estimate"
+MANUAL_PATTERNS = [(p, v * EST_SCALE) for p, v in MANUAL_PATTERNS]
+# Web figures skipped on purpose: blocks anyone can mine endlessly whose tracker price comes from a
+# thin, spiking market (they would make /sell farming of them absurdly profitable).
+OUTLIERS = {"netherrack", "sand", "red_sand"}
+REJECTED = {}
+for n, m in DONUT_MARKET.items():
+    if n in OUTLIERS:
+        REJECTED[n] = (m, B.get(n))
+        continue
+    B[n] = m * MARKET_TO_SELL
+    SOURCE[n] = "donut-market"
+for n, v in DONUT_SELL.items():
+    B[n] = v
+    SOURCE[n] = "donut-sell"
 
 price = {}
 for n in all_names:
@@ -286,6 +335,43 @@ for rid, recs in recipes.items():
             cost = sum(shop_buy[i] for i in ings)
             if price[out] * r["result"]["count"] > cost:
                 price[out] = cost / r["result"]["count"] * 0.5
+
+# Raw items / ores are never worth more than what smelting or mining them gives.
+CAPS = {"kelp": ("dried_kelp", 0.9), "raw_iron": ("iron_ingot", 0.9), "raw_gold": ("gold_ingot", 0.9),
+        "raw_copper": ("copper_ingot", 0.9), "iron_ore": ("iron_ingot", 1), "deepslate_iron_ore": ("iron_ingot", 1),
+        "gold_ore": ("gold_ingot", 1), "deepslate_gold_ore": ("gold_ingot", 1), "copper_ore": ("copper_ingot", 3),
+        "deepslate_copper_ore": ("copper_ingot", 3), "coal_ore": ("coal", 1), "deepslate_coal_ore": ("coal", 1),
+        "diamond_ore": ("diamond", 1), "deepslate_diamond_ore": ("diamond", 1), "emerald_ore": ("emerald", 1),
+        "deepslate_emerald_ore": ("emerald", 1), "redstone_ore": ("redstone", 4), "deepslate_redstone_ore": ("redstone", 4),
+        "lapis_ore": ("lapis_lazuli", 6), "deepslate_lapis_ore": ("lapis_lazuli", 6), "nether_quartz_ore": ("quartz", 1),
+        "nether_gold_ore": ("gold_ingot", 0.5), "ancient_debris": ("netherite_scrap", 1), "wet_sponge": ("sponge", 1),
+        "cobblestone": ("stone", 1), "sand": ("glass", 1), "green_dye": ("cactus", 1)}
+for n, (to, mult) in CAPS.items():
+    if n in price and to in price:
+        price[n] = min(price[n], price[to] * mult)
+
+# Enforce "crafting never creates money" across every recipe in the game.
+changed = True
+while changed:
+    changed = False
+    for rid, recs in recipes.items():
+        out = name_of[int(rid)]
+        if out not in price:
+            continue
+        for r in recs:
+            ings = [name_of[i] for i in ingredients(r)]
+            if ings and all(i in price for i in ings):
+                cap = sum(price[i] for i in ings) / r["result"]["count"]
+                if price[out] > cap + 0.005:
+                    price[out] = cap
+                    changed = True
+
+for n in price:
+    SOURCE.setdefault(n, "crafted")
+    if n in fixed and SOURCE[n] == "crafted":
+        SOURCE[n] = "estimate"
+for n in shop_buy:
+    SOURCE[n] = "donut-shop"
 
 # --------------------------------------------------------------------------------------------
 # write files
@@ -395,6 +481,7 @@ for sec, desc in SELL_SECTIONS.items():
 total = sum(len(v) for v in groups.values()) + len(shop_buy)
 print(f"priced {len(price)} items, wrote {total} sellable materials")
 print("unpriced (not sellable):", " ".join(unpriced) if unpriced else "none")
+print(f"estimate scale x{EST_SCALE:.2f}; rejected outliers:", {k: v[0] for k, v in REJECTED.items()})
 json.dump({k: round(v, 2) for k, v in sorted(price.items())}, open(os.path.join(OUT, "..", "prices.json"), "w"), indent=1)
 
 # human-readable price list
@@ -411,9 +498,11 @@ with open(os.path.join(OUT, "..", "PRICES.md"), "w") as f:
             sell = "-" if extra or n not in price else f"${num(price[n])}"
             f.write(f"| {label} | ${num(buy)} | {sell} |\n")
         f.write("\n")
-    f.write("## /sell only (estimated DonutSMP-scale worth)\n\n")
+    f.write("## /sell only\n\nSource: **Donut /sell** = exact Donut value · **Donut market** = DonutSMP price-tracker "
+            "price converted to /sell · **Crafted** = sum of its ingredients · **Estimate** = no Donut data found.\n\n")
+    LABEL = {"donut-sell": "Donut /sell", "donut-market": "Donut market", "crafted": "Crafted", "estimate": "Estimate"}
     for sec, desc in SELL_SECTIONS.items():
-        f.write(f"### {desc}\n\n| Item | Sell |\n|---|---:|\n")
+        f.write(f"### {desc}\n\n| Item | Sell | Source |\n|---|---:|---|\n")
         for n in groups[sec]:
-            f.write(f"| {title(n)} | ${num(price[n])} |\n")
+            f.write(f"| {title(n)} | ${num(price[n])} | {LABEL[SOURCE[n]]} |\n")
         f.write("\n")

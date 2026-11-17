@@ -6,27 +6,27 @@ pages:
       '1':
         material: POTATO
         buy: 96
-        sell: 30
+        sell: 48
         slot: 10
       '2':
         material: SWEET_BERRIES
         buy: 50
-        sell: 15
+        sell: 25
         slot: 11
       '3':
         material: MELON_SLICE
         buy: 36
-        sell: 12
+        sell: 18
         slot: 12
       '4':
         material: CARROT
         buy: 96
-        sell: 30
+        sell: 48
         slot: 13
       '5':
         material: APPLE
         buy: 25
-        sell: 10
+        sell: 12.5
         slot: 14
       '6':
         material: COOKED_CHICKEN
@@ -36,7 +36,7 @@ pages:
       '7':
         material: COOKED_BEEF
         buy: 35
-        sell: 17
+        sell: 17.5
         slot: 16
       '8':
         material: GOLDEN_CARROT

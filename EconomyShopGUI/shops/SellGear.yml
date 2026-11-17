@@ -7,227 +7,227 @@ pages:
       '1':
         material: SADDLE
         buy: -1
-        sell: 135
+        sell: 342.86
         slot: 0
       '2':
         material: WHITE_HARNESS
         buy: -1
-        sell: 96
+        sell: 395.14
         slot: 1
       '3':
         material: ORANGE_HARNESS
         buy: -1
-        sell: 96
+        sell: 396.43
         slot: 2
       '4':
         material: MAGENTA_HARNESS
         buy: -1
-        sell: 96
+        sell: 396.43
         slot: 3
       '5':
         material: LIGHT_BLUE_HARNESS
         buy: -1
-        sell: 96
+        sell: 396.43
         slot: 4
       '6':
         material: YELLOW_HARNESS
         buy: -1
-        sell: 96
+        sell: 396.43
         slot: 5
       '7':
         material: LIME_HARNESS
         buy: -1
-        sell: 96
+        sell: 396.43
         slot: 6
       '8':
         material: PINK_HARNESS
         buy: -1
-        sell: 96
+        sell: 396.43
         slot: 7
       '9':
         material: GRAY_HARNESS
         buy: -1
-        sell: 96
+        sell: 396.43
         slot: 8
       '10':
         material: LIGHT_GRAY_HARNESS
         buy: -1
-        sell: 96
+        sell: 396.43
         slot: 9
       '11':
         material: CYAN_HARNESS
         buy: -1
-        sell: 96
+        sell: 396.43
         slot: 10
       '12':
         material: PURPLE_HARNESS
         buy: -1
-        sell: 96
+        sell: 396.43
         slot: 11
       '13':
         material: BLUE_HARNESS
         buy: -1
-        sell: 96
+        sell: 396.43
         slot: 12
       '14':
         material: BROWN_HARNESS
         buy: -1
-        sell: 96
+        sell: 396.43
         slot: 13
       '15':
         material: GREEN_HARNESS
         buy: -1
-        sell: 96
+        sell: 396.43
         slot: 14
       '16':
         material: RED_HARNESS
         buy: -1
-        sell: 96
+        sell: 396.43
         slot: 15
       '17':
         material: BLACK_HARNESS
         buy: -1
-        sell: 96
+        sell: 396.43
         slot: 16
       '18':
         material: CARROT_ON_A_STICK
         buy: -1
-        sell: 95.62
+        sell: 81.62
         slot: 17
       '19':
         material: WARPED_FUNGUS_ON_A_STICK
         buy: -1
-        sell: 75.62
+        sell: 69.33
         slot: 18
       '20':
         material: ELYTRA
         buy: -1
-        sell: 50000
+        sell: 900000
         slot: 19
       '21':
         material: TURTLE_HELMET
         buy: -1
-        sell: 750
+        sell: 2678.57
         slot: 20
       '22':
         material: WOLF_ARMOR
         buy: -1
-        sell: 600
+        sell: 2142.86
         slot: 21
       '23':
         material: FLINT_AND_STEEL
         buy: -1
-        sell: 63
+        sell: 32.14
         slot: 22
       '24':
         material: BOW
         buy: -1
-        sell: 95.62
+        sell: 46.69
         slot: 23
       '25':
         material: WOODEN_SWORD
         buy: -1
-        sell: 9.38
+        sell: 12.46
         slot: 24
       '26':
         material: WOODEN_SHOVEL
         buy: -1
-        sell: 7.5
+        sell: 9.96
         slot: 25
       '27':
         material: WOODEN_PICKAXE
         buy: -1
-        sell: 15
+        sell: 19.93
         slot: 26
       '28':
         material: WOODEN_AXE
         buy: -1
-        sell: 15
+        sell: 19.93
         slot: 27
       '29':
         material: WOODEN_HOE
         buy: -1
-        sell: 11.25
+        sell: 14.95
         slot: 28
       '30':
         material: COPPER_SWORD
         buy: -1
-        sell: 31.88
+        sell: 109.63
         slot: 29
       '31':
         material: COPPER_SHOVEL
         buy: -1
-        sell: 18.75
+        sell: 58.55
         slot: 30
       '32':
         material: COPPER_PICKAXE
         buy: -1
-        sell: 48.75
+        sell: 165.7
         slot: 31
       '33':
         material: COPPER_AXE
         buy: -1
-        sell: 48.75
+        sell: 165.7
         slot: 32
       '34':
         material: COPPER_HOE
         buy: -1
-        sell: 33.75
+        sell: 112.13
         slot: 33
       '35':
         material: STONE_SWORD
         buy: -1
-        sell: 3.88
+        sell: 9.63
         slot: 34
       '36':
         material: STONE_SHOVEL
         buy: -1
-        sell: 4.75
+        sell: 8.55
         slot: 35
       '37':
         material: STONE_PICKAXE
         buy: -1
-        sell: 6.75
+        sell: 15.7
         slot: 36
       '38':
         material: STONE_AXE
         buy: -1
-        sell: 6.75
+        sell: 15.7
         slot: 37
       '39':
         material: STONE_HOE
         buy: -1
-        sell: 5.75
+        sell: 12.12
         slot: 38
       '40':
         material: GOLDEN_SWORD
         buy: -1
-        sell: 161.88
+        sell: 431.06
         slot: 39
       '41':
         material: GOLDEN_SHOVEL
         buy: -1
-        sell: 83.75
+        sell: 219.27
         slot: 40
       '42':
         material: GOLDEN_PICKAXE
         buy: -1
-        sell: 243.75
+        sell: 647.84
         slot: 41
       '43':
         material: GOLDEN_AXE
         buy: -1
-        sell: 243.75
+        sell: 647.84
         slot: 42
       '44':
         material: GOLDEN_HOE
         buy: -1
-        sell: 163.75
+        sell: 433.55
         slot: 43
       '45':
         material: IRON_SWORD
         buy: -1
-        sell: 121.88
+        sell: 45.35
         slot: 44
   page2:
     gui-rows: 6
@@ -235,227 +235,227 @@ pages:
       '46':
         material: IRON_SHOVEL
         buy: -1
-        sell: 63.75
+        sell: 26.41
         slot: 0
       '47':
         material: IRON_PICKAXE
         buy: -1
-        sell: 183.75
+        sell: 69.27
         slot: 1
       '48':
         material: IRON_AXE
         buy: -1
-        sell: 183.75
+        sell: 69.27
         slot: 2
       '49':
         material: IRON_HOE
         buy: -1
-        sell: 123.75
+        sell: 47.84
         slot: 3
       '50':
         material: DIAMOND_SWORD
         buy: -1
-        sell: 601.88
+        sell: 954.87
         slot: 4
       '51':
         material: DIAMOND_SHOVEL
         buy: -1
-        sell: 303.75
+        sell: 481.17
         slot: 5
       '52':
         material: DIAMOND_PICKAXE
         buy: -1
-        sell: 903.75
+        sell: 1433.55
         slot: 6
       '53':
         material: DIAMOND_AXE
         buy: -1
-        sell: 903.75
+        sell: 1433.55
         slot: 7
       '54':
         material: DIAMOND_HOE
         buy: -1
-        sell: 603.75
+        sell: 957.36
         slot: 8
       '55':
         material: NETHERITE_SWORD
         buy: -1
-        sell: 8936
+        sell: 793866.67
         slot: 9
       '56':
         material: NETHERITE_SHOVEL
         buy: -1
-        sell: 8652
+        sell: 793447.62
         slot: 10
       '57':
         material: NETHERITE_PICKAXE
         buy: -1
-        sell: 9252
+        sell: 794400
         slot: 11
       '58':
         material: NETHERITE_AXE
         buy: -1
-        sell: 9252
+        sell: 794400
         slot: 12
       '59':
         material: NETHERITE_HOE
         buy: -1
-        sell: 8952
+        sell: 793923.81
         slot: 13
       '60':
         material: LEATHER_HELMET
         buy: -1
-        sell: 125
+        sell: 535.71
         slot: 14
       '61':
         material: LEATHER_CHESTPLATE
         buy: -1
-        sell: 200
+        sell: 857.14
         slot: 15
       '62':
         material: LEATHER_LEGGINGS
         buy: -1
-        sell: 175
+        sell: 750
         slot: 16
       '63':
         material: LEATHER_BOOTS
         buy: -1
-        sell: 100
+        sell: 428.57
         slot: 17
       '64':
         material: COPPER_HELMET
         buy: -1
-        sell: 75
+        sell: 267.86
         slot: 18
       '65':
         material: COPPER_CHESTPLATE
         buy: -1
-        sell: 120
+        sell: 428.57
         slot: 19
       '66':
         material: COPPER_LEGGINGS
         buy: -1
-        sell: 105
+        sell: 375
         slot: 20
       '67':
         material: COPPER_BOOTS
         buy: -1
-        sell: 60
+        sell: 214.29
         slot: 21
       '68':
         material: CHAINMAIL_HELMET
         buy: -1
-        sell: 300
+        sell: 1071.43
         slot: 22
       '69':
         material: CHAINMAIL_CHESTPLATE
         buy: -1
-        sell: 500
+        sell: 1785.71
         slot: 23
       '70':
         material: CHAINMAIL_LEGGINGS
         buy: -1
-        sell: 400
+        sell: 1428.57
         slot: 24
       '71':
         material: CHAINMAIL_BOOTS
         buy: -1
-        sell: 250
+        sell: 892.86
         slot: 25
       '72':
         material: IRON_HELMET
         buy: -1
-        sell: 300
+        sell: 107.14
         slot: 26
       '73':
         material: IRON_CHESTPLATE
         buy: -1
-        sell: 480
+        sell: 171.43
         slot: 27
       '74':
         material: IRON_LEGGINGS
         buy: -1
-        sell: 420
+        sell: 150
         slot: 28
       '75':
         material: IRON_BOOTS
         buy: -1
-        sell: 240
+        sell: 85.71
         slot: 29
       '76':
         material: DIAMOND_HELMET
         buy: -1
-        sell: 1500
+        sell: 2380.95
         slot: 30
       '77':
         material: DIAMOND_CHESTPLATE
         buy: -1
-        sell: 2400
+        sell: 3809.52
         slot: 31
       '78':
         material: DIAMOND_LEGGINGS
         buy: -1
-        sell: 2100
+        sell: 3333.33
         slot: 32
       '79':
         material: DIAMOND_BOOTS
         buy: -1
-        sell: 1200
+        sell: 1904.76
         slot: 33
       '80':
         material: GOLDEN_HELMET
         buy: -1
-        sell: 400
+        sell: 1071.43
         slot: 34
       '81':
         material: GOLDEN_CHESTPLATE
         buy: -1
-        sell: 640
+        sell: 1714.29
         slot: 35
       '82':
         material: GOLDEN_LEGGINGS
         buy: -1
-        sell: 560
+        sell: 1500
         slot: 36
       '83':
         material: GOLDEN_BOOTS
         buy: -1
-        sell: 320
+        sell: 857.14
         slot: 37
       '84':
         material: NETHERITE_HELMET
         buy: -1
-        sell: 9820
+        sell: 795238.1
         slot: 38
       '85':
         material: NETHERITE_CHESTPLATE
         buy: -1
-        sell: 10720
+        sell: 796666.67
         slot: 39
       '86':
         material: NETHERITE_LEGGINGS
         buy: -1
-        sell: 10420
+        sell: 796190.48
         slot: 40
       '87':
         material: NETHERITE_BOOTS
         buy: -1
-        sell: 9520
+        sell: 794761.9
         slot: 41
       '88':
         material: COMPASS
         buy: -1
-        sell: 248
+        sell: 114.29
         slot: 42
       '89':
         material: RECOVERY_COMPASS
         buy: -1
-        sell: 16248
+        sell: 57257.14
         slot: 43
       '90':
         material: FISHING_ROD
         buy: -1
-        sell: 65.62
+        sell: 33.62
         slot: 44
   page3:
     gui-rows: 6
@@ -463,227 +463,227 @@ pages:
       '91':
         material: CLOCK
         buy: -1
-        sell: 328
+        sell: 885.71
         slot: 0
       '92':
         material: SPYGLASS
         buy: -1
-        sell: 50
+        sell: 178.57
         slot: 1
       '93':
         material: SHEARS
         buy: -1
-        sell: 120
+        sell: 42.86
         slot: 2
       '94':
         material: MACE
         buy: -1
-        sell: 20150
+        sell: 71964.29
         slot: 3
       '95':
         material: COPPER_HORSE_ARMOR
         buy: -1
-        sell: 200
+        sell: 714.29
         slot: 4
       '96':
         material: IRON_HORSE_ARMOR
         buy: -1
-        sell: 500
+        sell: 1785.71
         slot: 5
       '97':
         material: GOLDEN_HORSE_ARMOR
         buy: -1
-        sell: 600
+        sell: 2142.86
         slot: 6
       '98':
         material: DIAMOND_HORSE_ARMOR
         buy: -1
-        sell: 2000
+        sell: 7142.86
         slot: 7
       '99':
         material: NETHERITE_HORSE_ARMOR
         buy: -1
-        sell: 10320
+        sell: 800000
         slot: 8
       '100':
         material: LEATHER_HORSE_ARMOR
         buy: -1
-        sell: 175
+        sell: 750
         slot: 9
       '101':
         material: LEAD
         buy: -1
-        sell: 75
+        sell: 32.68
         slot: 10
       '102':
         material: SHIELD
         buy: -1
-        sell: 82.5
+        sell: 51.32
         slot: 11
       '103':
         material: WOODEN_SPEAR
         buy: -1
-        sell: 7.5
+        sell: 9.96
         slot: 12
       '104':
         material: STONE_SPEAR
         buy: -1
-        sell: 4.75
+        sell: 8.55
         slot: 13
       '105':
         material: COPPER_SPEAR
         buy: -1
-        sell: 18.75
+        sell: 58.55
         slot: 14
       '106':
         material: IRON_SPEAR
         buy: -1
-        sell: 63.75
+        sell: 26.41
         slot: 15
       '107':
         material: GOLDEN_SPEAR
         buy: -1
-        sell: 83.75
+        sell: 219.27
         slot: 16
       '108':
         material: DIAMOND_SPEAR
         buy: -1
-        sell: 303.75
+        sell: 481.17
         slot: 17
       '109':
         material: NETHERITE_SPEAR
         buy: -1
-        sell: 8652
+        sell: 793447.62
         slot: 18
       '110':
         material: TRIDENT
         buy: -1
-        sell: 5000
+        sell: 174642.86
         slot: 19
       '111':
         material: IRON_NAUTILUS_ARMOR
         buy: -1
-        sell: 500
+        sell: 1785.71
         slot: 20
       '112':
         material: GOLDEN_NAUTILUS_ARMOR
         buy: -1
-        sell: 600
+        sell: 2142.86
         slot: 21
       '113':
         material: DIAMOND_NAUTILUS_ARMOR
         buy: -1
-        sell: 2000
+        sell: 7142.86
         slot: 22
       '114':
         material: NETHERITE_NAUTILUS_ARMOR
         buy: -1
-        sell: 10320
+        sell: 800000
         slot: 23
       '115':
         material: COPPER_NAUTILUS_ARMOR
         buy: -1
-        sell: 200
+        sell: 714.29
         slot: 24
       '116':
         material: CROSSBOW
         buy: -1
-        sell: 158.44
+        sell: 69.5
         slot: 25
       '117':
         material: BRUSH
         buy: -1
-        sell: 26.88
+        sell: 91.78
         slot: 26
       '118':
         material: NETHERITE_UPGRADE_SMITHING_TEMPLATE
         buy: -1
-        sell: 2000
+        sell: 3336.91
         slot: 27
       '119':
         material: SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE
         buy: -1
-        sell: 2000
+        sell: 3346.84
         slot: 28
       '120':
         material: DUNE_ARMOR_TRIM_SMITHING_TEMPLATE
         buy: -1
-        sell: 2000
+        sell: 3361.91
         slot: 29
       '121':
         material: COAST_ARMOR_TRIM_SMITHING_TEMPLATE
         buy: -1
-        sell: 2000
+        sell: 3346.84
         slot: 30
       '122':
         material: WILD_ARMOR_TRIM_SMITHING_TEMPLATE
         buy: -1
-        sell: 2000
+        sell: 3357.55
         slot: 31
       '123':
         material: WARD_ARMOR_TRIM_SMITHING_TEMPLATE
         buy: -1
-        sell: 2000
+        sell: 3336.91
         slot: 32
       '124':
         material: EYE_ARMOR_TRIM_SMITHING_TEMPLATE
         buy: -1
-        sell: 2000
+        sell: 3337.34
         slot: 33
       '125':
         material: VEX_ARMOR_TRIM_SMITHING_TEMPLATE
         buy: -1
-        sell: 2000
+        sell: 3346.84
         slot: 34
       '126':
         material: TIDE_ARMOR_TRIM_SMITHING_TEMPLATE
         buy: -1
-        sell: 2000
+        sell: 3486.13
         slot: 35
       '127':
         material: SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE
         buy: -1
-        sell: 2000
+        sell: 3340.48
         slot: 36
       '128':
         material: RIB_ARMOR_TRIM_SMITHING_TEMPLATE
         buy: -1
-        sell: 2000
+        sell: 3336.91
         slot: 37
       '129':
         material: SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE
         buy: -1
-        sell: 2000
+        sell: 3345.34
         slot: 38
       '130':
         material: WAYFINDER_ARMOR_TRIM_SMITHING_TEMPLATE
         buy: -1
-        sell: 2000
+        sell: 3354.77
         slot: 39
       '131':
         material: SHAPER_ARMOR_TRIM_SMITHING_TEMPLATE
         buy: -1
-        sell: 2000
+        sell: 3354.77
         slot: 40
       '132':
         material: SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE
         buy: -1
-        sell: 2000
+        sell: 3336.91
         slot: 41
       '133':
         material: RAISER_ARMOR_TRIM_SMITHING_TEMPLATE
         buy: -1
-        sell: 2000
+        sell: 3354.77
         slot: 42
       '134':
         material: HOST_ARMOR_TRIM_SMITHING_TEMPLATE
         buy: -1
-        sell: 2000
+        sell: 3354.77
         slot: 43
       '135':
         material: FLOW_ARMOR_TRIM_SMITHING_TEMPLATE
         buy: -1
-        sell: 2000
+        sell: 3869.05
         slot: 44
   page4:
     gui-rows: 6
@@ -691,5 +691,5 @@ pages:
       '136':
         material: BOLT_ARMOR_TRIM_SMITHING_TEMPLATE
         buy: -1
-        sell: 2000
+        sell: 3815.49
         slot: 0

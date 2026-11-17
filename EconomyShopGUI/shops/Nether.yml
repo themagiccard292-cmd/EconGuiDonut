@@ -6,17 +6,17 @@ pages:
       '1':
         material: BLAZE_ROD
         buy: 150
-        sell: 50
+        sell: 75
         slot: 10
       '2':
         material: NETHER_WART
         buy: 96
-        sell: 30
+        sell: 48
         slot: 11
       '3':
         material: GLOWSTONE_DUST
         buy: 15
-        sell: 6
+        sell: 7.5
         slot: 12
       '4':
         material: MAGMA_CREAM
@@ -26,7 +26,7 @@ pages:
       '5':
         material: GHAST_TEAR
         buy: 350
-        sell: 120
+        sell: 175
         slot: 14
       '6':
         material: QUARTZ
@@ -36,7 +36,7 @@ pages:
       '7':
         material: SOUL_SAND
         buy: 50
-        sell: 5
+        sell: 17.86
         slot: 16
       '8':
         material: MAGMA_BLOCK

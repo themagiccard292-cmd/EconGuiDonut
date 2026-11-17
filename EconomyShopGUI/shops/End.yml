@@ -6,12 +6,12 @@ pages:
       '1':
         material: ENDER_CHEST
         buy: 2500
-        sell: 455
+        sell: 475
         slot: 10
       '2':
         material: ENDER_PEARL
         buy: 75
-        sell: 30
+        sell: 37.5
         slot: 11
       '3':
         material: END_STONE
@@ -21,17 +21,17 @@ pages:
       '4':
         material: DRAGON_BREATH
         buy: 1000
-        sell: 300
+        sell: 500
         slot: 13
       '5':
         material: END_ROD
         buy: 100
-        sell: 15.5
+        sell: 21.75
         slot: 14
       '6':
         material: CHORUS_FRUIT
         buy: 108
-        sell: 30
+        sell: 54
         slot: 15
       '7':
         material: POPPED_CHORUS_FRUIT
@@ -41,10 +41,10 @@ pages:
       '8':
         material: SHULKER_SHELL
         buy: 350
-        sell: 150
+        sell: 175
         slot: 21
       '9':
         material: SHULKER_BOX
         buy: 800
-        sell: 330
+        sell: 389.86
         slot: 23

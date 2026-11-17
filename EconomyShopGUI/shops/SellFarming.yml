@@ -7,227 +7,227 @@ pages:
       '1':
         material: BAMBOO_PLANKS
         buy: -1
-        sell: 36
+        sell: 128.57
         slot: 0
       '2':
         material: BAMBOO_MOSAIC
         buy: -1
-        sell: 36
+        sell: 128.57
         slot: 1
       '3':
         material: OAK_SAPLING
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 2
       '4':
         material: SPRUCE_SAPLING
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 3
       '5':
         material: BIRCH_SAPLING
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 4
       '6':
         material: JUNGLE_SAPLING
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 5
       '7':
         material: ACACIA_SAPLING
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 6
       '8':
         material: CHERRY_SAPLING
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 7
       '9':
         material: DARK_OAK_SAPLING
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 8
       '10':
         material: PALE_OAK_SAPLING
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 9
       '11':
         material: MANGROVE_PROPAGULE
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 10
       '12':
         material: BAMBOO_BLOCK
         buy: -1
-        sell: 72
+        sell: 257.14
         slot: 11
       '13':
         material: STRIPPED_BAMBOO_BLOCK
         buy: -1
-        sell: 72
+        sell: 257.14
         slot: 12
       '14':
         material: OAK_LEAVES
         buy: -1
-        sell: 1
+        sell: 3.57
         slot: 13
       '15':
         material: SPRUCE_LEAVES
         buy: -1
-        sell: 1
+        sell: 3.57
         slot: 14
       '16':
         material: BIRCH_LEAVES
         buy: -1
-        sell: 1
+        sell: 3.57
         slot: 15
       '17':
         material: JUNGLE_LEAVES
         buy: -1
-        sell: 1
+        sell: 3.57
         slot: 16
       '18':
         material: ACACIA_LEAVES
         buy: -1
-        sell: 1
+        sell: 3.57
         slot: 17
       '19':
         material: CHERRY_LEAVES
         buy: -1
-        sell: 1
+        sell: 3.57
         slot: 18
       '20':
         material: DARK_OAK_LEAVES
         buy: -1
-        sell: 1
+        sell: 3.57
         slot: 19
       '21':
         material: PALE_OAK_LEAVES
         buy: -1
-        sell: 1
+        sell: 3.57
         slot: 20
       '22':
         material: MANGROVE_LEAVES
         buy: -1
-        sell: 1
+        sell: 3.57
         slot: 21
       '23':
         material: AZALEA_LEAVES
         buy: -1
-        sell: 1
+        sell: 3.57
         slot: 22
       '24':
         material: FLOWERING_AZALEA_LEAVES
         buy: -1
-        sell: 1
+        sell: 3.57
         slot: 23
       '25':
         material: SEA_PICKLE
         buy: -1
-        sell: 20
+        sell: 71.43
         slot: 24
       '26':
         material: DANDELION
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 25
       '27':
         material: OPEN_EYEBLOSSOM
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 26
       '28':
         material: CLOSED_EYEBLOSSOM
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 27
       '29':
         material: POPPY
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 28
       '30':
         material: BLUE_ORCHID
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 29
       '31':
         material: ALLIUM
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 30
       '32':
         material: AZURE_BLUET
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 31
       '33':
         material: RED_TULIP
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 32
       '34':
         material: ORANGE_TULIP
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 33
       '35':
         material: WHITE_TULIP
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 34
       '36':
         material: PINK_TULIP
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 35
       '37':
         material: OXEYE_DAISY
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 36
       '38':
         material: CORNFLOWER
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 37
       '39':
         material: LILY_OF_THE_VALLEY
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 38
       '40':
         material: WITHER_ROSE
         buy: -1
-        sell: 50
+        sell: 178.57
         slot: 39
       '41':
         material: TORCHFLOWER
         buy: -1
-        sell: 20
+        sell: 71.43
         slot: 40
       '42':
         material: PITCHER_PLANT
         buy: -1
-        sell: 20
+        sell: 71.43
         slot: 41
       '43':
         material: BROWN_MUSHROOM
         buy: -1
-        sell: 10
+        sell: 35.71
         slot: 42
       '44':
         material: RED_MUSHROOM
         buy: -1
-        sell: 10
+        sell: 35.71
         slot: 43
       '45':
         material: CRIMSON_FUNGUS
         buy: -1
-        sell: 10
+        sell: 35.71
         slot: 44
   page2:
     gui-rows: 6
@@ -235,12 +235,12 @@ pages:
       '46':
         material: WARPED_FUNGUS
         buy: -1
-        sell: 10
+        sell: 35.71
         slot: 0
       '47':
         material: SUGAR_CANE
         buy: -1
-        sell: 30
+        sell: 20.79
         slot: 1
       '48':
         material: KELP
@@ -250,212 +250,212 @@ pages:
       '49':
         material: BAMBOO
         buy: -1
-        sell: 8
+        sell: 28.57
         slot: 3
       '50':
         material: BAMBOO_SLAB
         buy: -1
-        sell: 18
+        sell: 64.29
         slot: 4
       '51':
         material: BAMBOO_MOSAIC_SLAB
         buy: -1
-        sell: 18
+        sell: 64.29
         slot: 5
       '52':
         material: BAMBOO_SHELF
         buy: -1
-        sell: 72
+        sell: 257.14
         slot: 6
       '53':
         material: CHORUS_FLOWER
         buy: -1
-        sell: 30
+        sell: 107.14
         slot: 7
       '54':
         material: CACTUS
         buy: -1
-        sell: 25
+        sell: 23.14
         slot: 8
       '55':
         material: CACTUS_FLOWER
         buy: -1
-        sell: 10
+        sell: 35.71
         slot: 9
       '56':
         material: BAMBOO_FENCE
         buy: -1
-        sell: 49.25
+        sell: 173.09
         slot: 10
       '57':
         material: PUMPKIN
         buy: -1
-        sell: 40
+        sell: 52.93
         slot: 11
       '58':
         material: CARVED_PUMPKIN
         buy: -1
-        sell: 40
+        sell: 142.86
         slot: 12
       '59':
         material: MELON
         buy: -1
-        sell: 108
+        sell: 162
         slot: 13
       '60':
         material: VINE
         buy: -1
-        sell: 3
+        sell: 10.71
         slot: 14
       '61':
         material: LILY_PAD
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 15
       '62':
         material: BAMBOO_STAIRS
         buy: -1
-        sell: 54
+        sell: 192.86
         slot: 16
       '63':
         material: BAMBOO_MOSAIC_STAIRS
         buy: -1
-        sell: 54
+        sell: 192.86
         slot: 17
       '64':
         material: HAY_BLOCK
         buy: -1
-        sell: 270
+        sell: 395.36
         slot: 18
       '65':
         material: SUNFLOWER
         buy: -1
-        sell: 8
+        sell: 28.57
         slot: 19
       '66':
         material: LILAC
         buy: -1
-        sell: 8
+        sell: 28.57
         slot: 20
       '67':
         material: ROSE_BUSH
         buy: -1
-        sell: 8
+        sell: 28.57
         slot: 21
       '68':
         material: PEONY
         buy: -1
-        sell: 8
+        sell: 28.57
         slot: 22
       '69':
         material: NETHER_WART_BLOCK
         buy: -1
-        sell: 270
+        sell: 432
         slot: 23
       '70':
         material: BAMBOO_BUTTON
         buy: -1
-        sell: 36
+        sell: 128.57
         slot: 24
       '71':
         material: BAMBOO_PRESSURE_PLATE
         buy: -1
-        sell: 72
+        sell: 257.14
         slot: 25
       '72':
         material: BAMBOO_DOOR
         buy: -1
-        sell: 72
+        sell: 257.14
         slot: 26
       '73':
         material: BAMBOO_TRAPDOOR
         buy: -1
-        sell: 108
+        sell: 385.71
         slot: 27
       '74':
         material: BAMBOO_FENCE_GATE
         buy: -1
-        sell: 79.5
+        sell: 267.11
         slot: 28
       '75':
         material: BAMBOO_RAFT
         buy: -1
-        sell: 180
+        sell: 642.86
         slot: 29
       '76':
         material: BAMBOO_CHEST_RAFT
         buy: -1
-        sell: 210
+        sell: 682.71
         slot: 30
       '77':
         material: MUSHROOM_STEW
         buy: -1
-        sell: 22.81
+        sell: 75.17
         slot: 31
       '78':
         material: WHEAT_SEEDS
         buy: -1
-        sell: 2
+        sell: 7.14
         slot: 32
       '79':
         material: WHEAT
         buy: -1
-        sell: 30
+        sell: 43.93
         slot: 33
       '80':
         material: BREAD
         buy: -1
-        sell: 90
+        sell: 131.79
         slot: 34
       '81':
         material: PORKCHOP
         buy: -1
-        sell: 15
+        sell: 53.57
         slot: 35
       '82':
         material: COOKED_PORKCHOP
         buy: -1
-        sell: 17
+        sell: 13.71
         slot: 36
       '83':
         material: ENCHANTED_GOLDEN_APPLE
         buy: -1
-        sell: 20000
+        sell: 159214.29
         slot: 37
       '84':
         material: BAMBOO_SIGN
         buy: -1
-        sell: 72.62
+        sell: 257.97
         slot: 38
       '85':
         material: BAMBOO_HANGING_SIGN
         buy: -1
-        sell: 96.44
+        sell: 265.87
         slot: 39
       '86':
         material: DRIED_KELP_BLOCK
         buy: -1
-        sell: 299.97
+        sell: 300
         slot: 40
       '87':
         material: COD
         buy: -1
-        sell: 10
+        sell: 35.71
         slot: 41
       '88':
         material: SALMON
         buy: -1
-        sell: 12
+        sell: 42.86
         slot: 42
       '89':
         material: TROPICAL_FISH
         buy: -1
-        sell: 20
+        sell: 71.43
         slot: 43
       '90':
         material: PUFFERFISH
         buy: -1
-        sell: 20
+        sell: 71.43
         slot: 44
   page3:
     gui-rows: 6
@@ -463,112 +463,112 @@ pages:
       '91':
         material: COOKED_COD
         buy: -1
-        sell: 20
+        sell: 71.43
         slot: 0
       '92':
         material: COOKED_SALMON
         buy: -1
-        sell: 18
+        sell: 64.29
         slot: 1
       '93':
         material: COCOA_BEANS
         buy: -1
-        sell: 20
+        sell: 71.43
         slot: 2
       '94':
         material: WHITE_DYE
         buy: -1
-        sell: 5
+        sell: 6.07
         slot: 3
       '95':
         material: ORANGE_DYE
         buy: -1
-        sell: 3.5
+        sell: 12.5
         slot: 4
       '96':
         material: MAGENTA_DYE
         buy: -1
-        sell: 3.75
+        sell: 13.12
         slot: 5
       '97':
         material: LIGHT_BLUE_DYE
         buy: -1
-        sell: 5
+        sell: 11.96
         slot: 6
       '98':
         material: YELLOW_DYE
         buy: -1
-        sell: 3
+        sell: 10.71
         slot: 7
       '99':
         material: LIME_DYE
         buy: -1
-        sell: 15
+        sell: 14.61
         slot: 8
       '100':
         material: PINK_DYE
         buy: -1
-        sell: 3
+        sell: 10.18
         slot: 9
       '101':
         material: GRAY_DYE
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 10
       '102':
         material: LIGHT_GRAY_DYE
         buy: -1
-        sell: 5
+        sell: 11.96
         slot: 11
       '103':
         material: CYAN_DYE
         buy: -1
-        sell: 10
+        sell: 20.5
         slot: 12
       '104':
         material: PURPLE_DYE
         buy: -1
-        sell: 4.5
+        sell: 16.07
         slot: 13
       '105':
         material: BLUE_DYE
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 14
       '106':
         material: BROWN_DYE
         buy: -1
-        sell: 20
+        sell: 71.43
         slot: 15
       '107':
         material: GREEN_DYE
         buy: -1
-        sell: 25
+        sell: 23.14
         slot: 16
       '108':
         material: RED_DYE
         buy: -1
-        sell: 4
+        sell: 14.29
         slot: 17
       '109':
         material: BLACK_DYE
         buy: -1
-        sell: 20
+        sell: 71.43
         slot: 18
       '110':
         material: SUGAR
         buy: -1
-        sell: 10
+        sell: 20.79
         slot: 19
       '111':
         material: CAKE
         buy: -1
-        sell: 670
+        sell: 382.07
         slot: 20
       '112':
         material: COOKIE
         buy: -1
-        sell: 10
+        sell: 19.91
         slot: 21
       '113':
         material: DRIED_KELP
@@ -578,95 +578,95 @@ pages:
       '114':
         material: PUMPKIN_SEEDS
         buy: -1
-        sell: 10
+        sell: 13.23
         slot: 23
       '115':
         material: MELON_SEEDS
         buy: -1
-        sell: 12
+        sell: 18
         slot: 24
       '116':
         material: BEEF
         buy: -1
-        sell: 15
+        sell: 64.29
         slot: 25
       '117':
         material: CHICKEN
         buy: -1
-        sell: 20
+        sell: 71.43
         slot: 26
       '118':
         material: GLISTERING_MELON_SLICE
         buy: -1
-        sell: 83.11
+        sell: 208.48
         slot: 27
       '119':
         material: BAKED_POTATO
         buy: -1
-        sell: 18
+        sell: 64.29
         slot: 28
       '120':
         material: POISONOUS_POTATO
         buy: -1
-        sell: 5
+        sell: 17.86
         slot: 29
       '121':
         material: PUMPKIN_PIE
         buy: -1
-        sell: 55
+        sell: 74.57
         slot: 30
       '122':
         material: RABBIT
         buy: -1
-        sell: 12
+        sell: 42.86
         slot: 31
       '123':
         material: COOKED_RABBIT
         buy: -1
-        sell: 18
+        sell: 64.29
         slot: 32
       '124':
         material: RABBIT_STEW
         buy: -1
-        sell: 78.81
+        sell: 216.02
         slot: 33
       '125':
         material: MUTTON
         buy: -1
-        sell: 12
+        sell: 42.86
         slot: 34
       '126':
         material: COOKED_MUTTON
         buy: -1
-        sell: 18
+        sell: 64.29
         slot: 35
       '127':
         material: TORCHFLOWER_SEEDS
         buy: -1
-        sell: 2
+        sell: 7.14
         slot: 36
       '128':
         material: PITCHER_POD
         buy: -1
-        sell: 2
+        sell: 7.14
         slot: 37
       '129':
         material: BEETROOT
         buy: -1
-        sell: 30
+        sell: 107.14
         slot: 38
       '130':
         material: BEETROOT_SEEDS
         buy: -1
-        sell: 2
+        sell: 7.14
         slot: 39
       '131':
         material: BEETROOT_SOUP
         buy: -1
-        sell: 182.81
+        sell: 646.59
         slot: 40
       '132':
         material: GLOW_BERRIES
         buy: -1
-        sell: 15
+        sell: 53.57
         slot: 41

@@ -4,15 +4,18 @@ A DonutSMP-style `/shop` and `/sell` for [EconomyShopGUI](https://www.spigotmc.o
 
 ## Where the prices come from
 
-| Part | Items | How accurate |
+| Source (shown per item in [PRICES.md](PRICES.md)) | Items | What it means |
 |---|---|---|
-| `/shop`: End, Nether, Gear, Food | 36 | **Exact DonutSMP buy prices**, from the DonutSMP wiki's Shop page (the final version before Donut removed `/shop` on June 2, 2026). |
-| `/sell` worth for everything else | ~1,320 | **Estimated.** DonutSMP has never published its `/sell` list. Raw items have hand-set values on Donut's scale, anchored to known Donut numbers (a dried kelp block sells for **$300** on Donut; here it's $299.97). Crafted items are priced from their recipes. |
+| **Donut /shop** | 36 | Exact DonutSMP buy prices, from the DonutSMP wiki's Shop page (the final version before Donut removed `/shop` on June 2, 2026). |
+| **Donut /sell** | 1 | Exact Donut `/sell` value: a dried kelp block sells for **$300**. |
+| **Donut market** | ~40 | Real DonutSMP player-market prices from Donut price trackers (donutsmp.finance, donutsmpterminal.com, donut.build, donut.today, donutstats.io), turned into `/sell` prices with the one ratio known for sure: a dried kelp block trades for about $1.4K and sells for $300, so `/sell` ≈ market × 0.214. Where trackers disagreed, the lowest believable figure was used. |
+| **Crafted** | ~890 | Priced from the Donut figures above: the sum of the ingredients ÷ how many items the recipe makes. |
+| **Estimate** | ~390 | No Donut data exists for these. Hand-set values, scaled (×3.57) to match the real Donut figures. |
 
-The full list is in **[PRICES.md](PRICES.md)**.
+Tracker prices left out on purpose: netherrack ($766), sand ($873) and red sand ($539). These blocks can be mined endlessly, and those prices came from thin, spiking markets. Using them would make `/sell` farming absurd.
 
 Safety rules built into the prices:
-- **No crafting profit.** A crafted item never sells for more than its ingredients, and a script checks every recipe in the game for this.
+- **No crafting profit.** No item sells for more than its ingredients, and the generator enforces this for every recipe in the game. Raw items and ores are also capped at the value of what they smelt or mine into.
 - **No shop flipping.** Items you can buy in `/shop` sell for at most 50% of their buy price.
 - **Not sellable:** creative-only items (spawn eggs, command blocks, bedrock, etc.) and items whose value depends on NBT data (potions, enchanted books, player heads, written books).
 
