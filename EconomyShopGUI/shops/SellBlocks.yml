@@ -854,290 +854,290 @@ pages:
         sell: 53.57
         slot: 32
       '169':
+        material: GOLDEN_DANDELION
+        buy: -1
+        sell: 208.33
+        slot: 33
+      '170':
         material: SPORE_BLOSSOM
         buy: -1
         sell: 107.14
-        slot: 33
-      '170':
-        material: CRIMSON_ROOTS
-        buy: -1
-        sell: 17.86
         slot: 34
       '171':
-        material: WARPED_ROOTS
+        material: CRIMSON_ROOTS
         buy: -1
         sell: 17.86
         slot: 35
       '172':
-        material: NETHER_SPROUTS
+        material: WARPED_ROOTS
         buy: -1
         sell: 17.86
         slot: 36
       '173':
-        material: WEEPING_VINES
+        material: NETHER_SPROUTS
         buy: -1
-        sell: 10.71
+        sell: 17.86
         slot: 37
       '174':
-        material: TWISTING_VINES
+        material: WEEPING_VINES
         buy: -1
         sell: 10.71
         slot: 38
       '175':
-        material: PINK_PETALS
+        material: TWISTING_VINES
         buy: -1
         sell: 10.71
         slot: 39
       '176':
-        material: WILDFLOWERS
+        material: PINK_PETALS
         buy: -1
         sell: 10.71
         slot: 40
       '177':
-        material: LEAF_LITTER
+        material: WILDFLOWERS
         buy: -1
-        sell: 7.14
+        sell: 10.71
         slot: 41
       '178':
-        material: MOSS_CARPET
+        material: LEAF_LITTER
         buy: -1
         sell: 7.14
         slot: 42
       '179':
+        material: MOSS_CARPET
+        buy: -1
+        sell: 7.14
+        slot: 43
+      '180':
         material: MOSS_BLOCK
         buy: -1
         sell: 10.71
-        slot: 43
-      '180':
-        material: PALE_MOSS_CARPET
-        buy: -1
-        sell: 7.14
         slot: 44
   page5:
     gui-rows: 6
     items:
       '181':
+        material: PALE_MOSS_CARPET
+        buy: -1
+        sell: 7.14
+        slot: 0
+      '182':
         material: PALE_HANGING_MOSS
         buy: -1
         sell: 17.86
-        slot: 0
-      '182':
+        slot: 1
+      '183':
         material: PALE_MOSS_BLOCK
         buy: -1
         sell: 10.71
-        slot: 1
-      '183':
-        material: HANGING_ROOTS
-        buy: -1
-        sell: 17.86
         slot: 2
       '184':
-        material: BIG_DRIPLEAF
+        material: HANGING_ROOTS
         buy: -1
         sell: 17.86
         slot: 3
       '185':
-        material: SMALL_DRIPLEAF
+        material: BIG_DRIPLEAF
         buy: -1
         sell: 17.86
         slot: 4
       '186':
+        material: SMALL_DRIPLEAF
+        buy: -1
+        sell: 17.86
+        slot: 5
+      '187':
         material: OAK_SLAB
         buy: -1
         sell: 19.42
-        slot: 5
-      '187':
+        slot: 6
+      '188':
         material: SPRUCE_SLAB
         buy: -1
         sell: 2.49
-        slot: 6
-      '188':
-        material: BIRCH_SLAB
-        buy: -1
-        sell: 6.7
         slot: 7
       '189':
-        material: JUNGLE_SLAB
+        material: BIRCH_SLAB
         buy: -1
         sell: 6.7
         slot: 8
       '190':
-        material: ACACIA_SLAB
+        material: JUNGLE_SLAB
         buy: -1
         sell: 6.7
         slot: 9
       '191':
-        material: CHERRY_SLAB
+        material: ACACIA_SLAB
         buy: -1
         sell: 6.7
         slot: 10
       '192':
-        material: DARK_OAK_SLAB
+        material: CHERRY_SLAB
         buy: -1
         sell: 6.7
         slot: 11
       '193':
-        material: PALE_OAK_SLAB
+        material: DARK_OAK_SLAB
         buy: -1
         sell: 6.7
         slot: 12
       '194':
-        material: MANGROVE_SLAB
+        material: PALE_OAK_SLAB
         buy: -1
         sell: 6.7
         slot: 13
       '195':
-        material: CRIMSON_SLAB
+        material: MANGROVE_SLAB
         buy: -1
         sell: 6.7
         slot: 14
       '196':
-        material: WARPED_SLAB
+        material: CRIMSON_SLAB
         buy: -1
         sell: 6.7
         slot: 15
       '197':
+        material: WARPED_SLAB
+        buy: -1
+        sell: 6.7
+        slot: 16
+      '198':
         material: STONE_SLAB
         buy: -1
         sell: 37.5
-        slot: 16
-      '198':
+        slot: 17
+      '199':
         material: SMOOTH_STONE_SLAB
         buy: -1
         sell: 5.36
-        slot: 17
-      '199':
-        material: SANDSTONE_SLAB
-        buy: -1
-        sell: 14.29
         slot: 18
       '200':
-        material: CUT_SANDSTONE_SLAB
+        material: SANDSTONE_SLAB
         buy: -1
         sell: 14.29
         slot: 19
       '201':
+        material: CUT_SANDSTONE_SLAB
+        buy: -1
+        sell: 14.29
+        slot: 20
+      '202':
         material: COBBLESTONE_SLAB
         buy: -1
         sell: 6.75
-        slot: 20
-      '202':
+        slot: 21
+      '203':
         material: BRICK_SLAB
         buy: -1
         sell: 21.43
-        slot: 21
-      '203':
+        slot: 22
+      '204':
         material: STONE_BRICK_SLAB
         buy: -1
         sell: 37.5
-        slot: 22
-      '204':
+        slot: 23
+      '205':
         material: MUD_BRICK_SLAB
         buy: -1
         sell: 25.54
-        slot: 23
-      '205':
+        slot: 24
+      '206':
         material: NETHER_BRICK_SLAB
         buy: -1
         sell: 21.43
-        slot: 24
-      '206':
+        slot: 25
+      '207':
         material: QUARTZ_SLAB
         buy: -1
         sell: 30
-        slot: 25
-      '207':
-        material: RED_SANDSTONE_SLAB
-        buy: -1
-        sell: 21.43
         slot: 26
       '208':
-        material: CUT_RED_SANDSTONE_SLAB
+        material: RED_SANDSTONE_SLAB
         buy: -1
         sell: 21.43
         slot: 27
       '209':
+        material: CUT_RED_SANDSTONE_SLAB
+        buy: -1
+        sell: 21.43
+        slot: 28
+      '210':
         material: PURPUR_SLAB
         buy: -1
         sell: 6
-        slot: 28
-      '210':
+        slot: 29
+      '211':
         material: PRISMARINE_SLAB
         buy: -1
         sell: 76.39
-        slot: 29
-      '211':
+        slot: 30
+      '212':
         material: PRISMARINE_BRICK_SLAB
         buy: -1
         sell: 422.36
-        slot: 30
-      '212':
+        slot: 31
+      '213':
         material: DARK_PRISMARINE_SLAB
         buy: -1
         sell: 411.14
-        slot: 31
-      '213':
+        slot: 32
+      '214':
         material: SMOOTH_QUARTZ
         buy: -1
         sell: 232.14
-        slot: 32
-      '214':
+        slot: 33
+      '215':
         material: SMOOTH_RED_SANDSTONE
         buy: -1
         sell: 35.71
-        slot: 33
-      '215':
+        slot: 34
+      '216':
         material: SMOOTH_SANDSTONE
         buy: -1
         sell: 28.57
-        slot: 34
-      '216':
+        slot: 35
+      '217':
         material: SMOOTH_STONE
         buy: -1
         sell: 10.71
-        slot: 35
-      '217':
+        slot: 36
+      '218':
         material: BRICKS
         buy: -1
         sell: 42.86
-        slot: 36
-      '218':
-        material: ACACIA_SHELF
-        buy: -1
-        sell: 53.57
         slot: 37
       '219':
-        material: BIRCH_SHELF
+        material: ACACIA_SHELF
         buy: -1
         sell: 53.57
         slot: 38
       '220':
-        material: CHERRY_SHELF
+        material: BIRCH_SHELF
         buy: -1
         sell: 53.57
         slot: 39
       '221':
-        material: CRIMSON_SHELF
+        material: CHERRY_SHELF
         buy: -1
         sell: 53.57
         slot: 40
       '222':
-        material: DARK_OAK_SHELF
+        material: CRIMSON_SHELF
         buy: -1
         sell: 53.57
         slot: 41
       '223':
-        material: JUNGLE_SHELF
+        material: DARK_OAK_SHELF
         buy: -1
         sell: 53.57
         slot: 42
       '224':
-        material: MANGROVE_SHELF
+        material: JUNGLE_SHELF
         buy: -1
         sell: 53.57
         slot: 43
       '225':
-        material: OAK_SHELF
+        material: MANGROVE_SHELF
         buy: -1
         sell: 53.57
         slot: 44
@@ -1145,1139 +1145,1139 @@ pages:
     gui-rows: 6
     items:
       '226':
-        material: PALE_OAK_SHELF
+        material: OAK_SHELF
         buy: -1
         sell: 53.57
         slot: 0
       '227':
-        material: SPRUCE_SHELF
+        material: PALE_OAK_SHELF
         buy: -1
         sell: 53.57
         slot: 1
       '228':
-        material: WARPED_SHELF
+        material: SPRUCE_SHELF
         buy: -1
         sell: 53.57
         slot: 2
       '229':
+        material: WARPED_SHELF
+        buy: -1
+        sell: 53.57
+        slot: 3
+      '230':
         material: BOOKSHELF
         buy: -1
         sell: 538.39
-        slot: 3
-      '230':
+        slot: 4
+      '231':
         material: CHISELED_BOOKSHELF
         buy: -1
         sell: 37.37
-        slot: 4
-      '231':
+        slot: 5
+      '232':
         material: DECORATED_POT
         buy: -1
         sell: 42.86
-        slot: 5
-      '232':
+        slot: 6
+      '233':
         material: MOSSY_COBBLESTONE
         buy: -1
         sell: 24.21
-        slot: 6
-      '233':
+        slot: 7
+      '234':
         material: TORCH
         buy: -1
         sell: 7.77
-        slot: 7
-      '234':
-        material: PURPUR_BLOCK
-        buy: -1
-        sell: 12
         slot: 8
       '235':
-        material: PURPUR_PILLAR
+        material: PURPUR_BLOCK
         buy: -1
         sell: 12
         slot: 9
       '236':
+        material: PURPUR_PILLAR
+        buy: -1
+        sell: 12
+        slot: 10
+      '237':
         material: PURPUR_STAIRS
         buy: -1
         sell: 18
-        slot: 10
-      '237':
+        slot: 11
+      '238':
         material: CREAKING_HEART
         buy: -1
         sell: 428.57
-        slot: 11
-      '238':
+        slot: 12
+      '239':
         material: CHEST
         buy: -1
         sell: 39.86
-        slot: 12
-      '239':
+        slot: 13
+      '240':
         material: CRAFTING_TABLE
         buy: -1
         sell: 19.93
-        slot: 13
-      '240':
+        slot: 14
+      '241':
         material: FURNACE
         buy: -1
         sell: 28.57
-        slot: 14
-      '241':
+        slot: 15
+      '242':
         material: LADDER
         buy: -1
         sell: 5.81
-        slot: 15
-      '242':
+        slot: 16
+      '243':
         material: COBBLESTONE_STAIRS
         buy: -1
         sell: 20.25
-        slot: 16
-      '243':
+        slot: 17
+      '244':
         material: SNOW
         buy: -1
         sell: 7.14
-        slot: 17
-      '244':
+        slot: 18
+      '245':
         material: ICE
         buy: -1
         sell: 10.71
-        slot: 18
-      '245':
+        slot: 19
+      '246':
         material: SNOW_BLOCK
         buy: -1
         sell: 14.29
-        slot: 19
-      '246':
+        slot: 20
+      '247':
         material: CLAY
         buy: -1
         sell: 42.86
-        slot: 20
-      '247':
+        slot: 21
+      '248':
         material: OAK_FENCE
         buy: -1
         sell: 53.45
-        slot: 21
-      '248':
+        slot: 22
+      '249':
         material: SPRUCE_FENCE
         buy: -1
         sell: 8.3
-        slot: 22
-      '249':
-        material: BIRCH_FENCE
-        buy: -1
-        sell: 19.52
         slot: 23
       '250':
-        material: JUNGLE_FENCE
+        material: BIRCH_FENCE
         buy: -1
         sell: 19.52
         slot: 24
       '251':
-        material: ACACIA_FENCE
+        material: JUNGLE_FENCE
         buy: -1
         sell: 19.52
         slot: 25
       '252':
-        material: CHERRY_FENCE
+        material: ACACIA_FENCE
         buy: -1
         sell: 19.52
         slot: 26
       '253':
-        material: DARK_OAK_FENCE
+        material: CHERRY_FENCE
         buy: -1
         sell: 19.52
         slot: 27
       '254':
-        material: PALE_OAK_FENCE
+        material: DARK_OAK_FENCE
         buy: -1
         sell: 19.52
         slot: 28
       '255':
-        material: MANGROVE_FENCE
+        material: PALE_OAK_FENCE
         buy: -1
         sell: 19.52
         slot: 29
       '256':
-        material: CRIMSON_FENCE
+        material: MANGROVE_FENCE
         buy: -1
         sell: 19.52
         slot: 30
       '257':
-        material: WARPED_FENCE
+        material: CRIMSON_FENCE
         buy: -1
         sell: 19.52
         slot: 31
       '258':
+        material: WARPED_FENCE
+        buy: -1
+        sell: 19.52
+        slot: 32
+      '259':
         material: JACK_O_LANTERN
         buy: -1
         sell: 150.62
-        slot: 32
-      '259':
+        slot: 33
+      '260':
         material: NETHERRACK
         buy: -1
         sell: 3.57
-        slot: 33
-      '260':
+        slot: 34
+      '261':
         material: SOUL_SOIL
         buy: -1
         sell: 17.86
-        slot: 34
-      '261':
-        material: BASALT
-        buy: -1
-        sell: 7.14
         slot: 35
       '262':
-        material: POLISHED_BASALT
+        material: BASALT
         buy: -1
         sell: 7.14
         slot: 36
       '263':
+        material: POLISHED_BASALT
+        buy: -1
+        sell: 7.14
+        slot: 37
+      '264':
         material: SMOOTH_BASALT
         buy: -1
         sell: 10.71
-        slot: 37
-      '264':
+        slot: 38
+      '265':
         material: SOUL_TORCH
         buy: -1
         sell: 12.23
-        slot: 38
-      '265':
+        slot: 39
+      '266':
         material: COPPER_TORCH
         buy: -1
         sell: 9.25
-        slot: 39
-      '266':
+        slot: 40
+      '267':
         material: STONE_BRICKS
         buy: -1
         sell: 75
-        slot: 40
-      '267':
+        slot: 41
+      '268':
         material: MOSSY_STONE_BRICKS
         buy: -1
         sell: 85.71
-        slot: 41
-      '268':
+        slot: 42
+      '269':
         material: CRACKED_STONE_BRICKS
         buy: -1
         sell: 14.29
-        slot: 42
-      '269':
+        slot: 43
+      '270':
         material: CHISELED_STONE_BRICKS
         buy: -1
         sell: 75
-        slot: 43
-      '270':
-        material: PACKED_MUD
-        buy: -1
-        sell: 51.07
         slot: 44
   page7:
     gui-rows: 6
     items:
       '271':
-        material: MUD_BRICKS
+        material: PACKED_MUD
         buy: -1
         sell: 51.07
         slot: 0
       '272':
+        material: MUD_BRICKS
+        buy: -1
+        sell: 51.07
+        slot: 1
+      '273':
         material: DEEPSLATE_BRICKS
         buy: -1
         sell: 3.57
-        slot: 1
-      '273':
+        slot: 2
+      '274':
         material: CRACKED_DEEPSLATE_BRICKS
         buy: -1
         sell: 14.29
-        slot: 2
-      '274':
+        slot: 3
+      '275':
         material: DEEPSLATE_TILES
         buy: -1
         sell: 3.57
-        slot: 3
-      '275':
+        slot: 4
+      '276':
         material: CRACKED_DEEPSLATE_TILES
         buy: -1
         sell: 14.29
-        slot: 4
-      '276':
+        slot: 5
+      '277':
         material: CHISELED_DEEPSLATE
         buy: -1
         sell: 3.57
-        slot: 5
-      '277':
-        material: BROWN_MUSHROOM_BLOCK
-        buy: -1
-        sell: 10.71
         slot: 6
       '278':
-        material: RED_MUSHROOM_BLOCK
+        material: BROWN_MUSHROOM_BLOCK
         buy: -1
         sell: 10.71
         slot: 7
       '279':
-        material: MUSHROOM_STEM
+        material: RED_MUSHROOM_BLOCK
         buy: -1
         sell: 10.71
         slot: 8
       '280':
+        material: MUSHROOM_STEM
+        buy: -1
+        sell: 10.71
+        slot: 9
+      '281':
         material: IRON_BARS
         buy: -1
         sell: 8.04
-        slot: 9
-      '281':
-        material: COPPER_BARS
-        buy: -1
-        sell: 20.09
         slot: 10
       '282':
-        material: EXPOSED_COPPER_BARS
+        material: COPPER_BARS
         buy: -1
         sell: 20.09
         slot: 11
       '283':
-        material: WEATHERED_COPPER_BARS
+        material: EXPOSED_COPPER_BARS
         buy: -1
         sell: 20.09
         slot: 12
       '284':
-        material: OXIDIZED_COPPER_BARS
+        material: WEATHERED_COPPER_BARS
         buy: -1
         sell: 20.09
         slot: 13
       '285':
+        material: OXIDIZED_COPPER_BARS
+        buy: -1
+        sell: 20.09
+        slot: 14
+      '286':
         material: WAXED_COPPER_BARS
         buy: -1
         sell: 91.52
-        slot: 14
-      '286':
-        material: WAXED_EXPOSED_COPPER_BARS
-        buy: -1
-        sell: 20.09
         slot: 15
       '287':
-        material: WAXED_WEATHERED_COPPER_BARS
+        material: WAXED_EXPOSED_COPPER_BARS
         buy: -1
         sell: 20.09
         slot: 16
       '288':
-        material: WAXED_OXIDIZED_COPPER_BARS
+        material: WAXED_WEATHERED_COPPER_BARS
         buy: -1
         sell: 20.09
         slot: 17
       '289':
+        material: WAXED_OXIDIZED_COPPER_BARS
+        buy: -1
+        sell: 20.09
+        slot: 18
+      '290':
         material: IRON_CHAIN
         buy: -1
         sell: 26.19
-        slot: 18
-      '290':
-        material: COPPER_CHAIN
-        buy: -1
-        sell: 65.48
         slot: 19
       '291':
-        material: EXPOSED_COPPER_CHAIN
+        material: COPPER_CHAIN
         buy: -1
         sell: 65.48
         slot: 20
       '292':
-        material: WEATHERED_COPPER_CHAIN
+        material: EXPOSED_COPPER_CHAIN
         buy: -1
         sell: 65.48
         slot: 21
       '293':
-        material: OXIDIZED_COPPER_CHAIN
+        material: WEATHERED_COPPER_CHAIN
         buy: -1
         sell: 65.48
         slot: 22
       '294':
+        material: OXIDIZED_COPPER_CHAIN
+        buy: -1
+        sell: 65.48
+        slot: 23
+      '295':
         material: WAXED_COPPER_CHAIN
         buy: -1
         sell: 136.9
-        slot: 23
-      '295':
-        material: WAXED_EXPOSED_COPPER_CHAIN
-        buy: -1
-        sell: 65.48
         slot: 24
       '296':
-        material: WAXED_WEATHERED_COPPER_CHAIN
+        material: WAXED_EXPOSED_COPPER_CHAIN
         buy: -1
         sell: 65.48
         slot: 25
       '297':
-        material: WAXED_OXIDIZED_COPPER_CHAIN
+        material: WAXED_WEATHERED_COPPER_CHAIN
         buy: -1
         sell: 65.48
         slot: 26
       '298':
+        material: WAXED_OXIDIZED_COPPER_CHAIN
+        buy: -1
+        sell: 65.48
+        slot: 27
+      '299':
         material: GLASS_PANE
         buy: -1
         sell: 4.02
-        slot: 27
-      '299':
+        slot: 28
+      '300':
         material: GLOW_LICHEN
         buy: -1
         sell: 10.71
-        slot: 28
-      '300':
+        slot: 29
+      '301':
         material: RESIN_CLUMP
         buy: -1
         sell: 35.71
-        slot: 29
-      '301':
+        slot: 30
+      '302':
         material: RESIN_BLOCK
         buy: -1
         sell: 321.43
-        slot: 30
-      '302':
+        slot: 31
+      '303':
         material: RESIN_BRICKS
         buy: -1
         sell: 142.86
-        slot: 31
-      '303':
+        slot: 32
+      '304':
         material: RESIN_BRICK_STAIRS
         buy: -1
         sell: 214.29
-        slot: 32
-      '304':
+        slot: 33
+      '305':
         material: RESIN_BRICK_SLAB
         buy: -1
         sell: 71.43
-        slot: 33
-      '305':
-        material: RESIN_BRICK_WALL
-        buy: -1
-        sell: 142.86
         slot: 34
       '306':
-        material: CHISELED_RESIN_BRICKS
+        material: RESIN_BRICK_WALL
         buy: -1
         sell: 142.86
         slot: 35
       '307':
+        material: CHISELED_RESIN_BRICKS
+        buy: -1
+        sell: 142.86
+        slot: 36
+      '308':
         material: BRICK_STAIRS
         buy: -1
         sell: 64.29
-        slot: 36
-      '308':
+        slot: 37
+      '309':
         material: STONE_BRICK_STAIRS
         buy: -1
         sell: 112.5
-        slot: 37
-      '309':
+        slot: 38
+      '310':
         material: MUD_BRICK_STAIRS
         buy: -1
         sell: 76.61
-        slot: 38
-      '310':
+        slot: 39
+      '311':
         material: MYCELIUM
         buy: -1
         sell: 17.86
-        slot: 39
-      '311':
+        slot: 40
+      '312':
         material: NETHER_BRICKS
         buy: -1
         sell: 42.86
-        slot: 40
-      '312':
+        slot: 41
+      '313':
         material: CRACKED_NETHER_BRICKS
         buy: -1
         sell: 14.29
-        slot: 41
-      '313':
+        slot: 42
+      '314':
         material: CHISELED_NETHER_BRICKS
         buy: -1
         sell: 42.86
-        slot: 42
-      '314':
+        slot: 43
+      '315':
         material: NETHER_BRICK_FENCE
         buy: -1
         sell: 32.14
-        slot: 43
-      '315':
-        material: NETHER_BRICK_STAIRS
-        buy: -1
-        sell: 64.29
         slot: 44
   page8:
     gui-rows: 6
     items:
       '316':
+        material: NETHER_BRICK_STAIRS
+        buy: -1
+        sell: 64.29
+        slot: 0
+      '317':
         material: SCULK
         buy: -1
         sell: 17.86
-        slot: 0
-      '317':
+        slot: 1
+      '318':
         material: SCULK_VEIN
         buy: -1
         sell: 7.14
-        slot: 1
-      '318':
-        material: SCULK_CATALYST
-        buy: -1
-        sell: 1785.71
         slot: 2
       '319':
-        material: SCULK_SHRIEKER
+        material: SCULK_CATALYST
         buy: -1
         sell: 1785.71
         slot: 3
       '320':
+        material: SCULK_SHRIEKER
+        buy: -1
+        sell: 1785.71
+        slot: 4
+      '321':
         material: ENCHANTING_TABLE
         buy: -1
         sell: 1321.88
-        slot: 4
-      '321':
+        slot: 5
+      '322':
         material: END_STONE_BRICKS
         buy: -1
         sell: 4
-        slot: 5
-      '322':
+        slot: 6
+      '323':
         material: SANDSTONE_STAIRS
         buy: -1
         sell: 42.86
-        slot: 6
-      '323':
+        slot: 7
+      '324':
         material: OAK_STAIRS
         buy: -1
         sell: 58.26
-        slot: 7
-      '324':
+        slot: 8
+      '325':
         material: SPRUCE_STAIRS
         buy: -1
         sell: 7.47
-        slot: 8
-      '325':
-        material: BIRCH_STAIRS
-        buy: -1
-        sell: 20.09
         slot: 9
       '326':
-        material: JUNGLE_STAIRS
+        material: BIRCH_STAIRS
         buy: -1
         sell: 20.09
         slot: 10
       '327':
-        material: ACACIA_STAIRS
+        material: JUNGLE_STAIRS
         buy: -1
         sell: 20.09
         slot: 11
       '328':
-        material: CHERRY_STAIRS
+        material: ACACIA_STAIRS
         buy: -1
         sell: 20.09
         slot: 12
       '329':
-        material: DARK_OAK_STAIRS
+        material: CHERRY_STAIRS
         buy: -1
         sell: 20.09
         slot: 13
       '330':
-        material: PALE_OAK_STAIRS
+        material: DARK_OAK_STAIRS
         buy: -1
         sell: 20.09
         slot: 14
       '331':
-        material: MANGROVE_STAIRS
+        material: PALE_OAK_STAIRS
         buy: -1
         sell: 20.09
         slot: 15
       '332':
-        material: CRIMSON_STAIRS
+        material: MANGROVE_STAIRS
         buy: -1
         sell: 20.09
         slot: 16
       '333':
-        material: WARPED_STAIRS
+        material: CRIMSON_STAIRS
         buy: -1
         sell: 20.09
         slot: 17
       '334':
+        material: WARPED_STAIRS
+        buy: -1
+        sell: 20.09
+        slot: 18
+      '335':
         material: BEACON
         buy: -1
         sell: 28703.57
-        slot: 18
-      '335':
+        slot: 19
+      '336':
         material: COBBLESTONE_WALL
         buy: -1
         sell: 13.5
-        slot: 19
-      '336':
+        slot: 20
+      '337':
         material: MOSSY_COBBLESTONE_WALL
         buy: -1
         sell: 24.21
-        slot: 20
-      '337':
+        slot: 21
+      '338':
         material: BRICK_WALL
         buy: -1
         sell: 42.86
-        slot: 21
-      '338':
+        slot: 22
+      '339':
         material: PRISMARINE_WALL
         buy: -1
         sell: 152.79
-        slot: 22
-      '339':
+        slot: 23
+      '340':
         material: RED_SANDSTONE_WALL
         buy: -1
         sell: 42.86
-        slot: 23
-      '340':
+        slot: 24
+      '341':
         material: MOSSY_STONE_BRICK_WALL
         buy: -1
         sell: 85.71
-        slot: 24
-      '341':
+        slot: 25
+      '342':
         material: GRANITE_WALL
         buy: -1
         sell: 43.5
-        slot: 25
-      '342':
+        slot: 26
+      '343':
         material: STONE_BRICK_WALL
         buy: -1
         sell: 75
-        slot: 26
-      '343':
+        slot: 27
+      '344':
         material: MUD_BRICK_WALL
         buy: -1
         sell: 51.07
-        slot: 27
-      '344':
+        slot: 28
+      '345':
         material: NETHER_BRICK_WALL
         buy: -1
         sell: 42.86
-        slot: 28
-      '345':
+        slot: 29
+      '346':
         material: ANDESITE_WALL
         buy: -1
         sell: 21
-        slot: 29
-      '346':
+        slot: 30
+      '347':
         material: RED_NETHER_BRICK_WALL
         buy: -1
         sell: 117.43
-        slot: 30
-      '347':
+        slot: 31
+      '348':
         material: SANDSTONE_WALL
         buy: -1
         sell: 28.57
-        slot: 31
-      '348':
+        slot: 32
+      '349':
         material: END_STONE_BRICK_WALL
         buy: -1
         sell: 4
-        slot: 32
-      '349':
+        slot: 33
+      '350':
         material: DIORITE_WALL
         buy: -1
         sell: 28.5
-        slot: 33
-      '350':
-        material: BLACKSTONE_WALL
-        buy: -1
-        sell: 7.14
         slot: 34
       '351':
-        material: POLISHED_BLACKSTONE_WALL
+        material: BLACKSTONE_WALL
         buy: -1
         sell: 7.14
         slot: 35
       '352':
-        material: POLISHED_BLACKSTONE_BRICK_WALL
+        material: POLISHED_BLACKSTONE_WALL
         buy: -1
         sell: 7.14
         slot: 36
       '353':
-        material: COBBLED_DEEPSLATE_WALL
+        material: POLISHED_BLACKSTONE_BRICK_WALL
         buy: -1
-        sell: 3.57
+        sell: 7.14
         slot: 37
       '354':
-        material: POLISHED_DEEPSLATE_WALL
+        material: COBBLED_DEEPSLATE_WALL
         buy: -1
         sell: 3.57
         slot: 38
       '355':
-        material: DEEPSLATE_BRICK_WALL
+        material: POLISHED_DEEPSLATE_WALL
         buy: -1
         sell: 3.57
         slot: 39
       '356':
-        material: DEEPSLATE_TILE_WALL
+        material: DEEPSLATE_BRICK_WALL
         buy: -1
         sell: 3.57
         slot: 40
       '357':
+        material: DEEPSLATE_TILE_WALL
+        buy: -1
+        sell: 3.57
+        slot: 41
+      '358':
         material: ANVIL
         buy: -1
         sell: 664.29
-        slot: 41
-      '358':
+        slot: 42
+      '359':
         material: CHIPPED_ANVIL
         buy: -1
         sell: 714.29
-        slot: 42
-      '359':
+        slot: 43
+      '360':
         material: DAMAGED_ANVIL
         buy: -1
         sell: 357.14
-        slot: 43
-      '360':
-        material: CHISELED_QUARTZ_BLOCK
-        buy: -1
-        sell: 60
         slot: 44
   page9:
     gui-rows: 6
     items:
       '361':
-        material: QUARTZ_BLOCK
+        material: CHISELED_QUARTZ_BLOCK
         buy: -1
         sell: 60
         slot: 0
       '362':
-        material: QUARTZ_BRICKS
+        material: QUARTZ_BLOCK
         buy: -1
         sell: 60
         slot: 1
       '363':
-        material: QUARTZ_PILLAR
+        material: QUARTZ_BRICKS
         buy: -1
         sell: 60
         slot: 2
       '364':
+        material: QUARTZ_PILLAR
+        buy: -1
+        sell: 60
+        slot: 3
+      '365':
         material: QUARTZ_STAIRS
         buy: -1
         sell: 90
-        slot: 3
-      '365':
+        slot: 4
+      '366':
         material: WHITE_TERRACOTTA
         buy: -1
         sell: 22.19
-        slot: 4
-      '366':
+        slot: 5
+      '367':
         material: ORANGE_TERRACOTTA
         buy: -1
         sell: 22.99
-        slot: 5
-      '367':
+        slot: 6
+      '368':
         material: MAGENTA_TERRACOTTA
         buy: -1
         sell: 23.07
-        slot: 6
-      '368':
+        slot: 7
+      '369':
         material: LIGHT_BLUE_TERRACOTTA
         buy: -1
         sell: 22.92
-        slot: 7
-      '369':
+        slot: 8
+      '370':
         material: YELLOW_TERRACOTTA
         buy: -1
         sell: 22.77
-        slot: 8
-      '370':
+        slot: 9
+      '371':
         material: LIME_TERRACOTTA
         buy: -1
         sell: 23.25
-        slot: 9
-      '371':
+        slot: 10
+      '372':
         material: PINK_TERRACOTTA
         buy: -1
         sell: 22.7
-        slot: 10
-      '372':
+        slot: 11
+      '373':
         material: GRAY_TERRACOTTA
         buy: -1
         sell: 23.66
-        slot: 11
-      '373':
+        slot: 12
+      '374':
         material: LIGHT_GRAY_TERRACOTTA
         buy: -1
         sell: 22.92
-        slot: 12
-      '374':
+        slot: 13
+      '375':
         material: CYAN_TERRACOTTA
         buy: -1
         sell: 23.99
-        slot: 13
-      '375':
+        slot: 14
+      '376':
         material: PURPLE_TERRACOTTA
         buy: -1
         sell: 23.44
-        slot: 14
-      '376':
+        slot: 15
+      '377':
         material: BLUE_TERRACOTTA
         buy: -1
         sell: 23.66
-        slot: 15
-      '377':
+        slot: 16
+      '378':
         material: BROWN_TERRACOTTA
         buy: -1
         sell: 30.36
-        slot: 16
-      '378':
+        slot: 17
+      '379':
         material: GREEN_TERRACOTTA
         buy: -1
         sell: 24.32
-        slot: 17
-      '379':
+        slot: 18
+      '380':
         material: RED_TERRACOTTA
         buy: -1
         sell: 23.21
-        slot: 18
-      '380':
+        slot: 19
+      '381':
         material: BLACK_TERRACOTTA
         buy: -1
         sell: 30.36
-        slot: 19
-      '381':
+        slot: 20
+      '382':
         material: WHITE_CARPET
         buy: -1
         sell: 34.86
-        slot: 20
-      '382':
-        material: ORANGE_CARPET
-        buy: -1
-        sell: 35.71
         slot: 21
       '383':
-        material: MAGENTA_CARPET
+        material: ORANGE_CARPET
         buy: -1
         sell: 35.71
         slot: 22
       '384':
-        material: LIGHT_BLUE_CARPET
+        material: MAGENTA_CARPET
         buy: -1
         sell: 35.71
         slot: 23
       '385':
-        material: YELLOW_CARPET
+        material: LIGHT_BLUE_CARPET
         buy: -1
         sell: 35.71
         slot: 24
       '386':
-        material: LIME_CARPET
+        material: YELLOW_CARPET
         buy: -1
         sell: 35.71
         slot: 25
       '387':
-        material: PINK_CARPET
+        material: LIME_CARPET
         buy: -1
         sell: 35.71
         slot: 26
       '388':
-        material: GRAY_CARPET
+        material: PINK_CARPET
         buy: -1
         sell: 35.71
         slot: 27
       '389':
-        material: LIGHT_GRAY_CARPET
+        material: GRAY_CARPET
         buy: -1
         sell: 35.71
         slot: 28
       '390':
-        material: CYAN_CARPET
+        material: LIGHT_GRAY_CARPET
         buy: -1
         sell: 35.71
         slot: 29
       '391':
-        material: PURPLE_CARPET
+        material: CYAN_CARPET
         buy: -1
         sell: 35.71
         slot: 30
       '392':
-        material: BLUE_CARPET
+        material: PURPLE_CARPET
         buy: -1
         sell: 35.71
         slot: 31
       '393':
-        material: BROWN_CARPET
+        material: BLUE_CARPET
         buy: -1
         sell: 35.71
         slot: 32
       '394':
-        material: GREEN_CARPET
+        material: BROWN_CARPET
         buy: -1
         sell: 35.71
         slot: 33
       '395':
-        material: RED_CARPET
+        material: GREEN_CARPET
         buy: -1
         sell: 35.71
         slot: 34
       '396':
-        material: BLACK_CARPET
+        material: RED_CARPET
         buy: -1
         sell: 35.71
         slot: 35
       '397':
+        material: BLACK_CARPET
+        buy: -1
+        sell: 35.71
+        slot: 36
+      '398':
         material: TERRACOTTA
         buy: -1
         sell: 21.43
-        slot: 36
-      '398':
+        slot: 37
+      '399':
         material: PACKED_ICE
         buy: -1
         sell: 96.43
-        slot: 37
-      '399':
-        material: TALL_GRASS
-        buy: -1
-        sell: 17.86
         slot: 38
       '400':
-        material: LARGE_FERN
+        material: TALL_GRASS
         buy: -1
         sell: 17.86
         slot: 39
       '401':
+        material: LARGE_FERN
+        buy: -1
+        sell: 17.86
+        slot: 40
+      '402':
         material: WHITE_STAINED_GLASS
         buy: -1
         sell: 11.47
-        slot: 40
-      '402':
+        slot: 41
+      '403':
         material: ORANGE_STAINED_GLASS
         buy: -1
         sell: 12.28
-        slot: 41
-      '403':
+        slot: 42
+      '404':
         material: MAGENTA_STAINED_GLASS
         buy: -1
         sell: 12.35
-        slot: 42
-      '404':
+        slot: 43
+      '405':
         material: LIGHT_BLUE_STAINED_GLASS
         buy: -1
         sell: 12.21
-        slot: 43
-      '405':
-        material: YELLOW_STAINED_GLASS
-        buy: -1
-        sell: 12.05
         slot: 44
   page10:
     gui-rows: 6
     items:
       '406':
+        material: YELLOW_STAINED_GLASS
+        buy: -1
+        sell: 12.05
+        slot: 0
+      '407':
         material: LIME_STAINED_GLASS
         buy: -1
         sell: 12.54
-        slot: 0
-      '407':
+        slot: 1
+      '408':
         material: PINK_STAINED_GLASS
         buy: -1
         sell: 11.99
-        slot: 1
-      '408':
+        slot: 2
+      '409':
         material: GRAY_STAINED_GLASS
         buy: -1
         sell: 12.95
-        slot: 2
-      '409':
+        slot: 3
+      '410':
         material: LIGHT_GRAY_STAINED_GLASS
         buy: -1
         sell: 12.21
-        slot: 3
-      '410':
+        slot: 4
+      '411':
         material: CYAN_STAINED_GLASS
         buy: -1
         sell: 13.28
-        slot: 4
-      '411':
+        slot: 5
+      '412':
         material: PURPLE_STAINED_GLASS
         buy: -1
         sell: 12.72
-        slot: 5
-      '412':
+        slot: 6
+      '413':
         material: BLUE_STAINED_GLASS
         buy: -1
         sell: 12.95
-        slot: 6
-      '413':
+        slot: 7
+      '414':
         material: BROWN_STAINED_GLASS
         buy: -1
         sell: 19.64
-        slot: 7
-      '414':
+        slot: 8
+      '415':
         material: GREEN_STAINED_GLASS
         buy: -1
         sell: 13.61
-        slot: 8
-      '415':
+        slot: 9
+      '416':
         material: RED_STAINED_GLASS
         buy: -1
         sell: 12.5
-        slot: 9
-      '416':
+        slot: 10
+      '417':
         material: BLACK_STAINED_GLASS
         buy: -1
         sell: 19.64
-        slot: 10
-      '417':
+        slot: 11
+      '418':
         material: WHITE_STAINED_GLASS_PANE
         buy: -1
         sell: 4.3
-        slot: 11
-      '418':
+        slot: 12
+      '419':
         material: ORANGE_STAINED_GLASS_PANE
         buy: -1
         sell: 4.6
-        slot: 12
-      '419':
+        slot: 13
+      '420':
         material: MAGENTA_STAINED_GLASS_PANE
         buy: -1
         sell: 4.63
-        slot: 13
-      '420':
+        slot: 14
+      '421':
         material: LIGHT_BLUE_STAINED_GLASS_PANE
         buy: -1
         sell: 4.58
-        slot: 14
-      '421':
+        slot: 15
+      '422':
         material: YELLOW_STAINED_GLASS_PANE
         buy: -1
         sell: 4.52
-        slot: 15
-      '422':
+        slot: 16
+      '423':
         material: LIME_STAINED_GLASS_PANE
         buy: -1
         sell: 4.7
-        slot: 16
-      '423':
+        slot: 17
+      '424':
         material: PINK_STAINED_GLASS_PANE
         buy: -1
         sell: 4.49
-        slot: 17
-      '424':
+        slot: 18
+      '425':
         material: GRAY_STAINED_GLASS_PANE
         buy: -1
         sell: 4.85
-        slot: 18
-      '425':
+        slot: 19
+      '426':
         material: LIGHT_GRAY_STAINED_GLASS_PANE
         buy: -1
         sell: 4.58
-        slot: 19
-      '426':
+        slot: 20
+      '427':
         material: CYAN_STAINED_GLASS_PANE
         buy: -1
         sell: 4.98
-        slot: 20
-      '427':
+        slot: 21
+      '428':
         material: PURPLE_STAINED_GLASS_PANE
         buy: -1
         sell: 4.77
-        slot: 21
-      '428':
+        slot: 22
+      '429':
         material: BLUE_STAINED_GLASS_PANE
         buy: -1
         sell: 4.85
-        slot: 22
-      '429':
+        slot: 23
+      '430':
         material: BROWN_STAINED_GLASS_PANE
         buy: -1
         sell: 7.37
-        slot: 23
-      '430':
+        slot: 24
+      '431':
         material: GREEN_STAINED_GLASS_PANE
         buy: -1
         sell: 5.1
-        slot: 24
-      '431':
+        slot: 25
+      '432':
         material: RED_STAINED_GLASS_PANE
         buy: -1
         sell: 4.69
-        slot: 25
-      '432':
+        slot: 26
+      '433':
         material: BLACK_STAINED_GLASS_PANE
         buy: -1
         sell: 7.37
-        slot: 26
-      '433':
+        slot: 27
+      '434':
         material: PRISMARINE
         buy: -1
         sell: 152.79
-        slot: 27
-      '434':
+        slot: 28
+      '435':
         material: PRISMARINE_BRICKS
         buy: -1
         sell: 844.71
-        slot: 28
-      '435':
+        slot: 29
+      '436':
         material: DARK_PRISMARINE
         buy: -1
         sell: 822.29
-        slot: 29
-      '436':
+        slot: 30
+      '437':
         material: PRISMARINE_STAIRS
         buy: -1
         sell: 229.18
-        slot: 30
-      '437':
+        slot: 31
+      '438':
         material: PRISMARINE_BRICK_STAIRS
         buy: -1
         sell: 1267.07
-        slot: 31
-      '438':
+        slot: 32
+      '439':
         material: DARK_PRISMARINE_STAIRS
         buy: -1
         sell: 1233.43
-        slot: 32
-      '439':
+        slot: 33
+      '440':
         material: SEA_LANTERN
         buy: -1
         sell: 257.14
-        slot: 33
-      '440':
-        material: RED_SANDSTONE
-        buy: -1
-        sell: 42.86
         slot: 34
       '441':
-        material: CHISELED_RED_SANDSTONE
+        material: RED_SANDSTONE
         buy: -1
         sell: 42.86
         slot: 35
       '442':
-        material: CUT_RED_SANDSTONE
+        material: CHISELED_RED_SANDSTONE
         buy: -1
         sell: 42.86
         slot: 36
       '443':
+        material: CUT_RED_SANDSTONE
+        buy: -1
+        sell: 42.86
+        slot: 37
+      '444':
         material: RED_SANDSTONE_STAIRS
         buy: -1
         sell: 64.29
-        slot: 37
-      '444':
+        slot: 38
+      '445':
         material: WARPED_WART_BLOCK
         buy: -1
         sell: 17.86
-        slot: 38
-      '445':
+        slot: 39
+      '446':
         material: RED_NETHER_BRICKS
         buy: -1
         sell: 117.43
-        slot: 39
-      '446':
-        material: WHITE_SHULKER_BOX
-        buy: -1
-        sell: 1111.29
         slot: 40
       '447':
-        material: ORANGE_SHULKER_BOX
+        material: WHITE_SHULKER_BOX
         buy: -1
         sell: 1111.29
         slot: 41
       '448':
-        material: MAGENTA_SHULKER_BOX
+        material: ORANGE_SHULKER_BOX
         buy: -1
         sell: 1111.29
         slot: 42
       '449':
-        material: LIGHT_BLUE_SHULKER_BOX
+        material: MAGENTA_SHULKER_BOX
         buy: -1
         sell: 1111.29
         slot: 43
       '450':
-        material: YELLOW_SHULKER_BOX
+        material: LIGHT_BLUE_SHULKER_BOX
         buy: -1
         sell: 1111.29
         slot: 44
@@ -2285,455 +2285,455 @@ pages:
     gui-rows: 6
     items:
       '451':
-        material: LIME_SHULKER_BOX
+        material: YELLOW_SHULKER_BOX
         buy: -1
         sell: 1111.29
         slot: 0
       '452':
-        material: PINK_SHULKER_BOX
+        material: LIME_SHULKER_BOX
         buy: -1
         sell: 1111.29
         slot: 1
       '453':
-        material: GRAY_SHULKER_BOX
+        material: PINK_SHULKER_BOX
         buy: -1
         sell: 1111.29
         slot: 2
       '454':
-        material: LIGHT_GRAY_SHULKER_BOX
+        material: GRAY_SHULKER_BOX
         buy: -1
         sell: 1111.29
         slot: 3
       '455':
-        material: CYAN_SHULKER_BOX
+        material: LIGHT_GRAY_SHULKER_BOX
         buy: -1
         sell: 1111.29
         slot: 4
       '456':
-        material: PURPLE_SHULKER_BOX
+        material: CYAN_SHULKER_BOX
         buy: -1
         sell: 1111.29
         slot: 5
       '457':
-        material: BLUE_SHULKER_BOX
+        material: PURPLE_SHULKER_BOX
         buy: -1
         sell: 1111.29
         slot: 6
       '458':
-        material: BROWN_SHULKER_BOX
+        material: BLUE_SHULKER_BOX
         buy: -1
         sell: 1111.29
         slot: 7
       '459':
-        material: GREEN_SHULKER_BOX
+        material: BROWN_SHULKER_BOX
         buy: -1
         sell: 1111.29
         slot: 8
       '460':
-        material: RED_SHULKER_BOX
+        material: GREEN_SHULKER_BOX
         buy: -1
         sell: 1111.29
         slot: 9
       '461':
-        material: BLACK_SHULKER_BOX
+        material: RED_SHULKER_BOX
         buy: -1
         sell: 1111.29
         slot: 10
       '462':
-        material: WHITE_GLAZED_TERRACOTTA
+        material: BLACK_SHULKER_BOX
         buy: -1
-        sell: 28.57
+        sell: 1111.29
         slot: 11
       '463':
-        material: ORANGE_GLAZED_TERRACOTTA
+        material: WHITE_GLAZED_TERRACOTTA
         buy: -1
         sell: 28.57
         slot: 12
       '464':
-        material: MAGENTA_GLAZED_TERRACOTTA
+        material: ORANGE_GLAZED_TERRACOTTA
         buy: -1
         sell: 28.57
         slot: 13
       '465':
-        material: LIGHT_BLUE_GLAZED_TERRACOTTA
+        material: MAGENTA_GLAZED_TERRACOTTA
         buy: -1
         sell: 28.57
         slot: 14
       '466':
-        material: YELLOW_GLAZED_TERRACOTTA
+        material: LIGHT_BLUE_GLAZED_TERRACOTTA
         buy: -1
         sell: 28.57
         slot: 15
       '467':
-        material: LIME_GLAZED_TERRACOTTA
+        material: YELLOW_GLAZED_TERRACOTTA
         buy: -1
         sell: 28.57
         slot: 16
       '468':
-        material: PINK_GLAZED_TERRACOTTA
+        material: LIME_GLAZED_TERRACOTTA
         buy: -1
         sell: 28.57
         slot: 17
       '469':
-        material: GRAY_GLAZED_TERRACOTTA
+        material: PINK_GLAZED_TERRACOTTA
         buy: -1
         sell: 28.57
         slot: 18
       '470':
-        material: LIGHT_GRAY_GLAZED_TERRACOTTA
+        material: GRAY_GLAZED_TERRACOTTA
         buy: -1
         sell: 28.57
         slot: 19
       '471':
-        material: CYAN_GLAZED_TERRACOTTA
+        material: LIGHT_GRAY_GLAZED_TERRACOTTA
         buy: -1
         sell: 28.57
         slot: 20
       '472':
-        material: PURPLE_GLAZED_TERRACOTTA
+        material: CYAN_GLAZED_TERRACOTTA
         buy: -1
         sell: 28.57
         slot: 21
       '473':
-        material: BLUE_GLAZED_TERRACOTTA
+        material: PURPLE_GLAZED_TERRACOTTA
         buy: -1
         sell: 28.57
         slot: 22
       '474':
-        material: BROWN_GLAZED_TERRACOTTA
+        material: BLUE_GLAZED_TERRACOTTA
         buy: -1
         sell: 28.57
         slot: 23
       '475':
-        material: GREEN_GLAZED_TERRACOTTA
+        material: BROWN_GLAZED_TERRACOTTA
         buy: -1
         sell: 28.57
         slot: 24
       '476':
-        material: RED_GLAZED_TERRACOTTA
+        material: GREEN_GLAZED_TERRACOTTA
         buy: -1
         sell: 28.57
         slot: 25
       '477':
-        material: BLACK_GLAZED_TERRACOTTA
+        material: RED_GLAZED_TERRACOTTA
         buy: -1
         sell: 28.57
         slot: 26
       '478':
-        material: WHITE_CONCRETE
+        material: BLACK_GLAZED_TERRACOTTA
         buy: -1
-        sell: 21.43
+        sell: 28.57
         slot: 27
       '479':
-        material: ORANGE_CONCRETE
+        material: WHITE_CONCRETE
         buy: -1
         sell: 21.43
         slot: 28
       '480':
-        material: MAGENTA_CONCRETE
+        material: ORANGE_CONCRETE
         buy: -1
         sell: 21.43
         slot: 29
       '481':
-        material: LIGHT_BLUE_CONCRETE
+        material: MAGENTA_CONCRETE
         buy: -1
         sell: 21.43
         slot: 30
       '482':
-        material: YELLOW_CONCRETE
+        material: LIGHT_BLUE_CONCRETE
         buy: -1
         sell: 21.43
         slot: 31
       '483':
-        material: LIME_CONCRETE
+        material: YELLOW_CONCRETE
         buy: -1
         sell: 21.43
         slot: 32
       '484':
-        material: PINK_CONCRETE
+        material: LIME_CONCRETE
         buy: -1
         sell: 21.43
         slot: 33
       '485':
-        material: GRAY_CONCRETE
+        material: PINK_CONCRETE
         buy: -1
         sell: 21.43
         slot: 34
       '486':
-        material: LIGHT_GRAY_CONCRETE
+        material: GRAY_CONCRETE
         buy: -1
         sell: 21.43
         slot: 35
       '487':
-        material: CYAN_CONCRETE
+        material: LIGHT_GRAY_CONCRETE
         buy: -1
         sell: 21.43
         slot: 36
       '488':
-        material: PURPLE_CONCRETE
+        material: CYAN_CONCRETE
         buy: -1
         sell: 21.43
         slot: 37
       '489':
-        material: BLUE_CONCRETE
+        material: PURPLE_CONCRETE
         buy: -1
         sell: 21.43
         slot: 38
       '490':
-        material: BROWN_CONCRETE
+        material: BLUE_CONCRETE
         buy: -1
         sell: 21.43
         slot: 39
       '491':
-        material: GREEN_CONCRETE
+        material: BROWN_CONCRETE
         buy: -1
         sell: 21.43
         slot: 40
       '492':
-        material: RED_CONCRETE
+        material: GREEN_CONCRETE
         buy: -1
         sell: 21.43
         slot: 41
       '493':
-        material: BLACK_CONCRETE
+        material: RED_CONCRETE
         buy: -1
         sell: 21.43
         slot: 42
       '494':
+        material: BLACK_CONCRETE
+        buy: -1
+        sell: 21.43
+        slot: 43
+      '495':
         material: WHITE_CONCRETE_POWDER
         buy: -1
         sell: 7.9
-        slot: 43
-      '495':
-        material: ORANGE_CONCRETE_POWDER
-        buy: -1
-        sell: 8.71
         slot: 44
   page12:
     gui-rows: 6
     items:
       '496':
+        material: ORANGE_CONCRETE_POWDER
+        buy: -1
+        sell: 8.71
+        slot: 0
+      '497':
         material: MAGENTA_CONCRETE_POWDER
         buy: -1
         sell: 8.78
-        slot: 0
-      '497':
+        slot: 1
+      '498':
         material: LIGHT_BLUE_CONCRETE_POWDER
         buy: -1
         sell: 8.64
-        slot: 1
-      '498':
+        slot: 2
+      '499':
         material: YELLOW_CONCRETE_POWDER
         buy: -1
         sell: 8.48
-        slot: 2
-      '499':
+        slot: 3
+      '500':
         material: LIME_CONCRETE_POWDER
         buy: -1
         sell: 8.97
-        slot: 3
-      '500':
+        slot: 4
+      '501':
         material: PINK_CONCRETE_POWDER
         buy: -1
         sell: 8.42
-        slot: 4
-      '501':
+        slot: 5
+      '502':
         material: GRAY_CONCRETE_POWDER
         buy: -1
         sell: 9.38
-        slot: 5
-      '502':
+        slot: 6
+      '503':
         material: LIGHT_GRAY_CONCRETE_POWDER
         buy: -1
         sell: 8.64
-        slot: 6
-      '503':
+        slot: 7
+      '504':
         material: CYAN_CONCRETE_POWDER
         buy: -1
         sell: 9.71
-        slot: 7
-      '504':
+        slot: 8
+      '505':
         material: PURPLE_CONCRETE_POWDER
         buy: -1
         sell: 9.15
-        slot: 8
-      '505':
+        slot: 9
+      '506':
         material: BLUE_CONCRETE_POWDER
         buy: -1
         sell: 9.38
-        slot: 9
-      '506':
+        slot: 10
+      '507':
         material: BROWN_CONCRETE_POWDER
         buy: -1
         sell: 16.07
-        slot: 10
-      '507':
+        slot: 11
+      '508':
         material: GREEN_CONCRETE_POWDER
         buy: -1
         sell: 10.04
-        slot: 11
-      '508':
+        slot: 12
+      '509':
         material: RED_CONCRETE_POWDER
         buy: -1
         sell: 8.93
-        slot: 12
-      '509':
+        slot: 13
+      '510':
         material: BLACK_CONCRETE_POWDER
         buy: -1
         sell: 16.07
-        slot: 13
-      '510':
+        slot: 14
+      '511':
         material: DRIED_GHAST
         buy: -1
         sell: 1071.43
-        slot: 14
-      '511':
-        material: DEAD_TUBE_CORAL_BLOCK
-        buy: -1
-        sell: 10.71
         slot: 15
       '512':
-        material: DEAD_BRAIN_CORAL_BLOCK
+        material: DEAD_TUBE_CORAL_BLOCK
         buy: -1
         sell: 10.71
         slot: 16
       '513':
-        material: DEAD_BUBBLE_CORAL_BLOCK
+        material: DEAD_BRAIN_CORAL_BLOCK
         buy: -1
         sell: 10.71
         slot: 17
       '514':
-        material: DEAD_FIRE_CORAL_BLOCK
+        material: DEAD_BUBBLE_CORAL_BLOCK
         buy: -1
         sell: 10.71
         slot: 18
       '515':
-        material: DEAD_HORN_CORAL_BLOCK
+        material: DEAD_FIRE_CORAL_BLOCK
         buy: -1
         sell: 10.71
         slot: 19
       '516':
-        material: TUBE_CORAL_BLOCK
+        material: DEAD_HORN_CORAL_BLOCK
         buy: -1
-        sell: 53.57
+        sell: 10.71
         slot: 20
       '517':
-        material: BRAIN_CORAL_BLOCK
+        material: TUBE_CORAL_BLOCK
         buy: -1
         sell: 53.57
         slot: 21
       '518':
-        material: BUBBLE_CORAL_BLOCK
+        material: BRAIN_CORAL_BLOCK
         buy: -1
         sell: 53.57
         slot: 22
       '519':
-        material: FIRE_CORAL_BLOCK
+        material: BUBBLE_CORAL_BLOCK
         buy: -1
         sell: 53.57
         slot: 23
       '520':
-        material: HORN_CORAL_BLOCK
+        material: FIRE_CORAL_BLOCK
         buy: -1
         sell: 53.57
         slot: 24
       '521':
-        material: TUBE_CORAL
+        material: HORN_CORAL_BLOCK
         buy: -1
-        sell: 28.57
+        sell: 53.57
         slot: 25
       '522':
-        material: BRAIN_CORAL
+        material: TUBE_CORAL
         buy: -1
         sell: 28.57
         slot: 26
       '523':
-        material: BUBBLE_CORAL
+        material: BRAIN_CORAL
         buy: -1
         sell: 28.57
         slot: 27
       '524':
-        material: FIRE_CORAL
+        material: BUBBLE_CORAL
         buy: -1
         sell: 28.57
         slot: 28
       '525':
-        material: HORN_CORAL
+        material: FIRE_CORAL
         buy: -1
         sell: 28.57
         slot: 29
       '526':
-        material: DEAD_BRAIN_CORAL
+        material: HORN_CORAL
         buy: -1
-        sell: 10.71
+        sell: 28.57
         slot: 30
       '527':
-        material: DEAD_BUBBLE_CORAL
+        material: DEAD_BRAIN_CORAL
         buy: -1
         sell: 10.71
         slot: 31
       '528':
-        material: DEAD_FIRE_CORAL
+        material: DEAD_BUBBLE_CORAL
         buy: -1
         sell: 10.71
         slot: 32
       '529':
-        material: DEAD_HORN_CORAL
+        material: DEAD_FIRE_CORAL
         buy: -1
         sell: 10.71
         slot: 33
       '530':
-        material: DEAD_TUBE_CORAL
+        material: DEAD_HORN_CORAL
         buy: -1
         sell: 10.71
         slot: 34
       '531':
-        material: TUBE_CORAL_FAN
+        material: DEAD_TUBE_CORAL
         buy: -1
-        sell: 28.57
+        sell: 10.71
         slot: 35
       '532':
-        material: BRAIN_CORAL_FAN
+        material: TUBE_CORAL_FAN
         buy: -1
         sell: 28.57
         slot: 36
       '533':
-        material: BUBBLE_CORAL_FAN
+        material: BRAIN_CORAL_FAN
         buy: -1
         sell: 28.57
         slot: 37
       '534':
-        material: FIRE_CORAL_FAN
+        material: BUBBLE_CORAL_FAN
         buy: -1
         sell: 28.57
         slot: 38
       '535':
-        material: HORN_CORAL_FAN
+        material: FIRE_CORAL_FAN
         buy: -1
         sell: 28.57
         slot: 39
       '536':
-        material: DEAD_TUBE_CORAL_FAN
+        material: HORN_CORAL_FAN
         buy: -1
-        sell: 10.71
+        sell: 28.57
         slot: 40
       '537':
-        material: DEAD_BRAIN_CORAL_FAN
+        material: DEAD_TUBE_CORAL_FAN
         buy: -1
         sell: 10.71
         slot: 41
       '538':
-        material: DEAD_BUBBLE_CORAL_FAN
+        material: DEAD_BRAIN_CORAL_FAN
         buy: -1
         sell: 10.71
         slot: 42
       '539':
-        material: DEAD_FIRE_CORAL_FAN
+        material: DEAD_BUBBLE_CORAL_FAN
         buy: -1
         sell: 10.71
         slot: 43
       '540':
-        material: DEAD_HORN_CORAL_FAN
+        material: DEAD_FIRE_CORAL_FAN
         buy: -1
         sell: 10.71
         slot: 44
@@ -2741,227 +2741,227 @@ pages:
     gui-rows: 6
     items:
       '541':
+        material: DEAD_HORN_CORAL_FAN
+        buy: -1
+        sell: 10.71
+        slot: 0
+      '542':
         material: BLUE_ICE
         buy: -1
         sell: 867.86
-        slot: 0
-      '542':
+        slot: 1
+      '543':
         material: CONDUIT
         buy: -1
         sell: 46428.57
-        slot: 1
-      '543':
+        slot: 2
+      '544':
         material: POLISHED_GRANITE_STAIRS
         buy: -1
         sell: 65.25
-        slot: 2
-      '544':
+        slot: 3
+      '545':
         material: SMOOTH_RED_SANDSTONE_STAIRS
         buy: -1
         sell: 53.57
-        slot: 3
-      '545':
+        slot: 4
+      '546':
         material: MOSSY_STONE_BRICK_STAIRS
         buy: -1
         sell: 128.57
-        slot: 4
-      '546':
+        slot: 5
+      '547':
         material: POLISHED_DIORITE_STAIRS
         buy: -1
         sell: 42.75
-        slot: 5
-      '547':
+        slot: 6
+      '548':
         material: MOSSY_COBBLESTONE_STAIRS
         buy: -1
         sell: 36.32
-        slot: 6
-      '548':
+        slot: 7
+      '549':
         material: END_STONE_BRICK_STAIRS
         buy: -1
         sell: 6
-        slot: 7
-      '549':
+        slot: 8
+      '550':
         material: STONE_STAIRS
         buy: -1
         sell: 112.5
-        slot: 8
-      '550':
+        slot: 9
+      '551':
         material: SMOOTH_SANDSTONE_STAIRS
         buy: -1
         sell: 42.86
-        slot: 9
-      '551':
+        slot: 10
+      '552':
         material: SMOOTH_QUARTZ_STAIRS
         buy: -1
         sell: 348.21
-        slot: 10
-      '552':
+        slot: 11
+      '553':
         material: GRANITE_STAIRS
         buy: -1
         sell: 65.25
-        slot: 11
-      '553':
+        slot: 12
+      '554':
         material: ANDESITE_STAIRS
         buy: -1
         sell: 31.5
-        slot: 12
-      '554':
+        slot: 13
+      '555':
         material: RED_NETHER_BRICK_STAIRS
         buy: -1
         sell: 176.14
-        slot: 13
-      '555':
+        slot: 14
+      '556':
         material: POLISHED_ANDESITE_STAIRS
         buy: -1
         sell: 31.5
-        slot: 14
-      '556':
+        slot: 15
+      '557':
         material: DIORITE_STAIRS
         buy: -1
         sell: 42.75
-        slot: 15
-      '557':
-        material: COBBLED_DEEPSLATE_STAIRS
-        buy: -1
-        sell: 5.36
         slot: 16
       '558':
-        material: POLISHED_DEEPSLATE_STAIRS
+        material: COBBLED_DEEPSLATE_STAIRS
         buy: -1
         sell: 5.36
         slot: 17
       '559':
-        material: DEEPSLATE_BRICK_STAIRS
+        material: POLISHED_DEEPSLATE_STAIRS
         buy: -1
         sell: 5.36
         slot: 18
       '560':
-        material: DEEPSLATE_TILE_STAIRS
+        material: DEEPSLATE_BRICK_STAIRS
         buy: -1
         sell: 5.36
         slot: 19
       '561':
+        material: DEEPSLATE_TILE_STAIRS
+        buy: -1
+        sell: 5.36
+        slot: 20
+      '562':
         material: POLISHED_GRANITE_SLAB
         buy: -1
         sell: 21.75
-        slot: 20
-      '562':
+        slot: 21
+      '563':
         material: SMOOTH_RED_SANDSTONE_SLAB
         buy: -1
         sell: 17.86
-        slot: 21
-      '563':
+        slot: 22
+      '564':
         material: MOSSY_STONE_BRICK_SLAB
         buy: -1
         sell: 42.86
-        slot: 22
-      '564':
+        slot: 23
+      '565':
         material: POLISHED_DIORITE_SLAB
         buy: -1
         sell: 14.25
-        slot: 23
-      '565':
+        slot: 24
+      '566':
         material: MOSSY_COBBLESTONE_SLAB
         buy: -1
         sell: 12.11
-        slot: 24
-      '566':
+        slot: 25
+      '567':
         material: END_STONE_BRICK_SLAB
         buy: -1
         sell: 2
-        slot: 25
-      '567':
+        slot: 26
+      '568':
         material: SMOOTH_SANDSTONE_SLAB
         buy: -1
         sell: 14.29
-        slot: 26
-      '568':
+        slot: 27
+      '569':
         material: SMOOTH_QUARTZ_SLAB
         buy: -1
         sell: 116.07
-        slot: 27
-      '569':
+        slot: 28
+      '570':
         material: GRANITE_SLAB
         buy: -1
         sell: 21.75
-        slot: 28
-      '570':
+        slot: 29
+      '571':
         material: ANDESITE_SLAB
         buy: -1
         sell: 10.5
-        slot: 29
-      '571':
+        slot: 30
+      '572':
         material: RED_NETHER_BRICK_SLAB
         buy: -1
         sell: 58.71
-        slot: 30
-      '572':
+        slot: 31
+      '573':
         material: POLISHED_ANDESITE_SLAB
         buy: -1
         sell: 10.5
-        slot: 31
-      '573':
+        slot: 32
+      '574':
         material: DIORITE_SLAB
         buy: -1
         sell: 14.25
-        slot: 32
-      '574':
-        material: COBBLED_DEEPSLATE_SLAB
-        buy: -1
-        sell: 1.79
         slot: 33
       '575':
-        material: POLISHED_DEEPSLATE_SLAB
+        material: COBBLED_DEEPSLATE_SLAB
         buy: -1
         sell: 1.79
         slot: 34
       '576':
-        material: DEEPSLATE_BRICK_SLAB
+        material: POLISHED_DEEPSLATE_SLAB
         buy: -1
         sell: 1.79
         slot: 35
       '577':
-        material: DEEPSLATE_TILE_SLAB
+        material: DEEPSLATE_BRICK_SLAB
         buy: -1
         sell: 1.79
         slot: 36
       '578':
+        material: DEEPSLATE_TILE_SLAB
+        buy: -1
+        sell: 1.79
+        slot: 37
+      '579':
         material: SCAFFOLDING
         buy: -1
         sell: 30.75
-        slot: 37
-      '579':
+        slot: 38
+      '580':
         material: LECTERN
         buy: -1
         sell: 548.36
-        slot: 38
-      '580':
+        slot: 39
+      '581':
         material: IRON_DOOR
         buy: -1
         sell: 42.86
-        slot: 39
-      '581':
+        slot: 40
+      '582':
         material: OAK_DOOR
         buy: -1
         sell: 77.68
-        slot: 40
-      '582':
+        slot: 41
+      '583':
         material: SPRUCE_DOOR
         buy: -1
         sell: 9.96
-        slot: 41
-      '583':
-        material: BIRCH_DOOR
-        buy: -1
-        sell: 26.79
         slot: 42
       '584':
-        material: JUNGLE_DOOR
+        material: BIRCH_DOOR
         buy: -1
         sell: 26.79
         slot: 43
       '585':
-        material: ACACIA_DOOR
+        material: JUNGLE_DOOR
         buy: -1
         sell: 26.79
         slot: 44
@@ -2969,227 +2969,227 @@ pages:
     gui-rows: 6
     items:
       '586':
-        material: CHERRY_DOOR
+        material: ACACIA_DOOR
         buy: -1
         sell: 26.79
         slot: 0
       '587':
-        material: DARK_OAK_DOOR
+        material: CHERRY_DOOR
         buy: -1
         sell: 26.79
         slot: 1
       '588':
-        material: PALE_OAK_DOOR
+        material: DARK_OAK_DOOR
         buy: -1
         sell: 26.79
         slot: 2
       '589':
-        material: MANGROVE_DOOR
+        material: PALE_OAK_DOOR
         buy: -1
         sell: 26.79
         slot: 3
       '590':
-        material: CRIMSON_DOOR
+        material: MANGROVE_DOOR
         buy: -1
         sell: 26.79
         slot: 4
       '591':
-        material: WARPED_DOOR
+        material: CRIMSON_DOOR
         buy: -1
         sell: 26.79
         slot: 5
       '592':
-        material: COPPER_DOOR
+        material: WARPED_DOOR
         buy: -1
-        sell: 107.14
+        sell: 26.79
         slot: 6
       '593':
-        material: EXPOSED_COPPER_DOOR
+        material: COPPER_DOOR
         buy: -1
         sell: 107.14
         slot: 7
       '594':
-        material: WEATHERED_COPPER_DOOR
+        material: EXPOSED_COPPER_DOOR
         buy: -1
         sell: 107.14
         slot: 8
       '595':
-        material: OXIDIZED_COPPER_DOOR
+        material: WEATHERED_COPPER_DOOR
         buy: -1
         sell: 107.14
         slot: 9
       '596':
+        material: OXIDIZED_COPPER_DOOR
+        buy: -1
+        sell: 107.14
+        slot: 10
+      '597':
         material: WAXED_COPPER_DOOR
         buy: -1
         sell: 178.57
-        slot: 10
-      '597':
-        material: WAXED_EXPOSED_COPPER_DOOR
-        buy: -1
-        sell: 107.14
         slot: 11
       '598':
-        material: WAXED_WEATHERED_COPPER_DOOR
+        material: WAXED_EXPOSED_COPPER_DOOR
         buy: -1
         sell: 107.14
         slot: 12
       '599':
-        material: WAXED_OXIDIZED_COPPER_DOOR
+        material: WAXED_WEATHERED_COPPER_DOOR
         buy: -1
         sell: 107.14
         slot: 13
       '600':
+        material: WAXED_OXIDIZED_COPPER_DOOR
+        buy: -1
+        sell: 107.14
+        slot: 14
+      '601':
         material: IRON_TRAPDOOR
         buy: -1
         sell: 85.71
-        slot: 14
-      '601':
+        slot: 15
+      '602':
         material: OAK_TRAPDOOR
         buy: -1
         sell: 116.52
-        slot: 15
-      '602':
+        slot: 16
+      '603':
         material: SPRUCE_TRAPDOOR
         buy: -1
         sell: 14.95
-        slot: 16
-      '603':
-        material: BIRCH_TRAPDOOR
-        buy: -1
-        sell: 40.18
         slot: 17
       '604':
-        material: JUNGLE_TRAPDOOR
+        material: BIRCH_TRAPDOOR
         buy: -1
         sell: 40.18
         slot: 18
       '605':
-        material: ACACIA_TRAPDOOR
+        material: JUNGLE_TRAPDOOR
         buy: -1
         sell: 40.18
         slot: 19
       '606':
-        material: CHERRY_TRAPDOOR
+        material: ACACIA_TRAPDOOR
         buy: -1
         sell: 40.18
         slot: 20
       '607':
-        material: DARK_OAK_TRAPDOOR
+        material: CHERRY_TRAPDOOR
         buy: -1
         sell: 40.18
         slot: 21
       '608':
-        material: PALE_OAK_TRAPDOOR
+        material: DARK_OAK_TRAPDOOR
         buy: -1
         sell: 40.18
         slot: 22
       '609':
-        material: MANGROVE_TRAPDOOR
+        material: PALE_OAK_TRAPDOOR
         buy: -1
         sell: 40.18
         slot: 23
       '610':
-        material: CRIMSON_TRAPDOOR
+        material: MANGROVE_TRAPDOOR
         buy: -1
         sell: 40.18
         slot: 24
       '611':
-        material: WARPED_TRAPDOOR
+        material: CRIMSON_TRAPDOOR
         buy: -1
         sell: 40.18
         slot: 25
       '612':
-        material: COPPER_TRAPDOOR
+        material: WARPED_TRAPDOOR
         buy: -1
-        sell: 214.29
+        sell: 40.18
         slot: 26
       '613':
-        material: EXPOSED_COPPER_TRAPDOOR
+        material: COPPER_TRAPDOOR
         buy: -1
         sell: 214.29
         slot: 27
       '614':
-        material: WEATHERED_COPPER_TRAPDOOR
+        material: EXPOSED_COPPER_TRAPDOOR
         buy: -1
         sell: 214.29
         slot: 28
       '615':
-        material: OXIDIZED_COPPER_TRAPDOOR
+        material: WEATHERED_COPPER_TRAPDOOR
         buy: -1
         sell: 214.29
         slot: 29
       '616':
+        material: OXIDIZED_COPPER_TRAPDOOR
+        buy: -1
+        sell: 214.29
+        slot: 30
+      '617':
         material: WAXED_COPPER_TRAPDOOR
         buy: -1
         sell: 285.71
-        slot: 30
-      '617':
-        material: WAXED_EXPOSED_COPPER_TRAPDOOR
-        buy: -1
-        sell: 214.29
         slot: 31
       '618':
-        material: WAXED_WEATHERED_COPPER_TRAPDOOR
+        material: WAXED_EXPOSED_COPPER_TRAPDOOR
         buy: -1
         sell: 214.29
         slot: 32
       '619':
-        material: WAXED_OXIDIZED_COPPER_TRAPDOOR
+        material: WAXED_WEATHERED_COPPER_TRAPDOOR
         buy: -1
         sell: 214.29
         slot: 33
       '620':
+        material: WAXED_OXIDIZED_COPPER_TRAPDOOR
+        buy: -1
+        sell: 214.29
+        slot: 34
+      '621':
         material: OAK_FENCE_GATE
         buy: -1
         sell: 87.64
-        slot: 34
-      '621':
+        slot: 35
+      '622':
         material: SPRUCE_FENCE_GATE
         buy: -1
         sell: 19.93
-        slot: 35
-      '622':
-        material: BIRCH_FENCE_GATE
-        buy: -1
-        sell: 36.75
         slot: 36
       '623':
-        material: JUNGLE_FENCE_GATE
+        material: BIRCH_FENCE_GATE
         buy: -1
         sell: 36.75
         slot: 37
       '624':
-        material: ACACIA_FENCE_GATE
+        material: JUNGLE_FENCE_GATE
         buy: -1
         sell: 36.75
         slot: 38
       '625':
-        material: CHERRY_FENCE_GATE
+        material: ACACIA_FENCE_GATE
         buy: -1
         sell: 36.75
         slot: 39
       '626':
-        material: DARK_OAK_FENCE_GATE
+        material: CHERRY_FENCE_GATE
         buy: -1
         sell: 36.75
         slot: 40
       '627':
-        material: PALE_OAK_FENCE_GATE
+        material: DARK_OAK_FENCE_GATE
         buy: -1
         sell: 36.75
         slot: 41
       '628':
-        material: MANGROVE_FENCE_GATE
+        material: PALE_OAK_FENCE_GATE
         buy: -1
         sell: 36.75
         slot: 42
       '629':
-        material: CRIMSON_FENCE_GATE
+        material: MANGROVE_FENCE_GATE
         buy: -1
         sell: 36.75
         slot: 43
       '630':
-        material: WARPED_FENCE_GATE
+        material: CRIMSON_FENCE_GATE
         buy: -1
         sell: 36.75
         slot: 44
@@ -3197,911 +3197,911 @@ pages:
     gui-rows: 6
     items:
       '631':
+        material: WARPED_FENCE_GATE
+        buy: -1
+        sell: 36.75
+        slot: 0
+      '632':
         material: OAK_BOAT
         buy: -1
         sell: 194.2
-        slot: 0
-      '632':
+        slot: 1
+      '633':
         material: OAK_CHEST_BOAT
         buy: -1
         sell: 234.05
-        slot: 1
-      '633':
+        slot: 2
+      '634':
         material: SPRUCE_BOAT
         buy: -1
         sell: 24.91
-        slot: 2
-      '634':
+        slot: 3
+      '635':
         material: SPRUCE_CHEST_BOAT
         buy: -1
         sell: 64.77
-        slot: 3
-      '635':
+        slot: 4
+      '636':
         material: BIRCH_BOAT
         buy: -1
         sell: 66.96
-        slot: 4
-      '636':
+        slot: 5
+      '637':
         material: BIRCH_CHEST_BOAT
         buy: -1
         sell: 106.82
-        slot: 5
-      '637':
+        slot: 6
+      '638':
         material: JUNGLE_BOAT
         buy: -1
         sell: 66.96
-        slot: 6
-      '638':
+        slot: 7
+      '639':
         material: JUNGLE_CHEST_BOAT
         buy: -1
         sell: 106.82
-        slot: 7
-      '639':
+        slot: 8
+      '640':
         material: ACACIA_BOAT
         buy: -1
         sell: 66.96
-        slot: 8
-      '640':
+        slot: 9
+      '641':
         material: ACACIA_CHEST_BOAT
         buy: -1
         sell: 106.82
-        slot: 9
-      '641':
+        slot: 10
+      '642':
         material: CHERRY_BOAT
         buy: -1
         sell: 66.96
-        slot: 10
-      '642':
+        slot: 11
+      '643':
         material: CHERRY_CHEST_BOAT
         buy: -1
         sell: 106.82
-        slot: 11
-      '643':
+        slot: 12
+      '644':
         material: DARK_OAK_BOAT
         buy: -1
         sell: 66.96
-        slot: 12
-      '644':
+        slot: 13
+      '645':
         material: DARK_OAK_CHEST_BOAT
         buy: -1
         sell: 106.82
-        slot: 13
-      '645':
+        slot: 14
+      '646':
         material: PALE_OAK_BOAT
         buy: -1
         sell: 66.96
-        slot: 14
-      '646':
+        slot: 15
+      '647':
         material: PALE_OAK_CHEST_BOAT
         buy: -1
         sell: 106.82
-        slot: 15
-      '647':
+        slot: 16
+      '648':
         material: MANGROVE_BOAT
         buy: -1
         sell: 66.96
-        slot: 16
-      '648':
+        slot: 17
+      '649':
         material: MANGROVE_CHEST_BOAT
         buy: -1
         sell: 106.82
-        slot: 17
-      '649':
+        slot: 18
+      '650':
         material: BOWL
         buy: -1
         sell: 3.74
-        slot: 18
-      '650':
+        slot: 19
+      '651':
         material: STICK
         buy: -1
         sell: 2.49
-        slot: 19
-      '651':
+        slot: 20
+      '652':
         material: FLINT
         buy: -1
         sell: 10.71
-        slot: 20
-      '652':
+        slot: 21
+      '653':
         material: PAINTING
         buy: -1
         sell: 72.21
-        slot: 21
-      '653':
+        slot: 22
+      '654':
         material: OAK_SIGN
         buy: -1
         sell: 78.51
-        slot: 22
-      '654':
+        slot: 23
+      '655':
         material: SPRUCE_SIGN
         buy: -1
         sell: 10.79
-        slot: 23
-      '655':
-        material: BIRCH_SIGN
-        buy: -1
-        sell: 27.62
         slot: 24
       '656':
-        material: JUNGLE_SIGN
+        material: BIRCH_SIGN
         buy: -1
         sell: 27.62
         slot: 25
       '657':
-        material: ACACIA_SIGN
+        material: JUNGLE_SIGN
         buy: -1
         sell: 27.62
         slot: 26
       '658':
-        material: CHERRY_SIGN
+        material: ACACIA_SIGN
         buy: -1
         sell: 27.62
         slot: 27
       '659':
-        material: DARK_OAK_SIGN
+        material: CHERRY_SIGN
         buy: -1
         sell: 27.62
         slot: 28
       '660':
-        material: PALE_OAK_SIGN
+        material: DARK_OAK_SIGN
         buy: -1
         sell: 27.62
         slot: 29
       '661':
-        material: MANGROVE_SIGN
+        material: PALE_OAK_SIGN
         buy: -1
         sell: 27.62
         slot: 30
       '662':
-        material: CRIMSON_SIGN
+        material: MANGROVE_SIGN
         buy: -1
         sell: 27.62
         slot: 31
       '663':
-        material: WARPED_SIGN
+        material: CRIMSON_SIGN
         buy: -1
         sell: 27.62
         slot: 32
       '664':
-        material: OAK_HANGING_SIGN
+        material: WARPED_SIGN
         buy: -1
-        sell: 62.3
+        sell: 27.62
         slot: 33
       '665':
-        material: SPRUCE_HANGING_SIGN
+        material: OAK_HANGING_SIGN
         buy: -1
         sell: 62.3
         slot: 34
       '666':
-        material: BIRCH_HANGING_SIGN
+        material: SPRUCE_HANGING_SIGN
         buy: -1
         sell: 62.3
         slot: 35
       '667':
-        material: JUNGLE_HANGING_SIGN
+        material: BIRCH_HANGING_SIGN
         buy: -1
         sell: 62.3
         slot: 36
       '668':
-        material: ACACIA_HANGING_SIGN
+        material: JUNGLE_HANGING_SIGN
         buy: -1
         sell: 62.3
         slot: 37
       '669':
-        material: CHERRY_HANGING_SIGN
+        material: ACACIA_HANGING_SIGN
         buy: -1
         sell: 62.3
         slot: 38
       '670':
-        material: DARK_OAK_HANGING_SIGN
+        material: CHERRY_HANGING_SIGN
         buy: -1
         sell: 62.3
         slot: 39
       '671':
-        material: PALE_OAK_HANGING_SIGN
+        material: DARK_OAK_HANGING_SIGN
         buy: -1
         sell: 62.3
         slot: 40
       '672':
-        material: MANGROVE_HANGING_SIGN
+        material: PALE_OAK_HANGING_SIGN
         buy: -1
         sell: 62.3
         slot: 41
       '673':
-        material: CRIMSON_HANGING_SIGN
+        material: MANGROVE_HANGING_SIGN
         buy: -1
         sell: 62.3
         slot: 42
       '674':
-        material: WARPED_HANGING_SIGN
+        material: CRIMSON_HANGING_SIGN
         buy: -1
         sell: 62.3
         slot: 43
       '675':
-        material: BUCKET
+        material: WARPED_HANGING_SIGN
         buy: -1
-        sell: 64.29
+        sell: 62.3
         slot: 44
   page16:
     gui-rows: 6
     items:
       '676':
+        material: BUCKET
+        buy: -1
+        sell: 64.29
+        slot: 0
+      '677':
         material: WATER_BUCKET
         buy: -1
         sell: 65.29
-        slot: 0
-      '677':
+        slot: 1
+      '678':
         material: LAVA_BUCKET
         buy: -1
         sell: 84.29
-        slot: 1
-      '678':
+        slot: 2
+      '679':
         material: POWDER_SNOW_BUCKET
         buy: -1
         sell: 69.29
-        slot: 2
-      '679':
+        slot: 3
+      '680':
         material: SNOWBALL
         buy: -1
         sell: 3.57
-        slot: 3
-      '680':
+        slot: 4
+      '681':
         material: MILK_BUCKET
         buy: -1
         sell: 69.29
-        slot: 4
-      '681':
+        slot: 5
+      '682':
         material: PUFFERFISH_BUCKET
         buy: -1
         sell: 89.29
-        slot: 5
-      '682':
-        material: SALMON_BUCKET
-        buy: -1
-        sell: 79.29
         slot: 6
       '683':
-        material: COD_BUCKET
+        material: SALMON_BUCKET
         buy: -1
         sell: 79.29
         slot: 7
       '684':
+        material: COD_BUCKET
+        buy: -1
+        sell: 79.29
+        slot: 8
+      '685':
         material: TROPICAL_FISH_BUCKET
         buy: -1
         sell: 89.29
-        slot: 8
-      '685':
+        slot: 9
+      '686':
         material: AXOLOTL_BUCKET
         buy: -1
         sell: 164.29
-        slot: 9
-      '686':
+        slot: 10
+      '687':
         material: TADPOLE_BUCKET
         buy: -1
         sell: 74.29
-        slot: 10
-      '687':
-        material: BRICK
-        buy: -1
-        sell: 10.71
         slot: 11
       '688':
-        material: CLAY_BALL
+        material: BRICK
         buy: -1
         sell: 10.71
         slot: 12
       '689':
+        material: CLAY_BALL
+        buy: -1
+        sell: 10.71
+        slot: 13
+      '690':
         material: PAPER
         buy: -1
         sell: 20.79
-        slot: 13
-      '690':
+        slot: 14
+      '691':
         material: BOOK
         buy: -1
         sell: 169.5
-        slot: 14
-      '691':
+        slot: 15
+      '692':
         material: WHITE_BED
         buy: -1
         sell: 171.8
-        slot: 15
-      '692':
-        material: ORANGE_BED
-        buy: -1
-        sell: 175.66
         slot: 16
       '693':
-        material: MAGENTA_BED
+        material: ORANGE_BED
         buy: -1
         sell: 175.66
         slot: 17
       '694':
-        material: LIGHT_BLUE_BED
+        material: MAGENTA_BED
         buy: -1
         sell: 175.66
         slot: 18
       '695':
-        material: YELLOW_BED
+        material: LIGHT_BLUE_BED
         buy: -1
         sell: 175.66
         slot: 19
       '696':
-        material: LIME_BED
+        material: YELLOW_BED
         buy: -1
         sell: 175.66
         slot: 20
       '697':
-        material: PINK_BED
+        material: LIME_BED
         buy: -1
         sell: 175.66
         slot: 21
       '698':
-        material: GRAY_BED
+        material: PINK_BED
         buy: -1
         sell: 175.66
         slot: 22
       '699':
-        material: LIGHT_GRAY_BED
+        material: GRAY_BED
         buy: -1
         sell: 175.66
         slot: 23
       '700':
-        material: CYAN_BED
+        material: LIGHT_GRAY_BED
         buy: -1
         sell: 175.66
         slot: 24
       '701':
-        material: PURPLE_BED
+        material: CYAN_BED
         buy: -1
         sell: 175.66
         slot: 25
       '702':
-        material: BLUE_BED
+        material: PURPLE_BED
         buy: -1
         sell: 175.66
         slot: 26
       '703':
-        material: BROWN_BED
+        material: BLUE_BED
         buy: -1
         sell: 175.66
         slot: 27
       '704':
-        material: GREEN_BED
+        material: BROWN_BED
         buy: -1
         sell: 175.66
         slot: 28
       '705':
-        material: RED_BED
+        material: GREEN_BED
         buy: -1
         sell: 175.66
         slot: 29
       '706':
-        material: BLACK_BED
+        material: RED_BED
         buy: -1
         sell: 175.66
         slot: 30
       '707':
+        material: BLACK_BED
+        buy: -1
+        sell: 175.66
+        slot: 31
+      '708':
         material: GLASS_BOTTLE
         buy: -1
         sell: 10.71
-        slot: 31
-      '708':
+        slot: 32
+      '709':
         material: FERMENTED_SPIDER_EYE
         buy: -1
         sell: 199.36
-        slot: 32
-      '709':
+        slot: 33
+      '710':
         material: BREWING_STAND
         buy: -1
         sell: 85.71
-        slot: 33
-      '710':
+        slot: 34
+      '711':
         material: CAULDRON
         buy: -1
         sell: 150
-        slot: 34
-      '711':
+        slot: 35
+      '712':
         material: FIRE_CHARGE
         buy: -1
         sell: 44.64
-        slot: 35
-      '712':
+        slot: 36
+      '713':
         material: WRITABLE_BOOK
         buy: -1
         sell: 276.64
-        slot: 36
-      '713':
+        slot: 37
+      '714':
         material: ITEM_FRAME
         buy: -1
         sell: 127.07
-        slot: 37
-      '714':
+        slot: 38
+      '715':
         material: GLOW_ITEM_FRAME
         buy: -1
         sell: 269.93
-        slot: 38
-      '715':
+        slot: 39
+      '716':
         material: FLOWER_POT
         buy: -1
         sell: 32.14
-        slot: 39
-      '716':
+        slot: 40
+      '717':
         material: MAP
         buy: -1
         sell: 280.57
-        slot: 40
-      '717':
+        slot: 41
+      '718':
         material: FIREWORK_ROCKET
         buy: -1
         sell: 12.29
-        slot: 41
-      '718':
+        slot: 42
+      '719':
         material: NETHER_BRICK
         buy: -1
         sell: 10.71
-        slot: 42
-      '719':
+        slot: 43
+      '720':
         material: RESIN_BRICK
         buy: -1
         sell: 35.71
-        slot: 43
-      '720':
-        material: ARMOR_STAND
-        buy: -1
-        sell: 20.3
         slot: 44
   page17:
     gui-rows: 6
     items:
       '721':
+        material: ARMOR_STAND
+        buy: -1
+        sell: 20.3
+        slot: 0
+      '722':
         material: WHITE_BANNER
         buy: -1
         sell: 316.21
-        slot: 0
-      '722':
-        material: ORANGE_BANNER
-        buy: -1
-        sell: 323.92
         slot: 1
       '723':
-        material: MAGENTA_BANNER
+        material: ORANGE_BANNER
         buy: -1
         sell: 323.92
         slot: 2
       '724':
-        material: LIGHT_BLUE_BANNER
+        material: MAGENTA_BANNER
         buy: -1
         sell: 323.92
         slot: 3
       '725':
-        material: YELLOW_BANNER
+        material: LIGHT_BLUE_BANNER
         buy: -1
         sell: 323.92
         slot: 4
       '726':
-        material: LIME_BANNER
+        material: YELLOW_BANNER
         buy: -1
         sell: 323.92
         slot: 5
       '727':
-        material: PINK_BANNER
+        material: LIME_BANNER
         buy: -1
         sell: 323.92
         slot: 6
       '728':
-        material: GRAY_BANNER
+        material: PINK_BANNER
         buy: -1
         sell: 323.92
         slot: 7
       '729':
-        material: LIGHT_GRAY_BANNER
+        material: GRAY_BANNER
         buy: -1
         sell: 323.92
         slot: 8
       '730':
-        material: CYAN_BANNER
+        material: LIGHT_GRAY_BANNER
         buy: -1
         sell: 323.92
         slot: 9
       '731':
-        material: PURPLE_BANNER
+        material: CYAN_BANNER
         buy: -1
         sell: 323.92
         slot: 10
       '732':
-        material: BLUE_BANNER
+        material: PURPLE_BANNER
         buy: -1
         sell: 323.92
         slot: 11
       '733':
-        material: BROWN_BANNER
+        material: BLUE_BANNER
         buy: -1
         sell: 323.92
         slot: 12
       '734':
-        material: GREEN_BANNER
+        material: BROWN_BANNER
         buy: -1
         sell: 323.92
         slot: 13
       '735':
-        material: RED_BANNER
+        material: GREEN_BANNER
         buy: -1
         sell: 323.92
         slot: 14
       '736':
-        material: BLACK_BANNER
+        material: RED_BANNER
         buy: -1
         sell: 323.92
         slot: 15
       '737':
+        material: BLACK_BANNER
+        buy: -1
+        sell: 323.92
+        slot: 16
+      '738':
         material: LOOM
         buy: -1
         sell: 36.11
-        slot: 16
-      '738':
+        slot: 17
+      '739':
         material: COMPOSTER
         buy: -1
         sell: 17.44
-        slot: 17
-      '739':
+        slot: 18
+      '740':
         material: BARREL
         buy: -1
         sell: 34.88
-        slot: 18
-      '740':
+        slot: 19
+      '741':
         material: SMOKER
         buy: -1
         sell: 108.29
-        slot: 19
-      '741':
+        slot: 20
+      '742':
         material: BLAST_FURNACE
         buy: -1
         sell: 167.86
-        slot: 20
-      '742':
+        slot: 21
+      '743':
         material: CARTOGRAPHY_TABLE
         buy: -1
         sell: 61.5
-        slot: 21
-      '743':
+        slot: 22
+      '744':
         material: FLETCHING_TABLE
         buy: -1
         sell: 41.36
-        slot: 22
-      '744':
+        slot: 23
+      '745':
         material: GRINDSTONE
         buy: -1
         sell: 52.45
-        slot: 23
-      '745':
+        slot: 24
+      '746':
         material: SMITHING_TABLE
         buy: -1
         sell: 62.79
-        slot: 24
-      '746':
+        slot: 25
+      '747':
         material: STONECUTTER
         buy: -1
         sell: 246.43
-        slot: 25
-      '747':
+        slot: 26
+      '748':
         material: LANTERN
         buy: -1
         sell: 26.81
-        slot: 26
-      '748':
+        slot: 27
+      '749':
         material: SOUL_LANTERN
         buy: -1
         sell: 31.28
-        slot: 27
-      '749':
-        material: COPPER_LANTERN
-        buy: -1
-        sell: 56.87
         slot: 28
       '750':
-        material: EXPOSED_COPPER_LANTERN
+        material: COPPER_LANTERN
         buy: -1
         sell: 56.87
         slot: 29
       '751':
-        material: WEATHERED_COPPER_LANTERN
+        material: EXPOSED_COPPER_LANTERN
         buy: -1
         sell: 56.87
         slot: 30
       '752':
-        material: OXIDIZED_COPPER_LANTERN
+        material: WEATHERED_COPPER_LANTERN
         buy: -1
         sell: 56.87
         slot: 31
       '753':
+        material: OXIDIZED_COPPER_LANTERN
+        buy: -1
+        sell: 56.87
+        slot: 32
+      '754':
         material: WAXED_COPPER_LANTERN
         buy: -1
         sell: 128.3
-        slot: 32
-      '754':
-        material: WAXED_EXPOSED_COPPER_LANTERN
-        buy: -1
-        sell: 56.87
         slot: 33
       '755':
-        material: WAXED_WEATHERED_COPPER_LANTERN
+        material: WAXED_EXPOSED_COPPER_LANTERN
         buy: -1
         sell: 56.87
         slot: 34
       '756':
-        material: WAXED_OXIDIZED_COPPER_LANTERN
+        material: WAXED_WEATHERED_COPPER_LANTERN
         buy: -1
         sell: 56.87
         slot: 35
       '757':
+        material: WAXED_OXIDIZED_COPPER_LANTERN
+        buy: -1
+        sell: 56.87
+        slot: 36
+      '758':
         material: CAMPFIRE
         buy: -1
         sell: 147.62
-        slot: 36
-      '758':
+        slot: 37
+      '759':
         material: SOUL_CAMPFIRE
         buy: -1
         sell: 85.12
-        slot: 37
-      '759':
+        slot: 38
+      '760':
         material: SHROOMLIGHT
         buy: -1
         sell: 53.57
-        slot: 38
-      '760':
+        slot: 39
+      '761':
         material: BEE_NEST
         buy: -1
         sell: 714.29
-        slot: 39
-      '761':
+        slot: 40
+      '762':
         material: BEEHIVE
         buy: -1
         sell: 244.18
-        slot: 40
-      '762':
+        slot: 41
+      '763':
         material: LODESTONE
         buy: -1
         sell: 621.43
-        slot: 41
-      '763':
+        slot: 42
+      '764':
         material: BLACKSTONE
         buy: -1
         sell: 7.14
-        slot: 42
-      '764':
+        slot: 43
+      '765':
         material: BLACKSTONE_SLAB
         buy: -1
         sell: 3.57
-        slot: 43
-      '765':
-        material: BLACKSTONE_STAIRS
-        buy: -1
-        sell: 10.71
         slot: 44
   page18:
     gui-rows: 6
     items:
       '766':
+        material: BLACKSTONE_STAIRS
+        buy: -1
+        sell: 10.71
+        slot: 0
+      '767':
         material: GILDED_BLACKSTONE
         buy: -1
         sell: 535.71
-        slot: 0
-      '767':
+        slot: 1
+      '768':
         material: POLISHED_BLACKSTONE
         buy: -1
         sell: 7.14
-        slot: 1
-      '768':
+        slot: 2
+      '769':
         material: POLISHED_BLACKSTONE_SLAB
         buy: -1
         sell: 3.57
-        slot: 2
-      '769':
+        slot: 3
+      '770':
         material: POLISHED_BLACKSTONE_STAIRS
         buy: -1
         sell: 10.71
-        slot: 3
-      '770':
-        material: CHISELED_POLISHED_BLACKSTONE
-        buy: -1
-        sell: 7.14
         slot: 4
       '771':
-        material: POLISHED_BLACKSTONE_BRICKS
+        material: CHISELED_POLISHED_BLACKSTONE
         buy: -1
         sell: 7.14
         slot: 5
       '772':
+        material: POLISHED_BLACKSTONE_BRICKS
+        buy: -1
+        sell: 7.14
+        slot: 6
+      '773':
         material: POLISHED_BLACKSTONE_BRICK_SLAB
         buy: -1
         sell: 3.57
-        slot: 6
-      '773':
+        slot: 7
+      '774':
         material: POLISHED_BLACKSTONE_BRICK_STAIRS
         buy: -1
         sell: 10.71
-        slot: 7
-      '774':
+        slot: 8
+      '775':
         material: CRACKED_POLISHED_BLACKSTONE_BRICKS
         buy: -1
         sell: 14.29
-        slot: 8
-      '775':
+        slot: 9
+      '776':
         material: CANDLE
         buy: -1
         sell: 84.5
-        slot: 9
-      '776':
+        slot: 10
+      '777':
         material: WHITE_CANDLE
         buy: -1
         sell: 90.57
-        slot: 10
-      '777':
+        slot: 11
+      '778':
         material: ORANGE_CANDLE
         buy: -1
         sell: 97
-        slot: 11
-      '778':
+        slot: 12
+      '779':
         material: MAGENTA_CANDLE
         buy: -1
         sell: 97.62
-        slot: 12
-      '779':
+        slot: 13
+      '780':
         material: LIGHT_BLUE_CANDLE
         buy: -1
         sell: 96.46
-        slot: 13
-      '780':
+        slot: 14
+      '781':
         material: YELLOW_CANDLE
         buy: -1
         sell: 95.21
-        slot: 14
-      '781':
+        slot: 15
+      '782':
         material: LIME_CANDLE
         buy: -1
         sell: 99.11
-        slot: 15
-      '782':
+        slot: 16
+      '783':
         material: PINK_CANDLE
         buy: -1
         sell: 94.68
-        slot: 16
-      '783':
+        slot: 17
+      '784':
         material: GRAY_CANDLE
         buy: -1
         sell: 102.36
-        slot: 17
-      '784':
+        slot: 18
+      '785':
         material: LIGHT_GRAY_CANDLE
         buy: -1
         sell: 96.46
-        slot: 18
-      '785':
+        slot: 19
+      '786':
         material: CYAN_CANDLE
         buy: -1
         sell: 105
-        slot: 19
-      '786':
+        slot: 20
+      '787':
         material: PURPLE_CANDLE
         buy: -1
         sell: 100.57
-        slot: 20
-      '787':
+        slot: 21
+      '788':
         material: BLUE_CANDLE
         buy: -1
         sell: 102.36
-        slot: 21
-      '788':
+        slot: 22
+      '789':
         material: BROWN_CANDLE
         buy: -1
         sell: 155.93
-        slot: 22
-      '789':
+        slot: 23
+      '790':
         material: GREEN_CANDLE
         buy: -1
         sell: 107.64
-        slot: 23
-      '790':
+        slot: 24
+      '791':
         material: RED_CANDLE
         buy: -1
         sell: 98.79
-        slot: 24
-      '791':
+        slot: 25
+      '792':
         material: BLACK_CANDLE
         buy: -1
         sell: 155.93
-        slot: 25
-      '792':
+        slot: 26
+      '793':
         material: POINTED_DRIPSTONE
         buy: -1
         sell: 7.14
-        slot: 26
-      '793':
-        material: OCHRE_FROGLIGHT
-        buy: -1
-        sell: 178.57
         slot: 27
       '794':
-        material: VERDANT_FROGLIGHT
+        material: OCHRE_FROGLIGHT
         buy: -1
         sell: 178.57
         slot: 28
       '795':
-        material: PEARLESCENT_FROGLIGHT
+        material: VERDANT_FROGLIGHT
         buy: -1
         sell: 178.57
         slot: 29
       '796':
-        material: COPPER_GRATE
+        material: PEARLESCENT_FROGLIGHT
         buy: -1
-        sell: 482.14
+        sell: 178.57
         slot: 30
       '797':
-        material: EXPOSED_COPPER_GRATE
+        material: COPPER_GRATE
         buy: -1
         sell: 482.14
         slot: 31
       '798':
-        material: WEATHERED_COPPER_GRATE
+        material: EXPOSED_COPPER_GRATE
         buy: -1
         sell: 482.14
         slot: 32
       '799':
-        material: OXIDIZED_COPPER_GRATE
+        material: WEATHERED_COPPER_GRATE
         buy: -1
         sell: 482.14
         slot: 33
       '800':
+        material: OXIDIZED_COPPER_GRATE
+        buy: -1
+        sell: 482.14
+        slot: 34
+      '801':
         material: WAXED_COPPER_GRATE
         buy: -1
         sell: 553.57
-        slot: 34
-      '801':
-        material: WAXED_EXPOSED_COPPER_GRATE
-        buy: -1
-        sell: 482.14
         slot: 35
       '802':
-        material: WAXED_WEATHERED_COPPER_GRATE
+        material: WAXED_EXPOSED_COPPER_GRATE
         buy: -1
         sell: 482.14
         slot: 36
       '803':
-        material: WAXED_OXIDIZED_COPPER_GRATE
+        material: WAXED_WEATHERED_COPPER_GRATE
         buy: -1
         sell: 482.14
         slot: 37
       '804':
-        material: COPPER_BULB
+        material: WAXED_OXIDIZED_COPPER_GRATE
         buy: -1
-        sell: 387.5
+        sell: 482.14
         slot: 38
       '805':
-        material: EXPOSED_COPPER_BULB
+        material: COPPER_BULB
         buy: -1
         sell: 387.5
         slot: 39
       '806':
-        material: WEATHERED_COPPER_BULB
+        material: EXPOSED_COPPER_BULB
         buy: -1
         sell: 387.5
         slot: 40
       '807':
-        material: OXIDIZED_COPPER_BULB
+        material: WEATHERED_COPPER_BULB
         buy: -1
         sell: 387.5
         slot: 41
       '808':
+        material: OXIDIZED_COPPER_BULB
+        buy: -1
+        sell: 387.5
+        slot: 42
+      '809':
         material: WAXED_COPPER_BULB
         buy: -1
         sell: 441.07
-        slot: 42
-      '809':
-        material: WAXED_EXPOSED_COPPER_BULB
-        buy: -1
-        sell: 387.5
         slot: 43
       '810':
-        material: WAXED_WEATHERED_COPPER_BULB
+        material: WAXED_EXPOSED_COPPER_BULB
         buy: -1
         sell: 387.5
         slot: 44
@@ -4109,87 +4109,653 @@ pages:
     gui-rows: 6
     items:
       '811':
-        material: WAXED_OXIDIZED_COPPER_BULB
+        material: WAXED_WEATHERED_COPPER_BULB
         buy: -1
         sell: 387.5
         slot: 0
       '812':
-        material: COPPER_CHEST
+        material: WAXED_OXIDIZED_COPPER_BULB
         buy: -1
-        sell: 468.43
+        sell: 387.5
         slot: 1
       '813':
-        material: EXPOSED_COPPER_CHEST
+        material: COPPER_CHEST
         buy: -1
         sell: 468.43
         slot: 2
       '814':
-        material: WEATHERED_COPPER_CHEST
+        material: EXPOSED_COPPER_CHEST
         buy: -1
         sell: 468.43
         slot: 3
       '815':
-        material: OXIDIZED_COPPER_CHEST
+        material: WEATHERED_COPPER_CHEST
         buy: -1
         sell: 468.43
         slot: 4
       '816':
+        material: OXIDIZED_COPPER_CHEST
+        buy: -1
+        sell: 468.43
+        slot: 5
+      '817':
         material: WAXED_COPPER_CHEST
         buy: -1
         sell: 539.86
-        slot: 5
-      '817':
-        material: WAXED_EXPOSED_COPPER_CHEST
-        buy: -1
-        sell: 468.43
         slot: 6
       '818':
-        material: WAXED_WEATHERED_COPPER_CHEST
+        material: WAXED_EXPOSED_COPPER_CHEST
         buy: -1
         sell: 468.43
         slot: 7
       '819':
-        material: WAXED_OXIDIZED_COPPER_CHEST
+        material: WAXED_WEATHERED_COPPER_CHEST
         buy: -1
         sell: 468.43
         slot: 8
       '820':
-        material: COPPER_GOLEM_STATUE
+        material: WAXED_OXIDIZED_COPPER_CHEST
         buy: -1
-        sell: 714.29
+        sell: 468.43
         slot: 9
       '821':
-        material: EXPOSED_COPPER_GOLEM_STATUE
+        material: COPPER_GOLEM_STATUE
         buy: -1
         sell: 714.29
         slot: 10
       '822':
-        material: WEATHERED_COPPER_GOLEM_STATUE
+        material: EXPOSED_COPPER_GOLEM_STATUE
         buy: -1
         sell: 714.29
         slot: 11
       '823':
-        material: OXIDIZED_COPPER_GOLEM_STATUE
+        material: WEATHERED_COPPER_GOLEM_STATUE
         buy: -1
         sell: 714.29
         slot: 12
       '824':
+        material: OXIDIZED_COPPER_GOLEM_STATUE
+        buy: -1
+        sell: 714.29
+        slot: 13
+      '825':
         material: WAXED_COPPER_GOLEM_STATUE
         buy: -1
         sell: 785.71
-        slot: 13
-      '825':
-        material: WAXED_EXPOSED_COPPER_GOLEM_STATUE
-        buy: -1
-        sell: 714.29
         slot: 14
       '826':
-        material: WAXED_WEATHERED_COPPER_GOLEM_STATUE
+        material: WAXED_EXPOSED_COPPER_GOLEM_STATUE
         buy: -1
         sell: 714.29
         slot: 15
       '827':
-        material: WAXED_OXIDIZED_COPPER_GOLEM_STATUE
+        material: WAXED_WEATHERED_COPPER_GOLEM_STATUE
         buy: -1
         sell: 714.29
         slot: 16
+      '828':
+        material: WAXED_OXIDIZED_COPPER_GOLEM_STATUE
+        buy: -1
+        sell: 714.29
+        slot: 17
+      '829':
+        material: CINNABAR
+        buy: -1
+        sell: 10.71
+        slot: 18
+      '830':
+        material: CINNABAR_STAIRS
+        buy: -1
+        sell: 16.07
+        slot: 19
+      '831':
+        material: CINNABAR_SLAB
+        buy: -1
+        sell: 5.36
+        slot: 20
+      '832':
+        material: CINNABAR_WALL
+        buy: -1
+        sell: 10.71
+        slot: 21
+      '833':
+        material: POLISHED_CINNABAR
+        buy: -1
+        sell: 10.71
+        slot: 22
+      '834':
+        material: POLISHED_CINNABAR_STAIRS
+        buy: -1
+        sell: 16.07
+        slot: 23
+      '835':
+        material: POLISHED_CINNABAR_SLAB
+        buy: -1
+        sell: 5.36
+        slot: 24
+      '836':
+        material: POLISHED_CINNABAR_WALL
+        buy: -1
+        sell: 10.71
+        slot: 25
+      '837':
+        material: CHISELED_CINNABAR
+        buy: -1
+        sell: 10.71
+        slot: 26
+      '838':
+        material: CINNABAR_BRICKS
+        buy: -1
+        sell: 10.71
+        slot: 27
+      '839':
+        material: CINNABAR_BRICK_STAIRS
+        buy: -1
+        sell: 16.07
+        slot: 28
+      '840':
+        material: CINNABAR_BRICK_SLAB
+        buy: -1
+        sell: 5.36
+        slot: 29
+      '841':
+        material: CINNABAR_BRICK_WALL
+        buy: -1
+        sell: 10.71
+        slot: 30
+      '842':
+        material: SULFUR
+        buy: -1
+        sell: 10.71
+        slot: 31
+      '843':
+        material: SULFUR_STAIRS
+        buy: -1
+        sell: 16.07
+        slot: 32
+      '844':
+        material: SULFUR_SLAB
+        buy: -1
+        sell: 5.36
+        slot: 33
+      '845':
+        material: SULFUR_WALL
+        buy: -1
+        sell: 10.71
+        slot: 34
+      '846':
+        material: POLISHED_SULFUR
+        buy: -1
+        sell: 10.71
+        slot: 35
+      '847':
+        material: POLISHED_SULFUR_STAIRS
+        buy: -1
+        sell: 16.07
+        slot: 36
+      '848':
+        material: POLISHED_SULFUR_SLAB
+        buy: -1
+        sell: 5.36
+        slot: 37
+      '849':
+        material: POLISHED_SULFUR_WALL
+        buy: -1
+        sell: 10.71
+        slot: 38
+      '850':
+        material: CHISELED_SULFUR
+        buy: -1
+        sell: 10.71
+        slot: 39
+      '851':
+        material: SULFUR_BRICKS
+        buy: -1
+        sell: 10.71
+        slot: 40
+      '852':
+        material: SULFUR_BRICK_STAIRS
+        buy: -1
+        sell: 16.07
+        slot: 41
+      '853':
+        material: SULFUR_BRICK_SLAB
+        buy: -1
+        sell: 5.36
+        slot: 42
+      '854':
+        material: SULFUR_BRICK_WALL
+        buy: -1
+        sell: 10.71
+        slot: 43
+      '855':
+        material: POTENT_SULFUR
+        buy: -1
+        sell: 96.43
+        slot: 44
+  page20:
+    gui-rows: 6
+    items:
+      '856':
+        material: SULFUR_SPIKE
+        buy: -1
+        sell: 7.14
+        slot: 0
+      '857':
+        material: SULFUR_CUBE_BUCKET
+        buy: -1
+        sell: 164.29
+        slot: 1
+      '858':
+        material: POPLAR_LOG
+        buy: -1
+        sell: 53.57
+        slot: 2
+      '859':
+        material: POPLAR_WOOD
+        buy: -1
+        sell: 71.43
+        slot: 3
+      '860':
+        material: STRIPPED_POPLAR_LOG
+        buy: -1
+        sell: 53.57
+        slot: 4
+      '861':
+        material: STRIPPED_POPLAR_WOOD
+        buy: -1
+        sell: 71.43
+        slot: 5
+      '862':
+        material: POPLAR_PLANKS
+        buy: -1
+        sell: 13.39
+        slot: 6
+      '863':
+        material: POPLAR_STAIRS
+        buy: -1
+        sell: 20.09
+        slot: 7
+      '864':
+        material: POPLAR_SLAB
+        buy: -1
+        sell: 6.7
+        slot: 8
+      '865':
+        material: POPLAR_FENCE
+        buy: -1
+        sell: 19.52
+        slot: 9
+      '866':
+        material: POPLAR_FENCE_GATE
+        buy: -1
+        sell: 36.75
+        slot: 10
+      '867':
+        material: POPLAR_DOOR
+        buy: -1
+        sell: 26.79
+        slot: 11
+      '868':
+        material: POPLAR_TRAPDOOR
+        buy: -1
+        sell: 40.18
+        slot: 12
+      '869':
+        material: POPLAR_SIGN
+        buy: -1
+        sell: 27.62
+        slot: 13
+      '870':
+        material: POPLAR_HANGING_SIGN
+        buy: -1
+        sell: 62.3
+        slot: 14
+      '871':
+        material: POPLAR_SHELF
+        buy: -1
+        sell: 53.57
+        slot: 15
+      '872':
+        material: POPLAR_BOAT
+        buy: -1
+        sell: 66.96
+        slot: 16
+      '873':
+        material: POPLAR_CHEST_BOAT
+        buy: -1
+        sell: 106.82
+        slot: 17
+      '874':
+        material: RED_SHRUB
+        buy: -1
+        sell: 17.86
+        slot: 18
+      '875':
+        material: STRAW_BED
+        buy: -1
+        sell: 107.14
+        slot: 19
+      '876':
+        material: WHITE_WOOL_STAIRS
+        buy: -1
+        sell: 78.43
+        slot: 20
+      '877':
+        material: WHITE_WOOL_SLAB
+        buy: -1
+        sell: 26.14
+        slot: 21
+      '878':
+        material: WHITE_CONCRETE_STAIRS
+        buy: -1
+        sell: 32.14
+        slot: 22
+      '879':
+        material: WHITE_CONCRETE_SLAB
+        buy: -1
+        sell: 10.71
+        slot: 23
+      '880':
+        material: ORANGE_WOOL_STAIRS
+        buy: -1
+        sell: 80.36
+        slot: 24
+      '881':
+        material: ORANGE_WOOL_SLAB
+        buy: -1
+        sell: 26.79
+        slot: 25
+      '882':
+        material: ORANGE_CONCRETE_STAIRS
+        buy: -1
+        sell: 32.14
+        slot: 26
+      '883':
+        material: ORANGE_CONCRETE_SLAB
+        buy: -1
+        sell: 10.71
+        slot: 27
+      '884':
+        material: MAGENTA_WOOL_STAIRS
+        buy: -1
+        sell: 80.36
+        slot: 28
+      '885':
+        material: MAGENTA_WOOL_SLAB
+        buy: -1
+        sell: 26.79
+        slot: 29
+      '886':
+        material: MAGENTA_CONCRETE_STAIRS
+        buy: -1
+        sell: 32.14
+        slot: 30
+      '887':
+        material: MAGENTA_CONCRETE_SLAB
+        buy: -1
+        sell: 10.71
+        slot: 31
+      '888':
+        material: LIGHT_BLUE_WOOL_STAIRS
+        buy: -1
+        sell: 80.36
+        slot: 32
+      '889':
+        material: LIGHT_BLUE_WOOL_SLAB
+        buy: -1
+        sell: 26.79
+        slot: 33
+      '890':
+        material: LIGHT_BLUE_CONCRETE_STAIRS
+        buy: -1
+        sell: 32.14
+        slot: 34
+      '891':
+        material: LIGHT_BLUE_CONCRETE_SLAB
+        buy: -1
+        sell: 10.71
+        slot: 35
+      '892':
+        material: YELLOW_WOOL_STAIRS
+        buy: -1
+        sell: 80.36
+        slot: 36
+      '893':
+        material: YELLOW_WOOL_SLAB
+        buy: -1
+        sell: 26.79
+        slot: 37
+      '894':
+        material: YELLOW_CONCRETE_STAIRS
+        buy: -1
+        sell: 32.14
+        slot: 38
+      '895':
+        material: YELLOW_CONCRETE_SLAB
+        buy: -1
+        sell: 10.71
+        slot: 39
+      '896':
+        material: LIME_WOOL_STAIRS
+        buy: -1
+        sell: 80.36
+        slot: 40
+      '897':
+        material: LIME_WOOL_SLAB
+        buy: -1
+        sell: 26.79
+        slot: 41
+      '898':
+        material: LIME_CONCRETE_STAIRS
+        buy: -1
+        sell: 32.14
+        slot: 42
+      '899':
+        material: LIME_CONCRETE_SLAB
+        buy: -1
+        sell: 10.71
+        slot: 43
+      '900':
+        material: PINK_WOOL_STAIRS
+        buy: -1
+        sell: 80.36
+        slot: 44
+  page21:
+    gui-rows: 6
+    items:
+      '901':
+        material: PINK_WOOL_SLAB
+        buy: -1
+        sell: 26.79
+        slot: 0
+      '902':
+        material: PINK_CONCRETE_STAIRS
+        buy: -1
+        sell: 32.14
+        slot: 1
+      '903':
+        material: PINK_CONCRETE_SLAB
+        buy: -1
+        sell: 10.71
+        slot: 2
+      '904':
+        material: GRAY_WOOL_STAIRS
+        buy: -1
+        sell: 80.36
+        slot: 3
+      '905':
+        material: GRAY_WOOL_SLAB
+        buy: -1
+        sell: 26.79
+        slot: 4
+      '906':
+        material: GRAY_CONCRETE_STAIRS
+        buy: -1
+        sell: 32.14
+        slot: 5
+      '907':
+        material: GRAY_CONCRETE_SLAB
+        buy: -1
+        sell: 10.71
+        slot: 6
+      '908':
+        material: LIGHT_GRAY_WOOL_STAIRS
+        buy: -1
+        sell: 80.36
+        slot: 7
+      '909':
+        material: LIGHT_GRAY_WOOL_SLAB
+        buy: -1
+        sell: 26.79
+        slot: 8
+      '910':
+        material: LIGHT_GRAY_CONCRETE_STAIRS
+        buy: -1
+        sell: 32.14
+        slot: 9
+      '911':
+        material: LIGHT_GRAY_CONCRETE_SLAB
+        buy: -1
+        sell: 10.71
+        slot: 10
+      '912':
+        material: CYAN_WOOL_STAIRS
+        buy: -1
+        sell: 80.36
+        slot: 11
+      '913':
+        material: CYAN_WOOL_SLAB
+        buy: -1
+        sell: 26.79
+        slot: 12
+      '914':
+        material: CYAN_CONCRETE_STAIRS
+        buy: -1
+        sell: 32.14
+        slot: 13
+      '915':
+        material: CYAN_CONCRETE_SLAB
+        buy: -1
+        sell: 10.71
+        slot: 14
+      '916':
+        material: PURPLE_WOOL_STAIRS
+        buy: -1
+        sell: 80.36
+        slot: 15
+      '917':
+        material: PURPLE_WOOL_SLAB
+        buy: -1
+        sell: 26.79
+        slot: 16
+      '918':
+        material: PURPLE_CONCRETE_STAIRS
+        buy: -1
+        sell: 32.14
+        slot: 17
+      '919':
+        material: PURPLE_CONCRETE_SLAB
+        buy: -1
+        sell: 10.71
+        slot: 18
+      '920':
+        material: BLUE_WOOL_STAIRS
+        buy: -1
+        sell: 80.36
+        slot: 19
+      '921':
+        material: BLUE_WOOL_SLAB
+        buy: -1
+        sell: 26.79
+        slot: 20
+      '922':
+        material: BLUE_CONCRETE_STAIRS
+        buy: -1
+        sell: 32.14
+        slot: 21
+      '923':
+        material: BLUE_CONCRETE_SLAB
+        buy: -1
+        sell: 10.71
+        slot: 22
+      '924':
+        material: BROWN_WOOL_STAIRS
+        buy: -1
+        sell: 80.36
+        slot: 23
+      '925':
+        material: BROWN_WOOL_SLAB
+        buy: -1
+        sell: 26.79
+        slot: 24
+      '926':
+        material: BROWN_CONCRETE_STAIRS
+        buy: -1
+        sell: 32.14
+        slot: 25
+      '927':
+        material: BROWN_CONCRETE_SLAB
+        buy: -1
+        sell: 10.71
+        slot: 26
+      '928':
+        material: GREEN_WOOL_STAIRS
+        buy: -1
+        sell: 80.36
+        slot: 27
+      '929':
+        material: GREEN_WOOL_SLAB
+        buy: -1
+        sell: 26.79
+        slot: 28
+      '930':
+        material: GREEN_CONCRETE_STAIRS
+        buy: -1
+        sell: 32.14
+        slot: 29
+      '931':
+        material: GREEN_CONCRETE_SLAB
+        buy: -1
+        sell: 10.71
+        slot: 30
+      '932':
+        material: RED_WOOL_STAIRS
+        buy: -1
+        sell: 80.36
+        slot: 31
+      '933':
+        material: RED_WOOL_SLAB
+        buy: -1
+        sell: 26.79
+        slot: 32
+      '934':
+        material: RED_CONCRETE_STAIRS
+        buy: -1
+        sell: 32.14
+        slot: 33
+      '935':
+        material: RED_CONCRETE_SLAB
+        buy: -1
+        sell: 10.71
+        slot: 34
+      '936':
+        material: BLACK_WOOL_STAIRS
+        buy: -1
+        sell: 80.36
+        slot: 35
+      '937':
+        material: BLACK_WOOL_SLAB
+        buy: -1
+        sell: 26.79
+        slot: 36
+      '938':
+        material: BLACK_CONCRETE_STAIRS
+        buy: -1
+        sell: 32.14
+        slot: 37
+      '939':
+        material: BLACK_CONCRETE_SLAB
+        buy: -1
+        sell: 10.71
+        slot: 38

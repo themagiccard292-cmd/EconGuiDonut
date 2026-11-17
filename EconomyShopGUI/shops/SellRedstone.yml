@@ -342,3 +342,13 @@ pages:
         buy: -1
         sell: 1785.71
         slot: 21
+      '68':
+        material: POPLAR_PRESSURE_PLATE
+        buy: -1
+        sell: 26.79
+        slot: 22
+      '69':
+        material: POPLAR_BUTTON
+        buy: -1
+        sell: 13.39
+        slot: 23

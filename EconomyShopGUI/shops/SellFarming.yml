@@ -670,3 +670,13 @@ pages:
         buy: -1
         sell: 53.57
         slot: 41
+      '133':
+        material: POPLAR_SAPLING
+        buy: -1
+        sell: 17.86
+        slot: 42
+      '134':
+        material: SHELF_MUSHROOM
+        buy: -1
+        sell: 35.71
+        slot: 43

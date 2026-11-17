@@ -2,10 +2,10 @@
 """
 Generates the EconomyShopGUI sections/ and shops/ folders for the DonutSMP-style shop.
 
-  python3 tools/generate.py <path-to-minecraft-data/data/pc/1.21.11> [output-dir]
+  python3 tools/generate.py <path-to-minecraft-data/data/pc/26.1> [output-dir]
 
 minecraft-data:  npm pack minecraft-data && tar xzf minecraft-data-*.tgz
-                 -> package/minecraft-data/data/pc/1.21.11
+                 -> package/minecraft-data/data/pc/26.1  (26.2/26.3 items are added in this script)
 
 How prices are decided
   1. DONUT_SHOP   - the real DonutSMP /shop buy prices (last version before /shop was removed).
@@ -176,7 +176,7 @@ SMITH = ["sword", "shovel", "pickaxe", "axe", "hoe", "helmet", "chestplate", "le
 # buckets (bucket + contents)
 BUCKET_EXTRA = {"water_bucket": 1, "lava_bucket": 20, "milk_bucket": 5, "powder_snow_bucket": 5,
                 "pufferfish_bucket": 25, "salmon_bucket": 15, "cod_bucket": 15, "tropical_fish_bucket": 25,
-                "axolotl_bucket": 100, "tadpole_bucket": 10}
+                "axolotl_bucket": 100, "tadpole_bucket": 10, "sulfur_cube_bucket": 100}
 
 # never sellable: creative-only, NBT-dependent or exploit-prone
 EXCLUDE_RE = re.compile(r"(_spawn_egg$|^infested_|command_block|^structure_|^jigsaw$|^test_|^light$|^barrier$|"
@@ -191,6 +191,78 @@ items = json.load(open(os.path.join(DATA, "items.json")))
 recipes = json.load(open(os.path.join(DATA, "recipes.json")))
 name_of = {i["id"]: i["name"] for i in items}
 all_names = [i["name"] for i in items]
+
+# --------------------------------------------------------------------------------------------
+# Minecraft 26.2 "Chaos Cubed" and 26.3 "Wilderness Bound" items (Paper 26.3).
+# minecraft-data stops at 26.1, so these are added here. Recipes are cloned from the matching
+# vanilla family (tuff -> cinnabar/sulfur, oak -> poplar). IDs follow vanilla naming; if one is
+# spelled differently in-game, EconomyShopGUI just skips that single item with a warning.
+# --------------------------------------------------------------------------------------------
+_next_id = [max(name_of) + 1]
+_id_of = {v: k for k, v in name_of.items()}
+
+def add_item(n):
+    if n not in _id_of:
+        i = _next_id[0]; _next_id[0] += 1
+        name_of[i] = n; _id_of[n] = i; all_names.append(n)
+    return _id_of[n]
+
+def add_recipe(out, ings, count):
+    oid = add_item(out)
+    recipes.setdefault(str(oid), []).append(
+        {"ingredients": [add_item(i) for i in ings], "result": {"id": oid, "count": count}})
+
+def clone_family(old, new, targets):
+    for t in targets:
+        add_item(t)
+    tset = set(targets)
+    for t in targets:
+        src = t.replace(new, old)
+        if src not in _id_of:
+            continue
+        for r in recipes.get(str(_id_of[src]), []):
+            ings = []
+            for i in ingredients(r):
+                n = name_of[i]
+                m = n.replace(old, new)
+                ings.append(m if m in tset else n)
+            add_recipe(t, ings, r["result"]["count"])
+
+def stone_set(word, brick=True):
+    t = [word, f"{word}_stairs", f"{word}_slab", f"{word}_wall", f"polished_{word}", f"polished_{word}_stairs",
+         f"polished_{word}_slab", f"polished_{word}_wall", f"chiseled_{word}"]
+    if brick:
+        t += [f"{word}_bricks", f"{word}_brick_stairs", f"{word}_brick_slab", f"{word}_brick_wall"]
+    return t
+
+NEW_26 = {}  # name -> base estimate (before scaling)
+
+def _ingredients_for_clone(r):
+    return r["ingredients"] if "ingredients" in r else [c for row in r["inShape"] for c in row if c is not None]
+ingredients = _ingredients_for_clone
+
+# 26.2 Chaos Cubed: cinnabar + sulfur building sets, potent sulfur, sulfur spike, Bounce disc
+clone_family("tuff", "cinnabar", stone_set("cinnabar"))
+clone_family("tuff", "sulfur", stone_set("sulfur"))
+add_recipe("potent_sulfur", ["sulfur"] * 9, 1)
+NEW_26.update({"cinnabar": 3, "sulfur": 3, "sulfur_spike": 2})
+add_item("sulfur_spike"); add_item("music_disc_bounce"); add_item("sulfur_cube_bucket")
+# 26.3 Wilderness Bound: poplar wood, wool/concrete stairs + slabs, dappled forest plants, straw bed
+POPLAR = ["poplar_log", "poplar_wood", "stripped_poplar_log", "stripped_poplar_wood", "poplar_planks",
+          "poplar_stairs", "poplar_slab", "poplar_fence", "poplar_fence_gate", "poplar_door", "poplar_trapdoor",
+          "poplar_pressure_plate", "poplar_button", "poplar_sign", "poplar_hanging_sign", "poplar_shelf",
+          "poplar_boat", "poplar_chest_boat", "poplar_sapling"]
+clone_family("oak", "poplar", POPLAR)
+NEW_26.update({"poplar_log": 15, "stripped_poplar_log": 15, "poplar_sapling": 5,
+               "red_shrub": 5, "shelf_mushroom": 10, "straw_bed": 30})
+for n in ("red_shrub", "shelf_mushroom", "straw_bed"):
+    add_item(n)
+for c in COLORS:
+    for b in ("wool", "concrete"):
+        add_recipe(f"{c}_{b}_stairs", [f"{c}_{b}"] * 6, 4)
+        add_recipe(f"{c}_{b}_slab", [f"{c}_{b}"] * 3, 6)
+for n, v in NEW_26.items():
+    B.setdefault(n, v)
 
 # --------------------------------------------------------------------------------------------
 # 2b. Real DonutSMP data found on the web (Nov 2026).
