@@ -1,0 +1,95 @@
+pages:
+  page1:
+    items:
+      redstone_torch:
+        material: REDSTONE_TORCH
+        buy: 124.24
+        sell: 31.06
+      redstone_lamp:
+        material: REDSTONE_LAMP
+        buy: 577.16
+        sell: 144.29
+      repeater:
+        material: REPEATER
+        buy: 1262.8
+        sell: 315.7
+      comparator:
+        material: COMPARATOR
+        buy: 1332.76
+        sell: 333.19
+      observer:
+        material: OBSERVER
+        buy: 612.56
+        sell: 153.14
+      dispenser:
+        material: DISPENSER
+        buy: 679.04
+        sell: 169.76
+      dropper:
+        material: DROPPER
+        buy: 492.28
+        sell: 123.07
+      hopper:
+        material: HOPPER
+        buy: 588
+        sell: 147
+      piston:
+        material: PISTON
+        buy: 475.8
+        sell: 118.95
+      sticky_piston:
+        material: STICKY_PISTON
+        buy: 844.36
+        sell: 211.09
+      lever:
+        material: LEVER
+        buy: 63.96
+        sell: 15.99
+      tripwire_hook:
+        material: TRIPWIRE_HOOK
+        buy: 57.8
+        sell: 14.45
+      rail:
+        material: RAIL
+        buy: 32.76
+        sell: 8.19
+      powered_rail:
+        material: POWERED_RAIL
+        buy: 877.84
+        sell: 219.46
+      activator_rail:
+        material: ACTIVATOR_RAIL
+        buy: 109.76
+        sell: 27.44
+      detector_rail:
+        material: DETECTOR_RAIL
+        buy: 204.76
+        sell: 51.19
+      tnt:
+        material: TNT
+        buy: 435.72
+        sell: 108.93
+      daylight_detector:
+        material: DAYLIGHT_DETECTOR
+        buy: 338.48
+        sell: 84.62
+      note_block:
+        material: NOTE_BLOCK
+        buy: 273.72
+        sell: 68.43
+      crafter:
+        material: CRAFTER
+        buy: 1229.16
+        sell: 307.29
+      target:
+        material: TARGET
+        buy: 2038.56
+        sell: 509.64
+      calibrated_sculk_sensor:
+        material: CALIBRATED_SCULK_SENSOR
+        buy: 5142.84
+        sell: 1285.71
+      sculk_sensor:
+        material: SCULK_SENSOR
+        buy: 4285.72
+        sell: 1071.43

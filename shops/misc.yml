@@ -1,0 +1,266 @@
+pages:
+  page1:
+    items:
+      name_tag:
+        material: NAME_TAG
+        buy: 92.68
+        sell: 23.17
+      lead:
+        material: LEAD
+        buy: 130.72
+        sell: 32.68
+      compass:
+        material: COMPASS
+        buy: 457.16
+        sell: 114.29
+      recovery_compass:
+        material: RECOVERY_COMPASS
+        buy: 229028.56
+        sell: 57257.14
+      scute:
+        material: SCUTE
+        buy: 16900
+        sell: 4210
+      water_bucket:
+        material: WATER_BUCKET
+        buy: 261.16
+        sell: 65.29
+      lava_bucket:
+        material: LAVA_BUCKET
+        buy: 337.16
+        sell: 84.29
+      milk_bucket:
+        material: MILK_BUCKET
+        buy: 277.16
+        sell: 69.29
+      powder_snow_bucket:
+        material: POWDER_SNOW_BUCKET
+        buy: 277.16
+        sell: 69.29
+      axolotl_bucket:
+        material: AXOLOTL_BUCKET
+        buy: 657.16
+        sell: 164.29
+      cod_bucket:
+        material: COD_BUCKET
+        buy: 317.16
+        sell: 79.29
+      salmon_bucket:
+        material: SALMON_BUCKET
+        buy: 317.16
+        sell: 79.29
+      tropical_fish_bucket:
+        material: TROPICAL_FISH_BUCKET
+        buy: 357.16
+        sell: 89.29
+      tadpole_bucket:
+        material: TADPOLE_BUCKET
+        buy: 297.16
+        sell: 74.29
+      bucket:
+        material: BUCKET
+        buy: 257.16
+        sell: 64.29
+      ender_eye:
+        material: ENDER_EYE
+        buy: 300
+        sell: 75
+      armadillo_scute:
+        material: ARMADILLO_SCUTE
+        buy: 1428.56
+        sell: 357.14
+      experience_bottle:
+        material: EXPERIENCE_BOTTLE
+        buy: 100
+        sell: -1
+      firework:
+        material: FIREWORK
+        buy: 9640
+        sell: 2380
+        duration: 2
+        colors:
+        - cyan
+        - purple
+        fade-colors:
+        - black
+        - gray
+        flicker: true
+        trail: true
+        shape: BURST
+      minecart:
+        material: MINECART
+        buy: 428.56
+        sell: 107.14
+      dragon_egg:
+        material: DRAGON_EGG
+        buy: 7142857.16
+        sell: 1785714.29
+      elytra:
+        material: ELYTRA
+        buy: 3600000
+        sell: -1
+      end_rod:
+        material: END_ROD
+        buy: 100
+        sell: 21.75
+      saddle:
+        material: SADDLE
+        buy: 1371.44
+        sell: 342.86
+      nether_star:
+        material: NETHER_STAR
+        buy: 114000
+        sell: 28500
+      beacon:
+        material: BEACON
+        buy: 114814.28
+        sell: 28703.57
+      dragon_breath:
+        material: DRAGON_BREATH
+        buy: 1000
+        sell: 500
+      ominous_bottle:
+        material: OMINOUS_BOTTLE
+        buy: 2857.16
+        sell: 714.29
+        ominous-strength: 5
+  page2:
+    items:
+      map:
+        material: MAP
+        buy: 1122.28
+        sell: 280.57
+      snow:
+        material: SNOW
+        buy: 28.56
+        sell: 7.14
+      torch:
+        material: TORCH
+        buy: 31.08
+        sell: 7.77
+      soul_torch:
+        material: SOUL_TORCH
+        buy: 48.92
+        sell: 12.23
+      lantern:
+        material: LANTERN
+        buy: 107.24
+        sell: 26.81
+      soul_lantern:
+        material: SOUL_LANTERN
+        buy: 125.12
+        sell: 31.28
+      campfire:
+        material: CAMPFIRE
+        buy: 590.48
+        sell: 147.62
+      soul_campfire:
+        material: SOUL_CAMPFIRE
+        buy: 340.48
+        sell: 85.12
+      scaffolding:
+        material: SCAFFOLDING
+        buy: 123
+        sell: 30.75
+      shears:
+        material: SHEARS
+        buy: 171.44
+        sell: 42.86
+      fishing_rod:
+        material: FISHING_ROD
+        buy: 134.48
+        sell: 33.62
+      carrot_on_a_stick:
+        material: CARROT_ON_A_STICK
+        buy: 326.48
+        sell: 81.62
+      warped_fungus_on_a_stick:
+        material: WARPED_FUNGUS_ON_A_STICK
+        buy: 277.32
+        sell: 69.33
+      flint_and_steel:
+        material: FLINT_AND_STEEL
+        buy: 128.56
+        sell: 32.14
+      iron_bars:
+        material: IRON_BARS
+        buy: 32.16
+        sell: 8.04
+      chain:
+        material: CHAIN
+        buy: 223
+        sell: 56
+      pointed_dripstone:
+        material: POINTED_DRIPSTONE
+        buy: 28.56
+        sell: 7.14
+      heart_of_the_sea:
+        material: HEART_OF_THE_SEA
+        buy: 71428.56
+        sell: 17857.14
+      nautilus_shell:
+        material: NAUTILUS_SHELL
+        buy: 14285.72
+        sell: 3571.43
+      echo_shard:
+        material: ECHO_SHARD
+        buy: 28571.44
+        sell: 7142.86
+      bell:
+        material: BELL
+        buy: 7142.84
+        sell: 1785.71
+      brush:
+        material: BRUSH
+        buy: 367.12
+        sell: 91.78
+      anvil:
+        material: ANVIL
+        buy: 2657.16
+        sell: 664.29
+      lodestone:
+        material: LODESTONE
+        buy: 2485.72
+        sell: -1
+      respawn_anchor:
+        material: RESPAWN_ANCHOR
+        buy: 1000
+        sell: 500
+      sculk:
+        material: SCULK
+        buy: 71.44
+        sell: 17.86
+      sculk_catalyst:
+        material: SCULK_CATALYST
+        buy: 7142.84
+        sell: 1785.71
+      sculk_shrieker:
+        material: SCULK_SHRIEKER
+        buy: 7142.84
+        sell: 1785.71
+  page3:
+    items:
+      spyglass:
+        material: SPYGLASS
+        buy: 714.28
+        sell: 178.57
+      cobweb:
+        material: COBWEB
+        buy: 285.72
+        sell: 71.43
+      writable_book:
+        material: WRITABLE_BOOK
+        buy: 1106.56
+        sell: 276.64
+      turtle_egg:
+        material: TURTLE_EGG
+        buy: 8571.44
+        sell: 2142.86
+      sniffer_egg:
+        material: SNIFFER_EGG
+        buy: 28571.44
+        sell: 7142.86
+      end_crystal:
+        material: END_CRYSTAL
+        buy: 350
+        sell: 175

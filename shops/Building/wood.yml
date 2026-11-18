@@ -1,0 +1,394 @@
+
+pages:
+  page1:
+    items:
+      oak_wood:
+        material: OAK_WOOD
+        buy: 828.56
+        sell: 207.14
+      oak_log:
+        material: OAK_LOG
+        buy: 621.44
+        sell: 155.36
+      oak_planks:
+        material: OAK_PLANKS
+        buy: 621.44
+        sell: 155.36
+        stack-size: 4
+      oak_stairs:
+        material: OAK_STAIRS
+        buy: 932.16
+        sell: 233.04
+        stack-size: 4
+      oak_slab:
+        material: OAK_SLAB
+        buy: 466.08
+        sell: 116.52
+        stack-size: 6
+      oak_fence:
+        material: OAK_FENCE
+        buy: 641.4
+        sell: 160.35
+        stack-size: 3
+      oak_fence_gate:
+        material: OAK_FENCE_GATE
+        buy: 350.56
+        sell: 87.64
+      spruce_wood:
+        material: SPRUCE_WOOD
+        buy: 106.28
+        sell: 26.57
+      spruce_log:
+        material: SPRUCE_LOG
+        buy: 79.72
+        sell: 19.93
+      spruce_planks:
+        material: SPRUCE_PLANKS
+        buy: 79.68
+        sell: 19.92
+        stack-size: 4
+      spruce_stairs:
+        material: SPRUCE_STAIRS
+        buy: 119.52
+        sell: 29.88
+        stack-size: 4
+      spruce_slab:
+        material: SPRUCE_SLAB
+        buy: 59.76
+        sell: 14.94
+        stack-size: 6
+      spruce_fence:
+        material: SPRUCE_FENCE
+        buy: 99.6
+        sell: 24.9
+        stack-size: 3
+      spruce_fence_gate:
+        material: SPRUCE_FENCE_GATE
+        buy: 79.72
+        sell: 19.93
+      birch_wood:
+        material: BIRCH_WOOD
+        buy: 285.72
+        sell: 71.43
+      birch_log:
+        material: BIRCH_LOG
+        buy: 214.28
+        sell: 53.57
+      birch_planks:
+        material: BIRCH_PLANKS
+        buy: 214.24
+        sell: 53.56
+        stack-size: 4
+      birch_stairs:
+        material: BIRCH_STAIRS
+        buy: 321.44
+        sell: 80.36
+        stack-size: 4
+      birch_slab:
+        material: BIRCH_SLAB
+        buy: 160.8
+        sell: 40.2
+        stack-size: 6
+      birch_fence:
+        material: BIRCH_FENCE
+        buy: 234.24
+        sell: 58.56
+        stack-size: 3
+      birch_fence_gate:
+        material: BIRCH_FENCE_GATE
+        buy: 147
+        sell: 36.75
+      jungle_wood:
+        material: JUNGLE_WOOD
+        buy: 285.72
+        sell: 71.43
+      jungle_log:
+        material: JUNGLE_LOG
+        buy: 214.28
+        sell: 53.57
+      jungle_planks:
+        material: JUNGLE_PLANKS
+        buy: 214.24
+        sell: 53.56
+        stack-size: 4
+      jungle_stairs:
+        material: JUNGLE_STAIRS
+        buy: 321.44
+        sell: 80.36
+        stack-size: 4
+      jungle_slab:
+        material: JUNGLE_SLAB
+        buy: 160.8
+        sell: 40.2
+        stack-size: 6
+      jungle_fence:
+        material: JUNGLE_FENCE
+        buy: 234.24
+        sell: 58.56
+        stack-size: 3
+      jungle_fence_gate:
+        material: JUNGLE_FENCE_GATE
+        buy: 147
+        sell: 36.75
+
+  page2:
+    items:
+      acacia_wood:
+        material: ACACIA_WOOD
+        buy: 285.72
+        sell: 71.43
+      acacia_log:
+        material: ACACIA_LOG
+        buy: 214.28
+        sell: 53.57
+      acacia_planks:
+        material: ACACIA_PLANKS
+        buy: 214.24
+        sell: 53.56
+        stack-size: 4
+      acacia_stairs:
+        material: ACACIA_STAIRS
+        buy: 321.44
+        sell: 80.36
+        stack-size: 4
+      acacia_slab:
+        material: ACACIA_SLAB
+        buy: 160.8
+        sell: 40.2
+        stack-size: 6
+      acacia_fence:
+        material: ACACIA_FENCE
+        buy: 234.24
+        sell: 58.56
+        stack-size: 3
+      acacia_fence_gate:
+        material: ACACIA_FENCE_GATE
+        buy: 147
+        sell: 36.75
+      dark_oak_wood:
+        material: DARK_OAK_WOOD
+        buy: 285.72
+        sell: 71.43
+      dark_oak_log:
+        material: DARK_OAK_LOG
+        buy: 214.28
+        sell: 53.57
+      dark_oak_planks:
+        material: DARK_OAK_PLANKS
+        buy: 214.24
+        sell: 53.56
+        stack-size: 4
+      dark_oak_stairs:
+        material: DARK_OAK_STAIRS
+        buy: 321.44
+        sell: 80.36
+        stack-size: 4
+      dark_oak_slab:
+        material: DARK_OAK_SLAB
+        buy: 160.8
+        sell: 40.2
+        stack-size: 6
+      dark_oak_fence:
+        material: DARK_OAK_FENCE
+        buy: 234.24
+        sell: 58.56
+        stack-size: 3
+      dark_oak_fence_gate:
+        material: DARK_OAK_FENCE_GATE
+        buy: 147
+        sell: 36.75
+      mangrove_wood:
+        material: MANGROVE_WOOD
+        buy: 285.72
+        sell: 71.43
+      mangrove_log:
+        material: MANGROVE_LOG
+        buy: 214.28
+        sell: 53.57
+      mangrove_planks:
+        material: MANGROVE_PLANKS
+        buy: 214.24
+        sell: 53.56
+        stack-size: 4
+      mangrove_stairs:
+        material: MANGROVE_STAIRS
+        buy: 321.44
+        sell: 80.36
+        stack-size: 4
+      mangrove_slab:
+        material: MANGROVE_SLAB
+        buy: 160.8
+        sell: 40.2
+        stack-size: 6
+      mangrove_fence:
+        material: MANGROVE_FENCE
+        buy: 234.24
+        sell: 58.56
+        stack-size: 3
+      mangrove_fence_gate:
+        material: MANGROVE_FENCE_GATE
+        buy: 147
+        sell: 36.75
+      cherry_wood:
+        material: CHERRY_WOOD
+        buy: 285.72
+        sell: 71.43
+      cherry_log:
+        material: CHERRY_LOG
+        buy: 214.28
+        sell: 53.57
+      cherry_planks:
+        material: CHERRY_PLANKS
+        buy: 214.24
+        sell: 53.56
+        stack-size: 4
+      cherry_stairs:
+        material: CHERRY_STAIRS
+        buy: 321.44
+        sell: 80.36
+        stack-size: 4
+      cherry_slab:
+        material: CHERRY_SLAB
+        buy: 160.8
+        sell: 40.2
+        stack-size: 6
+      cherry_fence:
+        material: CHERRY_FENCE
+        buy: 234.24
+        sell: 58.56
+        stack-size: 3
+      cherry_fence_gate:
+        material: CHERRY_FENCE_GATE
+        buy: 147
+        sell: 36.75
+
+  page3:
+    items:
+      pale_oak_wood:
+        material: PALE_OAK_WOOD
+        buy: 285.72
+        sell: 71.43
+      pale_oak_log:
+        material: PALE_OAK_LOG
+        buy: 214.28
+        sell: 53.57
+      pale_oak_planks:
+        material: PALE_OAK_PLANKS
+        buy: 214.24
+        sell: 53.56
+        stack-size: 4
+      pale_oak_stairs:
+        material: PALE_OAK_STAIRS
+        buy: 321.44
+        sell: 80.36
+        stack-size: 4
+      pale_oak_slab:
+        material: PALE_OAK_SLAB
+        buy: 160.8
+        sell: 40.2
+        stack-size: 6
+      pale_oak_fence:
+        material: PALE_OAK_FENCE
+        buy: 234.24
+        sell: 58.56
+        stack-size: 3
+      pale_oak_fence_gate:
+        material: PALE_OAK_FENCE_GATE
+        buy: 147
+        sell: 36.75
+      bamboo_mosaic:
+        material: BAMBOO_MOSAIC
+        buy: 514.28
+        sell: 128.57
+      bamboo_block:
+        material: BAMBOO_BLOCK
+        buy: 1028.56
+        sell: 257.14
+      bamboo_planks:
+        material: BAMBOO_PLANKS
+        buy: 2057.12
+        sell: 514.28
+        stack-size: 4
+      bamboo_stairs:
+        material: BAMBOO_STAIRS
+        buy: 3085.76
+        sell: 771.44
+        stack-size: 4
+      bamboo_slab:
+        material: BAMBOO_SLAB
+        buy: 1542.96
+        sell: 385.74
+        stack-size: 6
+      bamboo_fence:
+        material: BAMBOO_FENCE
+        buy: 2077.08
+        sell: 519.27
+        stack-size: 3
+      bamboo_fence_gate:
+        material: BAMBOO_FENCE_GATE
+        buy: 1068.44
+        sell: 267.11
+      crimson_hyphae:
+        material: CRIMSON_HYPHAE
+        buy: 285.72
+        sell: 71.43
+      crimson_stem:
+        material: CRIMSON_STEM
+        buy: 214.28
+        sell: 53.57
+      crimson_planks:
+        material: CRIMSON_PLANKS
+        buy: 214.24
+        sell: 53.56
+        stack-size: 4
+      crimson_stairs:
+        material: CRIMSON_STAIRS
+        buy: 321.44
+        sell: 80.36
+        stack-size: 4
+      crimson_slab:
+        material: CRIMSON_SLAB
+        buy: 160.8
+        sell: 40.2
+        stack-size: 6
+      crimson_fence:
+        material: CRIMSON_FENCE
+        buy: 234.24
+        sell: 58.56
+        stack-size: 3
+      crimson_fence_gate:
+        material: CRIMSON_FENCE_GATE
+        buy: 147
+        sell: 36.75
+      warped_hyphae:
+        material: WARPED_HYPHAE
+        buy: 285.72
+        sell: 71.43
+      warped_stem:
+        material: WARPED_STEM
+        buy: 214.28
+        sell: 53.57
+      warped_planks:
+        material: WARPED_PLANKS
+        buy: 214.24
+        sell: 53.56
+        stack-size: 4
+      warped_stairs:
+        material: WARPED_STAIRS
+        buy: 321.44
+        sell: 80.36
+        stack-size: 4
+      warped_slab:
+        material: WARPED_SLAB
+        buy: 160.8
+        sell: 40.2
+        stack-size: 6
+      warped_fence:
+        material: WARPED_FENCE
+        buy: 234.24
+        sell: 58.56
+        stack-size: 3
+      warped_fence_gate:
+        material: WARPED_FENCE_GATE
+        buy: 147
+        sell: 36.75
