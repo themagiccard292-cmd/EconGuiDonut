@@ -18,9 +18,9 @@ pages:
         buy: 229028.56
         sell: 57257.14
       scute:
-        material: SCUTE
-        buy: 16900
-        sell: 4210
+        material: TURTLE_SCUTE
+        buy: 2142.84
+        sell: 535.71
       water_bucket:
         material: WATER_BUCKET
         buy: 261.16
@@ -74,9 +74,9 @@ pages:
         buy: 100
         sell: -1
       firework:
-        material: FIREWORK
-        buy: 9640
-        sell: 2380
+        material: FIREWORK_ROCKET
+        buy: 108.19
+        sell: 27.05
         duration: 2
         colors:
         - cyan
@@ -187,9 +187,9 @@ pages:
         buy: 32.16
         sell: 8.04
       chain:
-        material: CHAIN
-        buy: 223
-        sell: 56
+        material: IRON_CHAIN
+        buy: 104.76
+        sell: 26.19
       pointed_dripstone:
         material: POINTED_DRIPSTONE
         buy: 28.56

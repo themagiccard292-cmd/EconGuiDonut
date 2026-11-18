@@ -87,9 +87,9 @@ pages:
         sell: 150
         stack-size: 4
       scute:
-        material: SCUTE
-        buy: 16900
-        sell: 4210
+        material: TURTLE_SCUTE
+        buy: 2142.84
+        sell: 535.71
       armadillo_scute:
         material: ARMADILLO_SCUTE
         buy: 1428.56

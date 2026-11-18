@@ -649,8 +649,8 @@ pages:
         sell: 12.29
       firework_star:
         material: FIREWORK_STAR
-        buy: 553
-        sell: 138
+        buy: 112.84
+        sell: 28.21
       flint:
         material: FLINT
         buy: 42.84
@@ -1172,7 +1172,7 @@ pages:
       vault:
         material: VAULT
         buy: 3820000
-        sell: 954000
+        sell: -1
       warped_button:
         material: WARPED_BUTTON
         buy: 53.56

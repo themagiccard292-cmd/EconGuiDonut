@@ -3,169 +3,169 @@ pages:
     items:
       fire_resistance_pot:
         material: POTION
-        buy: 378
+        buy: 48000
         sell: -1
         potiontypes:
         - fire_resistance
       harming_pot:
         material: POTION
-        buy: 687
+        buy: 48000
         sell: -1
         potiontypes:
         - harming
       healing_pot:
         material: POTION
-        buy: 378
+        buy: 48000
         sell: -1
         potiontypes:
         - healing
       invisibility_pot:
         material: POTION
-        buy: 873
+        buy: 48000
         sell: -1
         potiontypes:
         - invisibility
       leaping_pot:
         material: POTION
-        buy: 6180
+        buy: 48000
         sell: -1
         potiontypes:
         - leaping
       night_vision_pot:
         material: POTION
-        buy: 520
+        buy: 48000
         sell: -1
         potiontypes:
         - night_vision
       poison_pot:
         material: POTION
-        buy: 345
+        buy: 48000
         sell: -1
         potiontypes:
         - poison
       regeneration_pot:
         material: POTION
-        buy: 1460
+        buy: 48000
         sell: -1
         potiontypes:
         - regeneration
       slow_falling_pot:
         material: POTION
-        buy: 4330
+        buy: 48000
         sell: -1
         potiontypes:
         - slow_falling
       slowness_pot:
         material: POTION
-        buy: 441
+        buy: 48000
         sell: -1
         potiontypes:
         - slowness
       strength_pot:
         material: POTION
-        buy: 197
+        buy: 46000
         sell: -1
         potiontypes:
         - strength
       swiftness_pot:
         material: POTION
-        buy: 112
+        buy: 50000
         sell: -1
         potiontypes:
         - swiftness
       turtle_master_pot:
         material: POTION
-        buy: 93900
+        buy: 48000
         sell: -1
         potiontypes:
         - turtle_master
       water_breathing_pot:
         material: POTION
-        buy: 311
+        buy: 48000
         sell: -1
         potiontypes:
         - water_breathing
       weakness_pot:
         material: POTION
-        buy: 324
+        buy: 48000
         sell: -1
         potiontypes:
         - weakness
       strong_harming_pot:
         material: POTION
-        buy: 1720
+        buy: 48000
         sell: -1
         potiontypes:
         - strong_harming
       strong_healing_pot:
         material: POTION
-        buy: 1390
+        buy: 48000
         sell: -1
         potiontypes:
         - strong_healing
       strong_leaping_pot:
         material: POTION
-        buy: 7540
+        buy: 48000
         sell: -1
         potiontypes:
         - strong_leaping
       strong_poison_pot:
         material: POTION
-        buy: 1360
+        buy: 48000
         sell: -1
         potiontypes:
         - strong_poison
       strong_regeneration_pot:
         material: POTION
-        buy: 2540
+        buy: 48000
         sell: -1
         potiontypes:
         - strong_regeneration
       strong_strength_pot:
         material: POTION
-        buy: 1200
+        buy: 48000
         sell: -1
         potiontypes:
         - strong_strength
       strong_swiftness_pot:
         material: POTION
-        buy: 1110
+        buy: 48000
         sell: -1
         potiontypes:
         - strong_swiftness
       strong_turtle_master_pot:
         material: POTION
-        buy: 101000
+        buy: 48000
         sell: -1
         potiontypes:
         - strong_turtle_master
       long_fire_resistance_pot:
         material: POTION
-        buy: 519
+        buy: 48000
         sell: -1
         potiontypes:
         - long_fire_resistance
       long_invisibility_pot:
         material: POTION
-        buy: 1040
+        buy: 48000
         sell: -1
         potiontypes:
         - long_invisibility
       long_night_vision_pot:
         material: POTION
-        buy: 669
+        buy: 48000
         sell: -1
         potiontypes:
         - long_night_vision
       long_poison_pot:
         material: POTION
-        buy: 483
+        buy: 48000
         sell: -1
         potiontypes:
         - long_poison
       long_regeneration_pot:
         material: POTION
-        buy: 1660
+        buy: 48000
         sell: -1
         potiontypes:
         - long_regeneration
@@ -173,169 +173,169 @@ pages:
     items:
       long_slow_falling_pot:
         material: POTION
-        buy: 4700
+        buy: 48000
         sell: -1
         potiontypes:
         - long_slow_falling
       long_slowness_pot:
         material: POTION
-        buy: 585
+        buy: 48000
         sell: -1
         potiontypes:
         - long_slowness
       long_strength_pot:
         material: POTION
-        buy: 327
+        buy: 48000
         sell: -1
         potiontypes:
         - long_strength
       long_swiftness_pot:
         material: POTION
-        buy: 237
+        buy: 48000
         sell: -1
         potiontypes:
         - long_swiftness
       long_turtle_master_pot:
         material: POTION
-        buy: 99700
+        buy: 48000
         sell: -1
         potiontypes:
         - long_turtle_master
       long_water_breathing_pot:
         material: POTION
-        buy: 447
+        buy: 48000
         sell: -1
         potiontypes:
         - long_water_breathing
       long_weakness_pot:
         material: POTION
-        buy: 461
+        buy: 48000
         sell: -1
         potiontypes:
         - long_weakness
       fire_resistance_splash:
         material: SPLASH_POTION
-        buy: 924
+        buy: 34800
         sell: -1
         potiontypes:
         - fire_resistance
       harming_splash:
         material: SPLASH_POTION
-        buy: 1250
+        buy: 34800
         sell: -1
         potiontypes:
         - harming
       healing_splash:
         material: SPLASH_POTION
-        buy: 923
+        buy: 34800
         sell: -1
         potiontypes:
         - healing
       invisibility_splash:
         material: SPLASH_POTION
-        buy: 1450
+        buy: 29900
         sell: -1
         potiontypes:
         - invisibility
       leaping_splash:
         material: SPLASH_POTION
-        buy: 7070
+        buy: 34800
         sell: -1
         potiontypes:
         - leaping
       night_vision_splash:
         material: SPLASH_POTION
-        buy: 1070
+        buy: 34800
         sell: -1
         potiontypes:
         - night_vision
       poison_splash:
         material: SPLASH_POTION
-        buy: 888
+        buy: 34800
         sell: -1
         potiontypes:
         - poison
       regeneration_splash:
         material: SPLASH_POTION
-        buy: 2070
+        buy: 34800
         sell: -1
         potiontypes:
         - regeneration
       slow_falling_splash:
         material: SPLASH_POTION
-        buy: 5110
+        buy: 34800
         sell: -1
         potiontypes:
         - slow_falling
       slowness_splash:
         material: SPLASH_POTION
-        buy: 990
+        buy: 34800
         sell: -1
         potiontypes:
         - slowness
       strength_splash:
         material: SPLASH_POTION
-        buy: 731
+        buy: 24000
         sell: -1
         potiontypes:
         - strength
       swiftness_splash:
         material: SPLASH_POTION
-        buy: 641
+        buy: 39700
         sell: -1
         potiontypes:
         - swiftness
       turtle_master_splash:
         material: SPLASH_POTION
-        buy: 100000
+        buy: 99000
         sell: -1
         potiontypes:
         - turtle_master
       water_breathing_splash:
         material: SPLASH_POTION
-        buy: 852
+        buy: 34800
         sell: -1
         potiontypes:
         - water_breathing
       weakness_splash:
         material: SPLASH_POTION
-        buy: 866
+        buy: 34800
         sell: -1
         potiontypes:
         - weakness
       strong_harming_splash:
         material: SPLASH_POTION
-        buy: 2350
+        buy: 34800
         sell: -1
         potiontypes:
         - strong_harming
       strong_healing_splash:
         material: SPLASH_POTION
-        buy: 2000
+        buy: 34800
         sell: -1
         potiontypes:
         - strong_healing
       strong_leaping_splash:
         material: SPLASH_POTION
-        buy: 8510
+        buy: 34800
         sell: -1
         potiontypes:
         - strong_leaping
       strong_poison_splash:
         material: SPLASH_POTION
-        buy: 1960
+        buy: 34800
         sell: -1
         potiontypes:
         - strong_poison
       strong_regeneration_splash:
         material: SPLASH_POTION
-        buy: 3210
+        buy: 34800
         sell: -1
         potiontypes:
         - strong_regeneration
       strong_strength_splash:
         material: SPLASH_POTION
-        buy: 1790
+        buy: 34800
         sell: -1
         potiontypes:
         - strong_strength
@@ -343,169 +343,169 @@ pages:
     items:
       strong_swiftness_splash:
         material: SPLASH_POTION
-        buy: 1700
+        buy: 34800
         sell: -1
         potiontypes:
         - strong_swiftness
       strong_turtle_master_splash:
         material: SPLASH_POTION
-        buy: 107000
+        buy: 34800
         sell: -1
         potiontypes:
         - strong_turtle_master
       long_fire_resistance_splash:
         material: SPLASH_POTION
-        buy: 1070
+        buy: 34800
         sell: -1
         potiontypes:
         - long_fire_resistance
       long_invisibility_splash:
         material: SPLASH_POTION
-        buy: 1630
+        buy: 34800
         sell: -1
         potiontypes:
         - long_invisibility
       long_night_vision_splash:
         material: SPLASH_POTION
-        buy: 1230
+        buy: 34800
         sell: -1
         potiontypes:
         - long_night_vision
       long_poison_splash:
         material: SPLASH_POTION
-        buy: 1030
+        buy: 34800
         sell: -1
         potiontypes:
         - long_poison
       long_regeneration_splash:
         material: SPLASH_POTION
-        buy: 2280
+        buy: 34800
         sell: -1
         potiontypes:
         - long_regeneration
       long_slow_falling_splash:
         material: SPLASH_POTION
-        buy: 5510
+        buy: 34800
         sell: -1
         potiontypes:
         - long_slow_falling
       long_slowness_splash:
         material: SPLASH_POTION
-        buy: 1140
+        buy: 34800
         sell: -1
         potiontypes:
         - long_slowness
       long_strength_splash:
         material: SPLASH_POTION
-        buy: 869
+        buy: 34800
         sell: -1
         potiontypes:
         - long_strength
       long_swiftness_splash:
         material: SPLASH_POTION
-        buy: 773
+        buy: 34800
         sell: -1
         potiontypes:
         - long_swiftness
       long_turtle_master_splash:
         material: SPLASH_POTION
-        buy: 106000
+        buy: 34800
         sell: -1
         potiontypes:
         - long_turtle_master
       long_water_breathing_splash:
         material: SPLASH_POTION
-        buy: 997
+        buy: 34800
         sell: -1
         potiontypes:
         - long_water_breathing
       long_weakness_splash:
         material: SPLASH_POTION
-        buy: 1010
+        buy: 34800
         sell: -1
         potiontypes:
         - long_weakness
       fire_resistance_ling:
         material: LINGERING_POTION
-        buy: 4680
+        buy: 34800
         sell: -1
         potiontypes:
         - fire_resistance
       harming_ling:
         material: LINGERING_POTION
-        buy: 5030
+        buy: 34800
         sell: -1
         potiontypes:
         - harming
       healing_ling:
         material: LINGERING_POTION
-        buy: 4680
+        buy: 34800
         sell: -1
         potiontypes:
         - healing
       invisibility_ling:
         material: LINGERING_POTION
-        buy: 5240
+        buy: 34800
         sell: -1
         potiontypes:
         - invisibility
       leaping_ling:
         material: LINGERING_POTION
-        buy: 11200
+        buy: 34800
         sell: -1
         potiontypes:
         - leaping
       night_vision_ling:
         material: LINGERING_POTION
-        buy: 4840
+        buy: 34800
         sell: -1
         potiontypes:
         - night_vision
       poison_ling:
         material: LINGERING_POTION
-        buy: 4650
+        buy: 34800
         sell: -1
         potiontypes:
         - poison
       regeneration_ling:
         material: LINGERING_POTION
-        buy: 5900
+        buy: 34800
         sell: -1
         potiontypes:
         - regeneration
       slow_falling_ling:
         material: LINGERING_POTION
-        buy: 9120
+        buy: 34800
         sell: -1
         potiontypes:
         - slow_falling
       slowness_ling:
         material: LINGERING_POTION
-        buy: 4750
+        buy: 34800
         sell: -1
         potiontypes:
         - slowness
       strength_ling:
         material: LINGERING_POTION
-        buy: 4480
+        buy: 34800
         sell: -1
         potiontypes:
         - strength
       swiftness_ling:
         material: LINGERING_POTION
-        buy: 4390
+        buy: 34800
         sell: -1
         potiontypes:
         - swiftness
       turtle_master_ling:
         material: LINGERING_POTION
-        buy: 110000
+        buy: 34800
         sell: -1
         potiontypes:
         - turtle_master
       water_breathing_ling:
         material: LINGERING_POTION
-        buy: 4610
+        buy: 34800
         sell: -1
         potiontypes:
         - water_breathing
@@ -513,169 +513,169 @@ pages:
     items:
       weakness_ling:
         material: LINGERING_POTION
-        buy: 4620
+        buy: 34800
         sell: -1
         potiontypes:
         - weakness
       strong_harming_ling:
         material: LINGERING_POTION
-        buy: 6190
+        buy: 34800
         sell: -1
         potiontypes:
         - strong_harming
       strong_healing_ling:
         material: LINGERING_POTION
-        buy: 5820
+        buy: 34800
         sell: -1
         potiontypes:
         - strong_healing
       strong_leaping_ling:
         material: LINGERING_POTION
-        buy: 12700
+        buy: 34800
         sell: -1
         potiontypes:
         - strong_leaping
       strong_poison_ling:
         material: LINGERING_POTION
-        buy: 5780
+        buy: 34800
         sell: -1
         potiontypes:
         - strong_poison
       strong_regeneration_ling:
         material: LINGERING_POTION
-        buy: 7110
+        buy: 34800
         sell: -1
         potiontypes:
         - strong_regeneration
       strong_strength_ling:
         material: LINGERING_POTION
-        buy: 5610
+        buy: 34800
         sell: -1
         potiontypes:
         - strong_strength
       strong_swiftness_ling:
         material: LINGERING_POTION
-        buy: 5510
+        buy: 34800
         sell: -1
         potiontypes:
         - strong_swiftness
       strong_turtle_master_ling:
         material: LINGERING_POTION
-        buy: 117000
+        buy: 34800
         sell: -1
         potiontypes:
         - strong_turtle_master
       long_fire_resistance_ling:
         material: LINGERING_POTION
-        buy: 4840
+        buy: 34800
         sell: -1
         potiontypes:
         - long_fire_resistance
       long_invisibility_ling:
         material: LINGERING_POTION
-        buy: 5430
+        buy: 34800
         sell: -1
         potiontypes:
         - long_invisibility
       long_night_vision_ling:
         material: LINGERING_POTION
-        buy: 5010
+        buy: 34800
         sell: -1
         potiontypes:
         - long_night_vision
       long_poison_ling:
         material: LINGERING_POTION
-        buy: 4800
+        buy: 34800
         sell: -1
         potiontypes:
         - long_poison
       long_regeneration_ling:
         material: LINGERING_POTION
-        buy: 6130
+        buy: 34800
         sell: -1
         potiontypes:
         - long_regeneration
       long_slow_falling_ling:
         material: LINGERING_POTION
-        buy: 9550
+        buy: 34800
         sell: -1
         potiontypes:
         - long_slow_falling
       long_slowness_ling:
         material: LINGERING_POTION
-        buy: 4920
+        buy: 34800
         sell: -1
         potiontypes:
         - long_slowness
       long_strength_ling:
         material: LINGERING_POTION
-        buy: 4630
+        buy: 34800
         sell: -1
         potiontypes:
         - long_strength
       long_swiftness_ling:
         material: LINGERING_POTION
-        buy: 4530
+        buy: 34800
         sell: -1
         potiontypes:
         - long_swiftness
       long_turtle_master_ling:
         material: LINGERING_POTION
-        buy: 116000
+        buy: 34800
         sell: -1
         potiontypes:
         - long_turtle_master
       long_water_breathing_ling:
         material: LINGERING_POTION
-        buy: 4760
+        buy: 34800
         sell: -1
         potiontypes:
         - long_water_breathing
       long_weakness_ling:
         material: LINGERING_POTION
-        buy: 4780
+        buy: 34800
         sell: -1
         potiontypes:
         - long_weakness
       fire_resistance_arrow:
         material: TIPPED_ARROW
-        buy: 690
+        buy: 500
         sell: -1
         potiontypes:
         - fire_resistance
       harming_arrow:
         material: TIPPED_ARROW
-        buy: 736
+        buy: 500
         sell: -1
         potiontypes:
         - harming
       healing_arrow:
         material: TIPPED_ARROW
-        buy: 690
+        buy: 500
         sell: -1
         potiontypes:
         - healing
       invisibility_arrow:
         material: TIPPED_ARROW
-        buy: 763
+        buy: 500
         sell: -1
         potiontypes:
         - invisibility
       leaping_arrow:
         material: TIPPED_ARROW
-        buy: 1550
+        buy: 500
         sell: -1
         potiontypes:
         - leaping
       poison_arrow:
         material: TIPPED_ARROW
-        buy: 685
+        buy: 500
         sell: -1
         potiontypes:
         - poison
       regeneration_arrow:
         material: TIPPED_ARROW
-        buy: 849
+        buy: 500
         sell: -1
         potiontypes:
         - regeneration
@@ -689,157 +689,157 @@ pages:
         - slow_falling
       slowness_arrow:
         material: TIPPED_ARROW
-        buy: 699
+        buy: 500
         sell: -1
         potiontypes:
         - slowness
       strength_arrow:
         material: TIPPED_ARROW
-        buy: 663
+        buy: 500
         sell: -1
         potiontypes:
         - strength
       swiftness_arrow:
         material: TIPPED_ARROW
-        buy: 651
+        buy: 500
         sell: -1
         potiontypes:
         - swiftness
       turtle_master_arrow:
         material: TIPPED_ARROW
-        buy: 14500
+        buy: 500
         sell: -1
         potiontypes:
         - turtle_master
       water_breathing_arrow:
         material: TIPPED_ARROW
-        buy: 680
+        buy: 500
         sell: -1
         potiontypes:
         - water_breathing
       weakness_arrow:
         material: TIPPED_ARROW
-        buy: 682
+        buy: 500
         sell: -1
         potiontypes:
         - weakness
       strong_harming_arrow:
         material: TIPPED_ARROW
-        buy: 888
+        buy: 500
         sell: -1
         potiontypes:
         - strong_harming
       strong_healing_arrow:
         material: TIPPED_ARROW
-        buy: 839
+        buy: 500
         sell: -1
         potiontypes:
         - strong_healing
       strong_leaping_arrow:
         material: TIPPED_ARROW
-        buy: 1750
+        buy: 500
         sell: -1
         potiontypes:
         - strong_leaping
       strong_poison_arrow:
         material: TIPPED_ARROW
-        buy: 834
+        buy: 500
         sell: -1
         potiontypes:
         - strong_poison
       strong_regeneration_arrow:
         material: TIPPED_ARROW
-        buy: 1010
+        buy: 500
         sell: -1
         potiontypes:
         - strong_regeneration
       strong_strength_arrow:
         material: TIPPED_ARROW
-        buy: 811
+        buy: 500
         sell: -1
         potiontypes:
         - strong_strength
       strong_swiftness_arrow:
         material: TIPPED_ARROW
-        buy: 798
+        buy: 500
         sell: -1
         potiontypes:
         - strong_swiftness
       strong_turtle_master_arrow:
         material: TIPPED_ARROW
-        buy: 15500
+        buy: 500
         sell: -1
         potiontypes:
         - strong_turtle_master
       long_fire_resistance_arrow:
         material: TIPPED_ARROW
-        buy: 711
+        buy: 500
         sell: -1
         potiontypes:
         - long_fire_resistance
       long_invisibility_arrow:
         material: TIPPED_ARROW
-        buy: 788
+        buy: 500
         sell: -1
         potiontypes:
         - long_invisibility
       long_night_vision_arrow:
         material: TIPPED_ARROW
-        buy: 733
+        buy: 500
         sell: -1
         potiontypes:
         - long_night_vision
       long_poison_arrow:
         material: TIPPED_ARROW
-        buy: 706
+        buy: 500
         sell: -1
         potiontypes:
         - long_poison
       long_regeneration_arrow:
         material: TIPPED_ARROW
-        buy: 880
+        buy: 500
         sell: -1
         potiontypes:
         - long_regeneration
       long_slow_falling_arrow:
         material: TIPPED_ARROW
-        buy: 1330
+        buy: 500
         sell: -1
         potiontypes:
         - long_slow_falling
       long_slowness_arrow:
         material: TIPPED_ARROW
-        buy: 721
+        buy: 500
         sell: -1
         potiontypes:
         - long_slowness
       long_strength_arrow:
         material: TIPPED_ARROW
-        buy: 682
+        buy: 500
         sell: -1
         potiontypes:
         - long_strength
       long_swiftness_arrow:
         material: TIPPED_ARROW
-        buy: 669
+        buy: 500
         sell: -1
         potiontypes:
         - long_swiftness
       long_turtle_master_arrow:
         material: TIPPED_ARROW
-        buy: 15300
+        buy: 500
         sell: -1
         potiontypes:
         - long_turtle_master
       long_water_breathing_arrow:
         material: TIPPED_ARROW
-        buy: 700
+        buy: 500
         sell: -1
         potiontypes:
         - long_water_breathing
       long_weakness_arrow:
         material: TIPPED_ARROW
-        buy: 702
+        buy: 500
         sell: -1
         potiontypes:
         - long_weakness

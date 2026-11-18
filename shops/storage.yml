@@ -31,72 +31,72 @@ pages:
         sell: 150
       bundle:
         material: BUNDLE
-        buy: 8010
-        sell: 165
+        buy: 480.84
+        sell: 120.21
       white_bundle:
         material: WHITE_BUNDLE
-        buy: 8060
-        sell: 170
+        buy: 505.12
+        sell: 126.28
       light_gray_bundle:
         material: LIGHT_GRAY_BUNDLE
-        buy: 8050
-        sell: 169
+        buy: 505.12
+        sell: 126.28
       gray_bundle:
         material: GRAY_BUNDLE
-        buy: 8120
-        sell: 167
+        buy: 505.12
+        sell: 126.28
       black_bundle:
         material: BLACK_BUNDLE
-        buy: 8170
-        sell: 181
+        buy: 505.12
+        sell: 126.28
       brown_bundle:
         material: BROWN_BUNDLE
-        buy: 8080
-        sell: 172
+        buy: 505.12
+        sell: 126.28
       red_bundle:
         material: RED_BUNDLE
-        buy: 8050
-        sell: 169
+        buy: 505.12
+        sell: 126.28
       orange_bundle:
         material: ORANGE_BUNDLE
-        buy: 8050
-        sell: 169
+        buy: 505.12
+        sell: 126.28
       yellow_bundle:
         material: YELLOW_BUNDLE
-        buy: 8030
-        sell: 168
+        buy: 505.12
+        sell: 126.28
       lime_bundle:
         material: LIME_BUNDLE
-        buy: 8040
-        sell: 168
+        buy: 505.12
+        sell: 126.28
       green_bundle:
         material: GREEN_BUNDLE
-        buy: 8020
-        sell: 166
+        buy: 505.12
+        sell: 126.28
       cyan_bundle:
         material: CYAN_BUNDLE
-        buy: 8030
-        sell: 167
+        buy: 505.12
+        sell: 126.28
       light_blue_bundle:
         material: LIGHT_BLUE_BUNDLE
-        buy: 8050
-        sell: 169
+        buy: 505.12
+        sell: 126.28
       blue_bundle:
         material: BLUE_BUNDLE
-        buy: 8050
-        sell: 169
+        buy: 505.12
+        sell: 126.28
       purple_bundle:
         material: PURPLE_BUNDLE
-        buy: 8050
-        sell: 169
+        buy: 505.12
+        sell: 126.28
       magenta_bundle:
         material: MAGENTA_BUNDLE
-        buy: 8050
-        sell: 169
+        buy: 505.12
+        sell: 126.28
       pink_bundle:
         material: PINK_BUNDLE
-        buy: 8050
-        sell: 169
+        buy: 505.12
+        sell: 126.28
       white_shulker_box:
         material: WHITE_SHULKER_BOX
         buy: 4445.16
