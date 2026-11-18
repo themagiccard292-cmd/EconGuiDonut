@@ -128,6 +128,6 @@ pages:
         buy: 273.72
         sell: 68.43
       disc_fragment:
-        material: DISC_FRAGMENT
-        buy: 3180
-        sell: 795
+        material: DISC_FRAGMENT_5
+        buy: 1600
+        sell: 400
