@@ -1,0 +1,133 @@
+pages:
+  page1:
+    items:
+      disc_11:
+        material: MUSIC_DISC_11
+        buy: 14285.72
+        sell: 3571.43
+      disc_13:
+        material: MUSIC_DISC_13
+        buy: 14285.72
+        sell: 3571.43
+      disc_5:
+        material: MUSIC_DISC_5
+        buy: 14285.72
+        sell: 3571.43
+      disc_blocks:
+        material: MUSIC_DISC_BLOCKS
+        buy: 14285.72
+        sell: 3571.43
+      disc_cat:
+        material: MUSIC_DISC_CAT
+        buy: 14285.72
+        sell: 3571.43
+      disc_chirp:
+        material: MUSIC_DISC_CHIRP
+        buy: 14285.72
+        sell: 3571.43
+      disc_creator:
+        material: MUSIC_DISC_CREATOR
+        buy: 14285.72
+        sell: 3571.43
+      disc_creator_music_box:
+        material: MUSIC_DISC_CREATOR_MUSIC_BOX
+        buy: 14285.72
+        sell: 3571.43
+      disc_far:
+        material: MUSIC_DISC_FAR
+        buy: 14285.72
+        sell: 3571.43
+      disc_mall:
+        material: MUSIC_DISC_MALL
+        buy: 14285.72
+        sell: 3571.43
+      disc_mellohi:
+        material: MUSIC_DISC_MELLOHI
+        buy: 14285.72
+        sell: 3571.43
+      disc_otherside:
+        material: MUSIC_DISC_OTHERSIDE
+        buy: 14285.72
+        sell: 3571.43
+      disc_pigstep:
+        material: MUSIC_DISC_PIGSTEP
+        buy: 14285.72
+        sell: 3571.43
+      disc_precipice:
+        material: MUSIC_DISC_PRECIPICE
+        buy: 14285.72
+        sell: 3571.43
+      disc_relic:
+        material: MUSIC_DISC_RELIC
+        buy: 14285.72
+        sell: 3571.43
+      disc_stal:
+        material: MUSIC_DISC_STAL
+        buy: 14285.72
+        sell: 3571.43
+      disc_strad:
+        material: MUSIC_DISC_STRAD
+        buy: 14285.72
+        sell: 3571.43
+      disc_wait:
+        material: MUSIC_DISC_WAIT
+        buy: 14285.72
+        sell: 3571.43
+      disc_ward:
+        material: MUSIC_DISC_WARD
+        buy: 14285.72
+        sell: 3571.43
+      horn_ponder:
+        material: GOAT_HORN
+        buy: 3180
+        sell: 795
+        instrument: ponder
+      horn_admire:
+        material: GOAT_HORN
+        buy: 3180
+        sell: 795
+        instrument: admire
+      horn_call:
+        material: GOAT_HORN
+        buy: 3180
+        sell: 795
+        instrument: call
+      horn_dream:
+        material: GOAT_HORN
+        buy: 3180
+        sell: 795
+        instrument: dream
+      horn_feel:
+        material: GOAT_HORN
+        buy: 3180
+        sell: 795
+        instrument: feel
+      horn_seek:
+        material: GOAT_HORN
+        buy: 3180
+        sell: 795
+        instrument: seek
+      horn_sing:
+        material: GOAT_HORN
+        buy: 3180
+        sell: 795
+        instrument: sing
+      horn_yearn:
+        material: GOAT_HORN
+        buy: 3180
+        sell: 795
+        instrument: yearn
+      jukebox:
+        material: JUKEBOX
+        buy: 2064.2
+        sell: 516.05
+  page2:
+    items:
+      note_block:
+        material: NOTE_BLOCK
+        buy: 273.72
+        sell: 68.43
+      disc_fragment:
+        material: DISC_FRAGMENT
+        buy: 3180
+        sell: 795

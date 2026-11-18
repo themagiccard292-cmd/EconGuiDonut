@@ -2,7 +2,7 @@
 """
 Generates the EconomyShopGUI sections/ and shops/ folders for the DonutSMP-style shop.
 
-  python3 tools/generate.py <path-to-minecraft-data/data/pc/26.1> [output-dir]
+  python3 tools/generate.py <path-to-minecraft-data/data/pc/26.1> [prices.json]
 
 minecraft-data:  npm pack minecraft-data && tar xzf minecraft-data-*.tgz
                  -> package/minecraft-data/data/pc/26.1  (26.2/26.3 items are added in this script)
@@ -20,7 +20,7 @@ import json, os, re, sys
 from collections import OrderedDict
 
 DATA = sys.argv[1]
-OUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(os.path.dirname(__file__), "..", "EconomyShopGUI")
+OUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(os.path.dirname(__file__), "..", "prices.json")
 
 # --------------------------------------------------------------------------------------------
 # 1. Real DonutSMP /shop (buy prices in $). Source: DonutSMP wiki "Shop" page (final version).
@@ -446,135 +446,15 @@ for n in shop_buy:
     SOURCE[n] = "donut-shop"
 
 # --------------------------------------------------------------------------------------------
-# write files
+# output: prices.json (per-item /sell value + where it came from + Donut /shop buy prices).
+# tools/apply_prices.py writes these into the shop layout in template/.
 # --------------------------------------------------------------------------------------------
-def num(v):
-    v = round(v, 2)
-    return str(int(v)) if float(v).is_integer() else f"{v:.2f}".rstrip("0").rstrip(".")
-
-def write_section(name, slot, icon, col, title, lore, hidden):
-    with open(os.path.join(OUT, "sections", f"{name}.yml"), "w") as f:
-        f.write(f"# DonutSMP-style '{name}' section. The file name must match shops/{name}.yml\n")
-        f.write(f"enable: true\nslot: {slot}\ntitle: '&8ꜱʜᴏᴘ » {title}'\nhidden: {str(hidden).lower()}\n")
-        f.write("sub-section: false\nfill-item:\n  material: BLACK_STAINED_GLASS_PANE\n  name: ' '\n")
-        f.write(f"nav-bar:\n  mode: INHERIT\nitem:\n  material: {icon}\n  name: '{col}&l{title}'\n  lore:\n")
-        for l in lore + ["", "&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ"]:
-            f.write(f"  - '{l}'\n")
-
-def write_shop(name, header, pages):
-    with open(os.path.join(OUT, "shops", f"{name}.yml"), "w") as f:
-        f.write(header)
-        f.write("pages:\n")
-        idx = 1
-        for p, (rows, entries) in enumerate(pages, 1):
-            f.write(f"  page{p}:\n    gui-rows: {rows}\n    items:\n")
-            for slot, mat, buy, sell, extra in entries:
-                f.write(f"      '{idx}':\n        material: {mat}\n        buy: {num(buy)}\n"
-                        f"        sell: {num(sell)}\n        slot: {slot}\n")
-                if extra:
-                    f.write(f"        {extra}\n")
-                idx += 1
-
-os.makedirs(os.path.join(OUT, "sections"), exist_ok=True)
-os.makedirs(os.path.join(OUT, "shops"), exist_ok=True)
-for d in ("sections", "shops"):
-    for f in os.listdir(os.path.join(OUT, d)):
-        os.remove(os.path.join(OUT, d, f))
-
-# visible Donut shop: 3 content rows + nav bar, items centred in the middle rows like Donut
-CENTER = [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25]
-in_shop_sell = set()
-for name, (slot, icon, col, title, lore, its) in DONUT_SHOP.items():
-    write_section(name, slot, icon, col, title, lore, False)
-    entries = []
-    # 9 items -> one centred row of 7 + 2 centred below, Donut-like
-    slots = CENTER[:7] + [21, 23] if len(its) == 9 else CENTER
-    for (mat, buy, extra), s in zip(its, slots):
-        n = mat.lower()
-        sell = -1
-        if extra is None and n in price and n not in in_shop_sell:
-            sell = price[n]
-            in_shop_sell.add(n)
-        entries.append((s, mat, buy, sell, extra))
-    write_shop(name, f"# Exact DonutSMP /shop prices for '{name}'. buy/sell -1 = disabled.\n", [(4, entries)])
-
-# hidden sell-only sections (Donut /sell worth) for every other item in the game
-def category(n):
-    if re.search(r"(_ore$|^raw_|_ingot$|_nugget$|^diamond$|^emerald$|^coal$|^charcoal$|^redstone$|^lapis_lazuli$|"
-                 r"^quartz$|amethyst|^netherite_scrap$|^ancient_debris$|^(iron|gold|diamond|emerald|coal|redstone|"
-                 r"lapis|copper|netherite|raw_\w+)_block$|^echo_shard$)", n):
-        return "SellOres"
-    if re.search(r"(_sword$|_pickaxe$|_axe$|_shovel$|_hoe$|_helmet$|_chestplate$|_leggings$|_boots$|_spear$|"
-                 r"^bow$|^crossbow$|^trident$|^mace$|^shield$|^elytra$|_horse_armor$|_nautilus_armor$|^fishing_rod$|"
-                 r"^shears$|^flint_and_steel$|^brush$|^spyglass$|^compass$|^recovery_compass$|^clock$|"
-                 r"^carrot_on_a_stick$|^warped_fungus_on_a_stick$|^lead$|^saddle$|^wolf_armor$|_harness$|_smithing_template$)", n):
-        return "SellGear"
-    if re.search(r"(^rotten_flesh$|^bone|^string$|^spider_eye$|^gunpowder$|^slime|^leather$|^feather$|^ink_sac$|"
-                 r"^glow_ink_sac$|^prismarine_(shard|crystals)$|^rabbit_(hide|foot)$|^phantom_membrane$|^blaze_|"
-                 r"^ghast_tear$|^ender_(pearl|eye)$|^shulker_shell$|_scute$|^breeze_rod$|^wind_charge$|_head$|_skull$|"
-                 r"^nether_star$|^dragon_|^heart_of_the_sea$|^nautilus_shell$|^honey|^egg$|_egg$|^magma_cream$|"
-                 r"^totem_of_undying$|^arrow$|^spectral_arrow$|^heavy_core$|^trial_key$|^ominous_|^goat_horn$|^music_disc|"
-                 r"^disc_fragment|_pottery_sherd$|_banner_pattern$|^name_tag$|^experience_bottle$)", n):
-        return "SellMobs"
-    if re.search(r"(wheat|carrot|potato|beetroot|melon|pumpkin|sugar|cactus|kelp|bamboo|cocoa|berries|apple|"
-                 r"^bread$|^cookie$|^cake$|_pie$|_stew$|_soup$|^beef$|^porkchop$|^chicken$|^mutton$|^rabbit$|^cod$|"
-                 r"^salmon$|^tropical_fish$|^pufferfish$|^cooked_|^nether_wart|^chorus_|_seeds$|^pitcher_pod$|"
-                 r"^hay_block$|_sapling$|_propagule$|_mushroom$|_fungus$|^dried_kelp|^sea_pickle$|^lily_pad$|^vine$|"
-                 r"_leaves$|^torchflower$|^pitcher_plant$|^dandelion$|^poppy$|_tulip$|^blue_orchid$|^allium$|"
-                 r"^azure_bluet$|^oxeye_daisy$|^cornflower$|^lily_of_the_valley$|^wither_rose$|^sunflower$|^lilac$|"
-                 r"^rose_bush$|^peony$|eyeblossom$|_dye$|^bone_meal$)", n):
-        return "SellFarming"
-    if re.search(r"(redstone|piston|repeater|comparator|observer|dropper|dispenser|hopper|lever|_button$|"
-                 r"pressure_plate|tripwire|daylight|target|^tnt|rail$|minecart$|_lamp$|^crafter$|lightning_rod|note_block|"
-                 r"^jukebox$|sculk_sensor|^bell$|^trapped_chest$)", n):
-        return "SellRedstone"
-    return "SellBlocks"
-
-SELL_SECTIONS = OrderedDict([
-    ("SellBlocks", "Building blocks"), ("SellFarming", "Crops, food and plants"),
-    ("SellMobs", "Mob and spawner drops"), ("SellOres", "Ores, ingots and gems"),
-    ("SellGear", "Tools, weapons and armour"), ("SellRedstone", "Redstone"),
-])
-groups = {k: [] for k in SELL_SECTIONS}
-for n in all_names:
-    if n in price and n not in shop_buy and price[n] > 0:
-        groups[category(n)].append(n)
-
-for sec, desc in SELL_SECTIONS.items():
-    write_section(sec, 0, "CHEST", "&a", "ꜱᴇʟʟ", [f"&7{desc} (sell only)."], True)
-    names = groups[sec]
-    pages = []
-    for i in range(0, len(names), 45):
-        chunk = names[i:i + 45]
-        pages.append((6, [(j, n.upper(), -1, price[n], None) for j, n in enumerate(chunk)]))
-    write_shop(sec, f"# Sell-only /sell worth for {desc.lower()}. Hidden from /shop; used by /sellall and /sellgui.\n"
-                    f"# Values estimated in DonutSMP scale (see README). buy: -1 = cannot be bought.\n", pages)
-
-total = sum(len(v) for v in groups.values()) + len(shop_buy)
-print(f"priced {len(price)} items, wrote {total} sellable materials")
+out = {
+    "sell": {n: round(v, 2) for n, v in sorted(price.items())},
+    "source": {n: SOURCE[n] for n in sorted(price)},
+    "donut_buy": {m.lower(): b for m, b in shop_buy.items()},
+}
+json.dump(out, open(OUT, "w"), indent=1)
+print(f"priced {len(price)} items -> {OUT}")
 print("unpriced (not sellable):", " ".join(unpriced) if unpriced else "none")
 print(f"estimate scale x{EST_SCALE:.2f}; rejected outliers:", {k: v[0] for k, v in REJECTED.items()})
-json.dump({k: round(v, 2) for k, v in sorted(price.items())}, open(os.path.join(OUT, "..", "prices.json"), "w"), indent=1)
-
-# human-readable price list
-def title(n):
-    return n.replace("_", " ").title()
-with open(os.path.join(OUT, "..", "PRICES.md"), "w") as f:
-    f.write("# Price list\n\nGenerated by `tools/generate.py`. Edit the YAML files or the script, not this file.\n\n")
-    f.write("## /shop (exact DonutSMP prices)\n\n")
-    for name, (_, _, _, _, _, its) in DONUT_SHOP.items():
-        f.write(f"### {name}\n\n| Item | Buy | Sell |\n|---|---:|---:|\n")
-        for mat, buy, extra in its:
-            n = mat.lower()
-            label = "Arrow of Slow Falling" if extra else title(n)
-            sell = "-" if extra or n not in price else f"${num(price[n])}"
-            f.write(f"| {label} | ${num(buy)} | {sell} |\n")
-        f.write("\n")
-    f.write("## /sell only\n\nSource: **Donut /sell** = exact Donut value · **Donut market** = DonutSMP price-tracker "
-            "price converted to /sell · **Crafted** = sum of its ingredients · **Estimate** = no Donut data found.\n\n")
-    LABEL = {"donut-sell": "Donut /sell", "donut-market": "Donut market", "crafted": "Crafted", "estimate": "Estimate"}
-    for sec, desc in SELL_SECTIONS.items():
-        f.write(f"### {desc}\n\n| Item | Sell | Source |\n|---|---:|---|\n")
-        for n in groups[sec]:
-            f.write(f"| {title(n)} | ${num(price[n])} | {LABEL[SOURCE[n]]} |\n")
-        f.write("\n")

@@ -1,0 +1,96 @@
+pages:
+  page1:
+    items:
+      wooden_sword:
+        material: WOODEN_SWORD
+        buy: 49.84
+        sell: 12.46
+      stone_sword:
+        material: STONE_SWORD
+        buy: 38.52
+        sell: 9.63
+      copper_sword:
+        material: COPPER_SWORD
+        buy: 438.52
+        sell: 109.63
+      iron_sword:
+        material: IRON_SWORD
+        buy: 181.4
+        sell: 45.35
+      golden_sword:
+        material: GOLDEN_SWORD
+        buy: 1724.24
+        sell: 431.06
+      diamond_sword:
+        material: DIAMOND_SWORD
+        buy: 3819.48
+        sell: 954.87
+      netherite_sword:
+        material: NETHERITE_SWORD
+        buy: 3175466.68
+        sell: 793866.67
+      wooden_spear:
+        material: WOODEN_SPEAR
+        buy: 39.84
+        sell: 9.96
+      stone_spear:
+        material: STONE_SPEAR
+        buy: 34.2
+        sell: 8.55
+      copper_spear:
+        material: COPPER_SPEAR
+        buy: 234.2
+        sell: 58.55
+      iron_spear:
+        material: IRON_SPEAR
+        buy: 105.64
+        sell: 26.41
+      golden_spear:
+        material: GOLDEN_SPEAR
+        buy: 877.08
+        sell: 219.27
+      diamond_spear:
+        material: DIAMOND_SPEAR
+        buy: 1924.68
+        sell: 481.17
+      netherite_spear:
+        material: NETHERITE_SPEAR
+        buy: 3173790.48
+        sell: 793447.62
+      arrow:
+        material: ARROW
+        buy: 205.44
+        sell: 51.36
+        stack-size: 16
+        slot: 38
+      spectral_arrow:
+        material: SPECTRAL_ARROW
+        buy: 531.52
+        sell: 132.88
+        stack-size: 8
+        slot: 39
+      bow:
+        material: BOW
+        buy: 186.76
+        sell: 46.69
+        slot: 40
+      crossbow:
+        material: CROSSBOW
+        buy: 278
+        sell: 69.5
+        slot: 41
+      mace:
+        material: MACE
+        buy: 287857.16
+        sell: 71964.29
+        slot: 42
+      trident:
+        material: TRIDENT
+        buy: 698571.44
+        sell: 174642.86
+        slot: 43
+      shield:
+        material: SHIELD
+        buy: 205.28
+        sell: 51.32
+        slot: 44
